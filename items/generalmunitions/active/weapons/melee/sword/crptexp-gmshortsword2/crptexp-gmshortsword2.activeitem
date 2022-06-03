@@ -1,0 +1,50 @@
+{
+  "itemName" : "crptexp-gmshortsword2",
+  "price" : 480,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+
+  "description" : "A simple, effective sword.",
+  "shortdescription" : "M2 Mini-Typesword",
+
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : [ "weapon", "melee", "shortsword", "generalmunitions" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "crptexp-gmshortsword2icon.png",
+
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle": "crptexp-gmshortsword2handle.png",
+    "blade" : "crptexp-gmshortsword2blade.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.45,
+    "baseDps" : 7.5,
+
+    "stances" : {
+      "fire1" : {
+        "duration" : 0.1
+      },
+      "wait1" : {
+        "duration" : 0.15
+      },
+      "fire2" : {
+        "duration" : 0.3
+      }
+    }
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

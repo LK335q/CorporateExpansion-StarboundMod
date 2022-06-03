@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmrustymetaldye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmrustymetaldye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Rusty Metal Dye",
+
+  "dyeDirectives" : { "ffca8a" : "696764" , "e0975c" : "4a4845" , "a85636" : "292725" , "6f2919" : "171311",
+					  "ffca8afe" : "696764fe" , "e0975cfe" : "4a4845fe" , "a85636fe" : "292725fe" , "6f2919fe" : "171311fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

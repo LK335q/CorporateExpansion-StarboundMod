@@ -1,0 +1,105 @@
+{
+  "itemName" : "crptexp-gmrayshotgun",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+
+  "description" : "",
+  "shortdescription" : "RG.PIW-120",
+
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "tooltipFields" : { "subtitle" : "Raygun" },
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "ranged", "shotgun", "raygun", "generalmunitions" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "cursor" : "/cursors/generalmunitions/crptexp-gmshotgunreticle.cursor",
+
+  "inventoryIcon" : "crptexp-gmrayshotgun.png:default.1",
+
+  "animation" : "crptexp-gmrayshotgun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-gmrayshotgun.png",
+	  "middleFullbright" : "crptexp-gmrayshotgunfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/generalmunitions/active/weapons/ranged/muzzleflash/crptexp-gmraygunmuzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : {
+        "pitchMultiplier" : 0.85,
+        "volume" : 1.0,
+        "pool" : ["/sfx/gun/generalmunitions/crptexp-gmraygun2.ogg"]
+      }
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 115, 70],
+		    "position" : [3.3, 0.25]
+      }
+    }
+  },
+
+  "baseOffset" : [1.0, 0.2],
+  "muzzleOffset" : [2.3, 0.25],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.75,
+    "baseDps" : 10,
+    "energyUsage" : 35,
+    "inaccuracy" : 0.065,
+
+    "projectileCount" : 4,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-gmraybolt",
+    "projectileParameters" : { },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 4.5,
+        "weaponRotation" : 4.5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+
+      },
+      "cooldown" : {
+        "duration" : 0.4,
+        "armRotation" : 4.5,
+        "weaponRotation" : 4.5,
+        "twoHanded" : true,
+
+		    "animationStates" : {
+          "body" : "reload"
+		    },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

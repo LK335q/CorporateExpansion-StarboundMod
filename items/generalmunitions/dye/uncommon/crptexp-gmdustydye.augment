@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmdustydye",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmdustydye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Dusty Metal Dye",
+
+  "dyeDirectives" : { "ffca8a" : "969284" , "e0975c" : "605b4e" , "a85636" : "36322b" , "6f2919" : "211f18",
+					  "ffca8afe" : "969284fe" , "e0975cfe" : "605b4efe" , "a85636fe" : "36322bfe" , "6f2919fe" : "211f18fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

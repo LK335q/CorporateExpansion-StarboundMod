@@ -1,0 +1,32 @@
+{
+  "materialName" : "crptexp-gmmetalsupport",
+  "frames" : "crptexp-gmmetalsupport.png",
+  "particleColor" : [77, 77, 77, 255],
+  "variants" : 1,
+  "itemDrop" : "crptexp-gmmetalsupport",
+
+  "shortdescription" : "Heavy Support Beam",
+  "description" : "Thick support beams for bearing a heavy load.",
+
+  "glitchDescription" : "Reassured. These supports look sturdy enough to hold up any structure.",
+  "floranDescription" : "Metal sskeleton for buildingss.",
+  "novakidDescription" : "Some thick ol' metal supports.",
+
+  "nexusdroidDescription" : "Metal frame designed to bear heavy material loads.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/girdertemplate.config",
+  "renderParameters" : {
+    "texture" : "crptexp-gmmetalsupport.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1160
+  },
+
+  "materialId" : 2068
+}

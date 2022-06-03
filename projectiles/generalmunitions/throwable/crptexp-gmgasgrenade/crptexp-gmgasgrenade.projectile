@@ -1,0 +1,37 @@
+{
+  "projectileName" : "crptexp-gmgasgrenade",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 3.0,
+  "image" : "crptexp-gmgasgrenade.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "damageType" : "NoDamage",
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/magnorb_impact1.ogg",
+		"/sfx/projectiles/magnorb_impact2.ogg",
+		"/sfx/projectiles/magnorb_impact3.ogg"
+      ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/poisonorb_impact.ogg" ]
+    },
+	{
+      "action" : "projectile",
+      "type" : "crptexp-gmgasgrenadeactive",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.0,
+      "angleAdjust" : 180
+    }
+  ],
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  "power" : 0
+}

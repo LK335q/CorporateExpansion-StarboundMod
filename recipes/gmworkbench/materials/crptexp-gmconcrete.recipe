@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "clay", "count" : 1 },
+    { "item" : "sand2", "count" : 1 },
+    { "item" : "liquidwater", "count" : 1 }
+  ],
+  "output" : { "item" : "crptexp-gmconcrete", "count" : 20 },
+  "groups" : [ "crptexp-gmworkbench", "materials", "all" ]
+}

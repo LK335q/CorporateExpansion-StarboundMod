@@ -1,0 +1,30 @@
+{
+  "itemName" : "crptexp-gmmine",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmmine.png",
+  "image" : "crptexp-gmmineheld.png",
+  "shortdescription" : "M6 \"Pie Tin\" Mine",
+  "description" : "A land mine that detonates on contact.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.6,
+
+  "projectileType" : "crptexp-gmmine",
+  "projectileConfig" : {
+    "speed" : 5,
+    "power" : 25,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

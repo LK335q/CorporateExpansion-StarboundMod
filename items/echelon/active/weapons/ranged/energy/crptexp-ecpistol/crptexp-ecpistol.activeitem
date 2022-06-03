@@ -1,0 +1,104 @@
+{
+  "itemName" : "crptexp-ecpistol",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "description" : "",
+  "shortdescription" : "Scarlet Shrike",
+
+  "tooltipKind" : "gun",
+  "category" : "pistol",
+  "twoHanded" : false,
+  "itemTags" : [ "weapon", "ranged", "pistol", "echelon" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "cursor" : "/cursors/echelon/crptexp-ecreticle1.cursor",
+
+  "inventoryIcon" : "crptexp-ecpistol.png:default.1",
+
+  "animation" : "crptexp-ecpistol.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-ecpistol.png",
+	  "middleFullbright" : "crptexp-ecpistolfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/echelon/active/weapons/ranged/muzzleflash/crptexp-ecmuzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+	    "fire" : {
+         "pitchMultiplier" : 1.0,
+	       "volume" : 1.0,
+	       "pool" : ["/sfx/gun/echelon/crptexp-ecpistol1.ogg"]
+	    }
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "pointLight" : true,
+        "color" : [82, 0, 0],
+	    	"position" : [3.3, 0.13]
+      }
+    }
+  },
+
+  "baseOffset" : [0.8, 0.0],
+  "muzzleOffset" : [1.0, 0.3],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.4,
+    "baseDps" : 6,
+    "energyUsage" : 18,
+    "inaccuracy" : 0.01,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-ecbullet",
+    "projectileParameters" : { },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "animationStates" : {
+          "body" : "reload"
+		    },
+
+        "allowRotate" : false,
+        "allowFlip" : true
+
+      },
+      "cooldown" : {
+        "duration" : 0.2,
+        "armRotation" : 2,
+	    	"weaponRotation" : 2,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

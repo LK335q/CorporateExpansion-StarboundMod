@@ -1,0 +1,36 @@
+{
+  "itemName" : "crptexp-gmflare",
+  "rarity" : "Common",
+  "price" : 5,
+
+  "builder" : "/items/buildscripts/crptexp-buildelementalitem.lua",
+  "tooltipKind" : "crptexp-elementalbase",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmflare.png",
+  "image" : "crptexp-gmflareheld.png",
+
+  "shortdescription" : "M2 Flare",
+  "description" : "A bright flare good for lighting up caves and such. Also lights enemies on fire.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.5,
+
+  "elementalType" : "/interface/elements/fire.png",
+
+  "projectileType" : "crptexp-gmflare",
+  "projectileConfig" : {
+    "speed" : 30,
+    "level" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

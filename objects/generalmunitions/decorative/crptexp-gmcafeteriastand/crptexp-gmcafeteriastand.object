@@ -1,0 +1,58 @@
+{
+  "objectName" : "crptexp-gmcafeteriastand",
+  "colonyTags" : [ "commerce", "cooking", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Uncommon",
+
+  "description" : "This heated stand contains an assortment of barely edible slop.",
+  "shortdescription" : "Cafeteria Stand",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "General Munitions rations. I'd notice that smell anywhere.",
+  "avianDescription" : "This is meant to be food?",
+  "floranDescription" : "Floran has eaten worse meatss.",
+  "glitchDescription" : "Repulsed. The line between food and sludge has been blurred.",
+  "humanDescription" : "It's like a buffet, but a lot less appealing.",
+  "hylotlDescription" : "Just looking at this selection makes my stomach feel uneasy.",
+  "novakidDescription" : "This meal don't look TOO bad...",
+
+  "nexusdroidDescription" : "Heating elements within this stand prevent the development of pathogens.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmcafeteriastand.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg",
+
+  "scripts" : [ "/scripts/npcToyObject.lua"],
+  "npcToy" : {
+    "influence" : [
+      "campfire"
+    ],
+    "defaultReactions" : {
+      "campfire" : [
+        [1.0, "annoyed"],
+        [1.0, "oooh"],
+        [1.0, "vomit"]
+      ]
+    },
+    "preciseStandPositionLeft" : [-2.5, 0.0],
+    "preciseStandPositionRight" : [2.5, 0.0],
+    "maxNpcs" : 1
+  }
+
+}

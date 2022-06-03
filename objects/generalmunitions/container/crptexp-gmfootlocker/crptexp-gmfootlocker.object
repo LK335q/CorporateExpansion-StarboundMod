@@ -1,0 +1,46 @@
+{
+  "objectName" : "crptexp-gmfootlocker",
+  "colonyTags" : ["generalmunitions"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "description" : "A simple footlocker for holding personal items.",
+  "shortdescription" : "Barracks Footlocker",
+
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 60,
+
+  "apexDescription" : "A small personal storage unit.",
+  "avianDescription" : "A little footlocker.",
+  "floranDescription" : "Footlocker can hold small stabbiess.",
+  "glitchDescription" : "Interested. A footlocker, convenient for storage.",
+  "humanDescription" : "This looks like an army footlocker.",
+  "hylotlDescription" : "A container meant for storing personal items.",
+  "novakidDescription" : "This here footlocker could store some useful stuff.",
+
+  "nexusdroidDescription" : "Small personal storage unit.",
+
+  "inventoryIcon" : "crptexp-gmfootlockericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmfootlocker.png:<color>.<key>",
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

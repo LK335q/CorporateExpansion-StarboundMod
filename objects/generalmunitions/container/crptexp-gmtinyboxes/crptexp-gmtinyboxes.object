@@ -1,0 +1,48 @@
+{
+  "objectName" : "crptexp-gmtinyboxes",
+  "colonyTags" : [ "storage", "commerce", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "description" : "A bunch of small boxes.",
+  "shortdescription" : "Pile of Tiny Boxes",
+
+  "race" : "generic",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 60,
+
+  "apexDescription" : "A pile of boxes labelled \"surplus munitions\".",
+  "avianDescription" : "A bunch of cute little boxes.",
+  "floranDescription" : "Boxes too ssmall for Floran to hide in.",
+  "glitchDescription" : "Observant. These small boxes were used for storing munitions.",
+  "humanDescription" : "These boxes still have some packing material left inside.",
+  "hylotlDescription" : "A pile of dirty cardboard boxes.",
+  "novakidDescription" : "Some lil' boxes.",
+
+  "nexusdroidDescription" : "Cheap storage units manufactured for shipping.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmtinyboxes.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/cardboardbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/cardboardbox_close.ogg" ],
+  "slotCount" : 9,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

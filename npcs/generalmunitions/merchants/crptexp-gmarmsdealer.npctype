@@ -1,0 +1,55 @@
+{
+  "type" : "crptexp-gmarmsdealer",
+  "baseType" : "merchant",
+
+  "dropPools" : [ "crptexp-gmarmsdealertreasure" ],
+
+  "scriptConfig" : {
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+
+    "merchant" : {
+      "waitTime" : 10,
+      "storeRadius" : -1,
+      "categories" : {
+        "override" : [ "crptexp-gmarmsdealer_t0", "crptexp-gmarmsdealer_t3", "crptexp-gmarmsdealer_t4", "crptexp-gmarmsdealer_t5" ]
+      },
+      "buyFactorRange" : [ 0.7, 1.5 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 10,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  General Munitions Co. Armorer",
+          "subtitle" : "  Sells surplus ordnance!"
+        }
+      }
+    },
+	"dialog" : {
+      "merchant" : {
+        "start" : "/dialog/crptexp-gmarmsdealer.config:merchantStart",
+        "end" : "/dialog/crptexp-gmarmsdealer.config:merchantEnd",
+        "follow" : "/dialog/crptexp-gmarmsdealer.config:follow",
+        "welcome" : "/dialog/crptexp-gmarmsdealer.config:welcome",
+        "tout" : "/dialog/crptexp-gmarmsdealer.config:tout"
+      }
+	}
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmarmsdealerhead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [ "crptexp-gmpistol" ]
+          }
+        ] ]
+    ]
+  }
+}

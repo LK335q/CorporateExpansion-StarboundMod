@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmwooddye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmwooddye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Walnut Wood Dye",
+
+  "dyeDirectives" : { "ffca8a" : "a6674b" , "e0975c" : "8c4f31" , "a85636" : "59281b" , "6f2919" : "331208",
+					  "ffca8afe" : "a6674bfe" , "e0975cfe" : "8c4f31fe" , "a85636fe" : "59281bfe" , "6f2919fe" : "331208fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

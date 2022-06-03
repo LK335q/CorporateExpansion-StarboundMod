@@ -1,0 +1,36 @@
+{
+  "itemName" : "crptexp-gmfiregrenade",
+  "price" : 50,
+  "rarity" : "Uncommon",
+
+  "builder" : "/items/buildscripts/crptexp-buildelementalitem.lua",
+  "tooltipKind" : "crptexp-elementalbase",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmfiregrenade.png",
+  "image" : "crptexp-gmfiregrenadeheld.png",
+
+  "shortdescription" : "M3 Napalm Grenade",
+  "description" : "An incendiary hand grenade. Blankets a small area in fire after detonating.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.0,
+
+  "elementalType" : "/interface/elements/fire.png",
+
+  "projectileType" : "crptexp-gmfiregrenade",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 25,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

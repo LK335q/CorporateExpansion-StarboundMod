@@ -1,0 +1,760 @@
+{ "columns":0,
+ "margin":0,
+ "name":"crptexp-gmobjects",
+ "properties":
+    {
+
+    },
+ "spacing":0,
+ "tilecount":53,
+ "tileheight":136,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"A pile of boxes full of ammo.",
+         "\/\/name":"crptexp-gmammoboxes",
+         "\/\/shortdescription":"Ammo Boxes",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmammoboxes",
+         "tilesetDirection":"right"
+        },
+     "1":
+        {
+         "\/\/description":"A metal container for storing ammunition.",
+         "\/\/name":"crptexp-gmammocan",
+         "\/\/shortdescription":"Ammo Can",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmammocan",
+         "tilesetDirection":"right"
+        },
+     "10":
+        {
+         "\/\/description":"A solid metal control console. It has lots of coloured lights that indicate... something.",
+         "\/\/name":"crptexp-gmconsole",
+         "\/\/shortdescription":"Control Console",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmconsole",
+         "tilesetDirection":"right"
+        },
+     "11":
+        {
+         "\/\/description":"A solid metal control console. The screen is reading off diagnostic data and technical gibberish.",
+         "\/\/name":"crptexp-gmconsoletall",
+         "\/\/shortdescription":"Control Station",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmconsoletall",
+         "tilesetDirection":"right"
+        },
+     "12":
+        {
+         "\/\/description":"A solid metal countertop.",
+         "\/\/name":"crptexp-gmcounter",
+         "\/\/shortdescription":"Industrial Counter",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmcounter",
+         "tilesetDirection":"right"
+        },
+     "13":
+        {
+         "\/\/description":"A plain wooden crate. A big label reads \\\"GENERAL MUNITIONS CO.\\\".",
+         "\/\/name":"crptexp-gmcrate",
+         "\/\/shortdescription":"Medium Crate",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmcrate",
+         "tilesetDirection":"right"
+        },
+     "14":
+        {
+         "\/\/description":"A small, slightly weathered wooden crate.",
+         "\/\/name":"crptexp-gmcratesmall",
+         "\/\/shortdescription":"Small Crate",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmcratesmall",
+         "tilesetDirection":"right"
+        },
+     "15":
+        {
+         "\/\/description":"A basic metal desk. The top is covered in scratches and dents.",
+         "\/\/name":"crptexp-gmdesk",
+         "\/\/shortdescription":"Barracks Desk",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmdesk",
+         "tilesetDirection":"right"
+        },
+     "16":
+        {
+         "\/\/description":"A basic filing cabinet.",
+         "\/\/name":"crptexp-gmfilingcabinet",
+         "\/\/shortdescription":"Barracks Filing Cabinet",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmfilingcabinet",
+         "tilesetDirection":"right"
+        },
+     "17":
+        {
+         "\/\/description":"An uncomfortable-looking chair.",
+         "\/\/name":"crptexp-gmfoldingchair",
+         "\/\/shortdescription":"Barracks Chair",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmfoldingchair",
+         "tilesetDirection":"right"
+        },
+     "18":
+        {
+         "\/\/description":"A basic metal table.",
+         "\/\/name":"crptexp-gmfoldingtable",
+         "\/\/shortdescription":"Barracks Table",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmfoldingtable",
+         "tilesetDirection":"right"
+        },
+     "19":
+        {
+         "\/\/description":"A simple footlocker for holding personal items.",
+         "\/\/name":"crptexp-gmfootlocker",
+         "\/\/shortdescription":"Barracks Footlocker",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmfootlocker",
+         "tilesetDirection":"right"
+        },
+     "2":
+        {
+         "\/\/description":"A wide wooden box, used to store weapons and ammunition.",
+         "\/\/name":"crptexp-gmarmscrate",
+         "\/\/shortdescription":"Munitions Crate",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmarmscrate",
+         "tilesetDirection":"right"
+        },
+     "20":
+        {
+         "\/\/description":"A large fridge for storing bulk quantities of food.",
+         "\/\/name":"crptexp-gmfridge",
+         "\/\/shortdescription":"Industrial Fridge",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmfridge",
+         "tilesetDirection":"right"
+        },
+     "21":
+        {
+         "\/\/description":"Accepts Liquid Erchius as fuel for the ship's FTL dive. Good for custom ships.",
+         "\/\/name":"crptexp-gmfuelhatch",
+         "\/\/shortdescription":"GMC FTL Fuel Hatch",
+         "imagePositionX":"-8",
+         "imagePositionY":"-16",
+         "object":"crptexp-gmfuelhatch",
+         "tilesetDirection":"right"
+        },
+     "22":
+        {
+         "\/\/description":"An ammo can stuffed full of ammunition.",
+         "\/\/name":"crptexp-gmfullammocan",
+         "\/\/shortdescription":"Stuffed Ammo Can",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmfullammocan",
+         "tilesetDirection":"right"
+        },
+     "23":
+        {
+         "\/\/description":"A large combustion generator used to power small facilities.",
+         "\/\/name":"crptexp-gmgenerator",
+         "\/\/shortdescription":"Barracks Generator",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"crptexp-gmgenerator",
+         "tilesetDirection":"right"
+        },
+     "24":
+        {
+         "\/\/description":"A metal cabinet for storing firearms and combat equipment.",
+         "\/\/name":"crptexp-gmgunlocker",
+         "\/\/shortdescription":"Armory Locker",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmgunlocker",
+         "tilesetDirection":"right"
+        },
+     "25":
+        {
+         "\/\/description":"A plain wooden crate.",
+         "\/\/name":"crptexp-gmheavycrate",
+         "\/\/shortdescription":"Medium Heavy Crate",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmheavycrate",
+         "tilesetDirection":"right"
+        },
+     "26":
+        {
+         "\/\/description":"A small, slightly weathered wooden crate.",
+         "\/\/name":"crptexp-gmheavycratesmall",
+         "\/\/shortdescription":"Small Heavy Crate",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmheavycratesmall",
+         "tilesetDirection":"right"
+        },
+     "27":
+        {
+         "\/\/description":"A row of military lockers.",
+         "\/\/name":"crptexp-gmlockers",
+         "\/\/shortdescription":"Barracks Lockers",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmlockers",
+         "tilesetDirection":"right"
+        },
+     "28":
+        {
+         "\/\/description":"A basic metal door.",
+         "\/\/name":"crptexp-gmmetaldoor",
+         "\/\/shortdescription":"Barracks Door",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmetaldoor",
+         "tilesetDirection":"right"
+        },
+     "29":
+        {
+         "\/\/description":"A monochrome green monitor displaying information.",
+         "\/\/name":"crptexp-gmmonitor",
+         "\/\/shortdescription":"Wall Monitor",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmonitor",
+         "tilesetDirection":"right"
+        },
+     "3":
+        {
+         "\/\/description":"The inventory of a General Munitions Co. armorer.",
+         "\/\/name":"crptexp-gmarmsstorefront",
+         "\/\/shortdescription":"GMC Armory Collection",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmarmsstorefront",
+         "tilesetDirection":"right"
+        },
+     "30":
+        {
+         "\/\/description":"A monochrome green monitor displaying information.",
+         "\/\/name":"crptexp-gmmonitorsmall",
+         "\/\/shortdescription":"Small Wall Monitor",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmonitorsmall",
+         "tilesetDirection":"right"
+        },
+     "31":
+        {
+         "\/\/description":"A pile of various MRE bags.",
+         "\/\/name":"crptexp-gmmrebags",
+         "\/\/shortdescription":"MRE Bags",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmrebags",
+         "tilesetDirection":"right"
+        },
+     "32":
+        {
+         "\/\/description":"A robust desktop PC with a green monotone screen.",
+         "\/\/name":"crptexp-gmpc",
+         "\/\/shortdescription":"Desktop Computer",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmpc",
+         "tilesetDirection":"right"
+        },
+     "33":
+        {
+         "\/\/description":"A tall radio tower for picking up inter-planetary communications.",
+         "\/\/name":"crptexp-gmradiotower",
+         "\/\/shortdescription":"Radio Tower",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmradiotower",
+         "tilesetDirection":"right"
+        },
+     "34":
+        {
+         "\/\/description":"Part of a radio tower for picking up inter-planetary communications.",
+         "\/\/name":"crptexp-gmradiotowerpart",
+         "\/\/shortdescription":"Radio Tower Segment",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmradiotowerpart",
+         "tilesetDirection":"right"
+        },
+     "35":
+        {
+         "\/\/description":"Part of a radio tower for picking up inter-planetary communications.",
+         "\/\/name":"crptexp-gmradiotowerpartpainted",
+         "\/\/shortdescription":"Radio Tower Segment",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmradiotowerpartpainted",
+         "tilesetDirection":"right"
+        },
+     "36":
+        {
+         "\/\/description":"Part of a radio tower for picking up inter-planetary communications.",
+         "\/\/name":"crptexp-gmradiotowerpartsmall",
+         "\/\/shortdescription":"Radio Tower Segment",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmradiotowerpartsmall",
+         "tilesetDirection":"right"
+        },
+     "37":
+        {
+         "\/\/description":"A radio tower for picking up inter-planetary communications.",
+         "\/\/name":"crptexp-gmradiotowertop",
+         "\/\/shortdescription":"Radio Tower Top",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmradiotowertop",
+         "tilesetDirection":"right"
+        },
+     "38":
+        {
+         "\/\/description":"A monochrome green monitor displaying information.",
+         "\/\/name":"crptexp-gmscreen",
+         "\/\/shortdescription":"Wall Screen",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmscreen",
+         "tilesetDirection":"right"
+        },
+     "39":
+        {
+         "\/\/description":"A monochrome green monitor displaying information.",
+         "\/\/name":"crptexp-gmscreensmall",
+         "\/\/shortdescription":"Small Wall Screen",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmscreensmall",
+         "tilesetDirection":"right"
+        },
+     "4":
+        {
+         "\/\/description":"A worn wooden barrel. It smells faintly of gunpowder.",
+         "\/\/name":"crptexp-gmbarrel",
+         "\/\/shortdescription":"Powder Keg",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmbarrel",
+         "tilesetDirection":"right"
+        },
+     "40":
+        {
+         "\/\/description":"A door suitable for a spaceship.",
+         "\/\/name":"crptexp-gmshipdoor",
+         "\/\/shortdescription":"GMC Ship Door",
+         "imagePositionX":"-20",
+         "imagePositionY":"0",
+         "object":"crptexp-gmshipdoor",
+         "tilesetDirection":"right"
+        },
+     "41":
+        {
+         "\/\/description":"A hatch suitable for a spaceship.",
+         "\/\/name":"crptexp-gmshiphatch",
+         "\/\/shortdescription":"GMC Ship Hatch",
+         "imagePositionX":"-16",
+         "imagePositionY":"-20",
+         "object":"crptexp-gmshiphatch",
+         "tilesetDirection":"right"
+        },
+     "42":
+        {
+         "\/\/description":"A locker. Good for custom ships.",
+         "\/\/name":"crptexp-gmshiplocker",
+         "\/\/shortdescription":"GMC Ship Locker",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"crptexp-gmshiplocker",
+         "tilesetDirection":"right"
+        },
+     "43":
+        {
+         "\/\/description":"Trusty teleporter, what would we do without you?",
+         "\/\/name":"crptexp-gmshipteleporter",
+         "\/\/shortdescription":"GMC Ship Teleporter",
+         "imagePositionX":"-32",
+         "imagePositionY":"0",
+         "object":"crptexp-gmshipteleporter",
+         "tilesetDirection":"right"
+        },
+     "44":
+        {
+         "\/\/description":"A nice, spacious, wall-mounted storage solution.",
+         "\/\/name":"crptexp-gmstoragelocker",
+         "\/\/shortdescription":"GMC Storage Locker",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"crptexp-gmstoragelocker",
+         "tilesetDirection":"right"
+        },
+     "45":
+        {
+         "\/\/description":"Ship-based Artificial Intelligence Lattice, or S.A.I.L for short. Good for custom ships.",
+         "\/\/name":"crptexp-gmtechstation",
+         "\/\/shortdescription":"GMC S.A.I.L",
+         "imagePositionX":"-16",
+         "imagePositionY":"-8",
+         "object":"crptexp-gmtechstation",
+         "tilesetDirection":"right"
+        },
+     "46":
+        {
+         "\/\/description":"A personal teleporter, connects to bookmarked locations. \\n^red;Destroyed when broken.",
+         "\/\/name":"crptexp-gmteleporter",
+         "\/\/shortdescription":"GMC Teleporter",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmteleporter",
+         "tilesetDirection":"right"
+        },
+     "47":
+        {
+         "\/\/description":"A bunch of small boxes.",
+         "\/\/name":"crptexp-gmtinyboxes",
+         "\/\/shortdescription":"Pile of Tiny Boxes",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmtinyboxes",
+         "tilesetDirection":"right"
+        },
+     "48":
+        {
+         "\/\/description":"A worn wooden support.",
+         "\/\/name":"crptexp-gmwoodsupport_orientation1",
+         "\/\/shortdescription":"Varnished Wood Support",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"crptexp-gmwoodsupport",
+         "tilesetDirection":"right"
+        },
+     "49":
+        {
+         "\/\/description":"A worn wooden support.",
+         "\/\/name":"crptexp-gmwoodsupport_orientation2",
+         "\/\/shortdescription":"Varnished Wood Support",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"crptexp-gmwoodsupport",
+         "tilesetDirection":"right"
+        },
+     "5":
+        {
+         "\/\/description":"A barebones bed. The mattress isn't impressive either.",
+         "\/\/name":"crptexp-gmbed",
+         "\/\/shortdescription":"Barracks Bed",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"crptexp-gmbed",
+         "tilesetDirection":"right"
+        },
+     "50":
+        {
+         "\/\/description":"A worn wooden support.",
+         "\/\/name":"crptexp-gmwoodsupport_orientation3",
+         "\/\/shortdescription":"Varnished Wood Support",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"crptexp-gmwoodsupport",
+         "tilesetDirection":"right"
+        },
+     "51":
+        {
+         "\/\/description":"A worn wooden support.",
+         "\/\/name":"crptexp-gmwoodsupport_orientation4",
+         "\/\/shortdescription":"Varnished Wood Support",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"crptexp-gmwoodsupport",
+         "tilesetDirection":"right"
+        },
+     "52":
+        {
+         "\/\/description":"Can be used to produce materials and objects needed to build a military base.",
+         "\/\/name":"crptexp-gmworkbench",
+         "\/\/shortdescription":"Barracks Workbench",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmworkbench",
+         "tilesetDirection":"right"
+        },
+     "6":
+        {
+         "\/\/description":"A basic stackable bunk bed.",
+         "\/\/name":"crptexp-gmbunk",
+         "\/\/shortdescription":"Barracks Bunk",
+         "imagePositionX":"-24",
+         "imagePositionY":"0",
+         "object":"crptexp-gmbunk",
+         "tilesetDirection":"right"
+        },
+     "7":
+        {
+         "\/\/description":"This heated stand contains an assortment of barely edible slop.",
+         "\/\/name":"crptexp-gmcafeteriastand",
+         "\/\/shortdescription":"Cafeteria Stand",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmcafeteriastand",
+         "tilesetDirection":"right"
+        },
+     "8":
+        {
+         "\/\/description":"The Captain sits here to fly the ship. Good for custom ships.",
+         "\/\/name":"crptexp-gmcaptainschair",
+         "\/\/shortdescription":"GMC Captain's Chair",
+         "imagePositionX":"-12",
+         "imagePositionY":"0",
+         "object":"crptexp-gmcaptainschair",
+         "tilesetDirection":"right"
+        },
+     "9":
+        {
+         "\/\/description":"A heavy concrete barrier.",
+         "\/\/name":"crptexp-gmconcretebarrier",
+         "\/\/shortdescription":"Concrete Barrier",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmconcretebarrier",
+         "tilesetDirection":"right"
+        }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmammoboxes.png"
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmammocan.png"
+        },
+     "10":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmconsole.png"
+        },
+     "11":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmconsoletall.png"
+        },
+     "12":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmcounter.png"
+        },
+     "13":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmcrate.png"
+        },
+     "14":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmcratesmall.png"
+        },
+     "15":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmdesk.png"
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmfilingcabinet.png"
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmfoldingchair.png"
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmfoldingtable.png"
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmfootlocker.png"
+        },
+     "2":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmarmscrate.png"
+        },
+     "20":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmfridge.png"
+        },
+     "21":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmfuelhatch.png"
+        },
+     "22":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmfullammocan.png"
+        },
+     "23":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmgenerator.png"
+        },
+     "24":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmgunlocker.png"
+        },
+     "25":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmheavycrate.png"
+        },
+     "26":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmheavycratesmall.png"
+        },
+     "27":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmlockers.png"
+        },
+     "28":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmetaldoor.png"
+        },
+     "29":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmonitor.png"
+        },
+     "3":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmarmsstorefront.png"
+        },
+     "30":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmonitorsmall.png"
+        },
+     "31":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmrebags.png"
+        },
+     "32":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmpc.png"
+        },
+     "33":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmradiotower.png"
+        },
+     "34":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmradiotowerpart.png"
+        },
+     "35":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmradiotowerpartpainted.png"
+        },
+     "36":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmradiotowerpartsmall.png"
+        },
+     "37":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmradiotowertop.png"
+        },
+     "38":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmscreen.png"
+        },
+     "39":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmscreensmall.png"
+        },
+     "4":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmbarrel.png"
+        },
+     "40":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmshipdoor.png"
+        },
+     "41":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmshiphatch.png"
+        },
+     "42":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmshiplocker.png"
+        },
+     "43":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmshipteleporter.png"
+        },
+     "44":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmstoragelocker.png"
+        },
+     "45":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmtechstation.png"
+        },
+     "46":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmteleporter.png"
+        },
+     "47":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmtinyboxes.png"
+        },
+     "48":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmwoodsupportgroundleft.png"
+        },
+     "49":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmwoodsupportgroundright.png"
+        },
+     "5":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmbed.png"
+        },
+     "50":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmwoodsupportleft.png"
+        },
+     "51":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmwoodsupportright.png"
+        },
+     "52":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmworkbench.png"
+        },
+     "6":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmbunk.png"
+        },
+     "7":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmcafeteriastand.png"
+        },
+     "8":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmcaptainschair.png"
+        },
+     "9":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmconcretebarrier.png"
+        }
+    },
+ "tilewidth":64
+}

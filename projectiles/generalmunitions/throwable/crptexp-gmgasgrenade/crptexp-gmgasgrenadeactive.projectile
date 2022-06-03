@@ -1,0 +1,24 @@
+{
+  "projectileName" : "crptexp-gmgasgrenadeactive",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 5.0,
+  "image" : "crptexp-gmgasgrenade.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "damageType" : "NoDamage",
+  "onlyHitTerrain" : true,
+  "speed" : 0,
+  
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ],
+  
+  "persistentAudio" : "/sfx/projectiles/poisonorb_loop1.ogg",
+  
+  "scripts" : [ "/projectiles/activeitems/staff/elementportal/elementportal.lua" ],
+
+  "projectileType" : "crptexp-gmtoxicgascloud",
+  "projectileParameters" : {},
+  "spawnRate" : 0.1,
+  "power" : 0
+}

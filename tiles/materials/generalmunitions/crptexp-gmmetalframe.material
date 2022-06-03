@@ -1,0 +1,30 @@
+{
+  "materialName" : "crptexp-gmmetalframe",
+  "particleColor" : [77, 77, 77, 255],
+  "itemDrop" : "crptexp-gmmetalframe",
+
+  "shortdescription" : "Industrial Frame",
+  "description" : "Compact metal frame used for structural support.",
+
+  "glitchDescription" : "Reassured. These supports look sturdy enough to hold up any structure.",
+  "floranDescription" : "Metal sskeleton for buildingss.",
+  "novakidDescription" : "Some thick ol' metal supports.",
+
+  "nexusdroidDescription" : "Metal frame designed to bear heavy material loads.",
+
+  "footstepSound" : "/sfx/blocks/footstep_composite.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "crptexp-gmmetalframe.png",
+    "variants" : 1,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1100
+  },
+
+  "materialId" : 2064
+}

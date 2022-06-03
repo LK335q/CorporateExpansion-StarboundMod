@@ -1,0 +1,44 @@
+{
+  "itemName" : "crptexp-ecgrapplehook",
+  "price" : 3000,
+  "inventoryIcon" : "crptexp-ecgrapplehook.png",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+  "description" : "A gluon-based grapple beam. Fast and highly resistant to breaking.",
+  "shortdescription" : "Echelon Grapple Hook",
+  "largeImage" : "crptexp-ecgrapplehook.png",
+  "category" : "Tool",
+  "fireTime" : 5.0,
+  "twoHanded" : false,
+
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+
+  "animation" : "crptexp-ecgrapplehook.animation",
+
+  "fireOffset" : [0, 0.1],
+  "ropeOffset" : [-1.75, 0.1],
+  "ropeVisualOffset" : [0.75, 0.1],
+
+  "consumeOnUse" : false,
+
+  "projectileType" : "crptexp-ecgrapplehook",
+  "projectileParameters" : {
+    "speed" : 60
+  },
+
+  "ropeWidth" : 1.0,
+  "ropeColor" : [50, 53, 63, 255],
+  "ropeFullbright" : false,
+
+  "reelInDistance" : 3.5,
+  "reelOutLength" : 50,
+  "breakLength" : 60,
+
+  "minSwingDistance" : 1.5,
+
+  "reelSpeed" : 15,
+  "controlForce" : 1000,
+
+  "groundLagTime" : 0.2
+}

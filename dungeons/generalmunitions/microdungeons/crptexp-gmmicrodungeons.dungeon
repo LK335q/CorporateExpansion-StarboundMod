@@ -1,0 +1,46 @@
+{
+  "metadata" : {
+    "name" : "crptexp-gmmicrodungeons",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "crptexp-gmbattlements1", "crptexp-gmbattlements2", "crptexp-gmbattlements3", "crptexp-gmmisc1" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "crptexp-gmbattlements1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "crptexp-gmbattlements1.json" ]
+    },
+    {
+      "name" : "crptexp-gmbattlements2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "crptexp-gmbattlements2.json" ]
+    },
+    {
+      "name" : "crptexp-gmbattlements3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "crptexp-gmbattlements3.json" ]
+    },
+    {
+      "name" : "crptexp-gmmisc1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "crptexp-gmmisc1.json" ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "projectileName" : "crptexp-gmcaltropsspawner",
+  "physics" : "crptexp-landmine",
+  "bounces" : -1,
+  "timeToLive" : 0.0,
+  "image" : "crptexp-gmcaltrops.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "actionOnReap" : [
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmcaltrops",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmcaltrops",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 15
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmcaltrops",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : -15
+    }
+  ],
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/projectiles/generalmunitions/crptexp-gmcaltropsbounce.ogg" ]
+    }
+  ],
+  "power" : 60,
+  "damageKind" : "spear",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+}

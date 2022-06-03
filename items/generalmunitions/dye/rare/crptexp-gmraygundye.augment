@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmraygundye",
+  "price" : 25,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmraygundye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Raygun Dye",
+
+  "dyeDirectives" : { "ffca8a" : "fefffffe" , "e0975c" : "66ff66fe" , "a85636" : "00bf7cfe" , "6f2919" : "007b80fe",
+					  "ffca8afe" : "fefffffe" , "e0975cfe" : "66ff66fe" , "a85636fe" : "00bf7cfe" , "6f2919fe" : "007b80fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

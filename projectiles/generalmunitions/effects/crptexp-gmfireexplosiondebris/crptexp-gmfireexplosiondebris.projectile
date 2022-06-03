@@ -1,0 +1,20 @@
+{
+  "projectileName" : "crptexp-gmfireexplosiondebris",
+  "image" : "crptexp-gmfireexplosiondebris.png",
+  "frameNumber" : 1,
+  "physics" : "shrapnel",
+  "piercing" : true,
+  "fullbright" : true,
+  "hydrophobic" : true,
+  "damageKindImage" : "icon.png",
+  "pointLight" : false,
+  "lightColor" : [118, 23, 2],
+  "statusEffects" : [ ],
+  "emitters" : [ "crptexp-gmfiredebristrail" ],
+  "power" : 5.0,
+  "speed" : 35,
+  "knockback" : 10,
+  "onlyHitTerrain" : true,
+  "damageType" : "NoDamage",
+  "damageKind" : "default"
+}

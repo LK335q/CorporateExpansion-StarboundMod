@@ -1,0 +1,41 @@
+{
+  "objectName" : "crptexp-gmtechstation",
+  "colonyTags" : [ "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "interactAction" : "OpenAiInterface",
+  "category" : "decorative",
+  "lightPosition" : [-1, 0],
+  "description" : "Ship-based Artificial Intelligence Lattice, or S.A.I.L for short. Good for custom ships.",
+  "shortdescription" : "GMC S.A.I.L",
+  "race" : "generic",
+  "lightColor" : [0, 75, 0],
+
+  "apexDescription" : "I can talk to SAIL through this console.",
+  "avianDescription" : "I can use this station to talk to SAIL.",
+  "floranDescription" : "Floran use thisss magic panel to talk to SAIL",
+  "glitchDescription" : "Happy. This station allows me to talk to SAIL.",
+  "humanDescription" : "This station allows me to communicate with SAIL.",
+  "hylotlDescription" : "This console allows me to communicate with SAIL.",
+  "novakidDescription" : "This here station lets me talk with SAIL.",
+
+  "nexusdroidDescription" : "SAIL communication panel. Standard for FTL-capable starships.",
+
+  "inventoryIcon" : "crptexp-gmtechstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "crptexp-gmtechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "crptexp-gmtechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 32,
+      "animationCycle" : 3.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "animation" : "/objects/ship/techstation.animation",
+  "scripts" : [
+    "/objects/spawner/techstation.lua"
+  ],
+  "scriptDelta" : 20,
+  "spawnOffset" : [2, -1]
+}

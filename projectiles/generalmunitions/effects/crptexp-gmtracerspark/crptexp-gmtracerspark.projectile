@@ -1,0 +1,26 @@
+{
+  "projectileName" : "crptexp-gmtracerspark",
+  "image" : "crptexp-gmtracerspark.png",
+  "physics" : "grenade",
+  "bounces" : 1,
+  "timeToLive" : 0.5,
+  "animationCycle" : 0.5,
+  "frameNumber" : 5,
+  "damageKind" : "default",
+  "pointLight" : false,
+  "flippable" : true,
+  "fullbright" : true,
+  "hydrophobic" : true,
+  "lightColor" : [19, 0, 5],
+  "actionOnReap" : [
+    
+  ],
+  "statusEffects" : [ ],
+  
+  "onlyHitTerrain" : true,
+  "damageType" : "NoDamage",
+  
+  "power" : 7.5,
+  "speed" : 15,
+  "knockback" : 0
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmmetal", "count" : 2 },
+    { "item" : "wire", "count" : 5 }
+  ],
+  "output" : { "item" : "crptexp-gmmonitor", "count" : 1 },
+  "groups" : [ "crptexp-gmworkbench", "decoration", "all" ]
+}

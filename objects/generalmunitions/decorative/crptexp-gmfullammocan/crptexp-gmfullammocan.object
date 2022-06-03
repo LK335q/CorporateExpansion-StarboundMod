@@ -1,0 +1,38 @@
+{
+  "objectName" : "crptexp-gmfullammocan",
+  "colonyTags" : [ "commerce", "combat", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "description" : "An ammo can stuffed full of ammunition.",
+  "shortdescription" : "Stuffed Ammo Can",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "A green ammo can stuffed full of ammunition.",
+  "avianDescription" : "This metal box is stuffed full with bullets.",
+  "floranDescription" : "Box full of shiny bulletss.",
+  "glitchDescription" : "Bickering. I prefer to use a bow or crossbow over a firearm.",
+  "humanDescription" : "It's overflowing with bullets!",
+  "hylotlDescription" : "A means for fueling tools of violence.",
+  "novakidDescription" : "A lil' green metal box full of ammo.",
+
+  "nexusdroidDescription" : "Basic metallic container designed for ammunition storage.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmfullammocan.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

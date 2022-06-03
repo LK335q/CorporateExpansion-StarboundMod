@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmmetalsupport",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "crptexp-gmmetalsupport.png",
+
+  "shortdescription" : "Heavy Support Beam",
+  "description" : "Thick support beams for bearing a heavy load.",
+
+  "glitchDescription" : "Reassured. These supports look sturdy enough to hold up any structure.",
+  "floranDescription" : "Metal sskeleton for buildingss.",
+  "novakidDescription" : "Some thick ol' metal supports.",
+
+  "nexusdroidDescription" : "Metal frame designed to bear heavy material loads.",
+
+  "materialId" : 2068
+}

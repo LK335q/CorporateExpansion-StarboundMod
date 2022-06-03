@@ -1,0 +1,11 @@
+{
+  "itemName" : "crptexp-gmvarnish",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "price" : 50,
+  "inventoryIcon" : "crptexp-gmvarnish.png",
+
+  "description" : "A bottle of wood varnish. Used to craft various wooden blocks and furniture.",
+  "shortdescription" : "Wood Varnish"
+}

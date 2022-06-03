@@ -1,0 +1,70 @@
+{
+  "metadata" : {
+    "name" : "crptexp-gmbase",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "crptexp-gmbaseendleft", "crptexp-gmbaseendright" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 13,
+    "extendSurfaceFreeSpace" : 100,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "crptexp-gmbaseempty1",
+      "rules" : [
+        [ "maxSpawnCount", [5] ],
+        [ "doNotConnectToPart", [ "crptexp-gmbaseempty1" ] ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbaseempty1.json" ]
+    },
+    {
+      "name" : "crptexp-gmbasebarracks1",
+      "rules" : [
+        [ "maxSpawnCount", [3] ],
+        [ "doNotConnectToPart", [ "crptexp-gmbasebarracks1" ] ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebarracks1.json" ]
+    },
+    {
+      "name" : "crptexp-gmbaseshed",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbaseshed.json" ]
+    },
+    {
+      "name" : "crptexp-gmbasewarehouse1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasewarehouse1.json" ]
+    },
+    {
+      "name" : "crptexp-gmbaseendleft",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "crptexp-gmbaseendleft.json" ] ],
+      "chance" : 0
+    },
+
+    {
+      "name" : "crptexp-gmbaseendright",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", [ "crptexp-gmbaseendright.json" ] ],
+      "chance" : 0
+    }
+  ]
+}

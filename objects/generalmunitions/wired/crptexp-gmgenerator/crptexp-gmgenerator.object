@@ -1,0 +1,72 @@
+{
+  "objectName" : "crptexp-gmgenerator",
+  "colonyTags" : [ "generalmunitions", "electronic" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "description" : "A large combustion generator used to power small facilities.",
+  "shortdescription" : "Barracks Generator",
+
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 70,
+
+  "apexDescription" : "A simple generator. Seems like something the rebels would use.",
+  "avianDescription" : "The generator makes a pleasant sound while active.",
+  "floranDescription" : "Heat coming from generator makess Floran uncomfortable.",
+  "glitchDescription" : "Disappointed. The power output of this generator would not be enough to fuel modern machinery.",
+  "humanDescription" : "A pretty basic generator.",
+  "hylotlDescription" : "The exhaust fumes coming from this generator make me feel sick.",
+  "novakidDescription" : "Pretty useful piece o' machinery here.",
+
+  "nexusdroidDescription" : "Primitive combustion generator.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "crptexp-gmgenerator.png:<color>.on",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-32, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "crptexp-gmgenerator.png:<color>.on",
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-32, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "crptexp-gmgenerator.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/generalmunitions/crptexp-gmgeneratorstart.ogg" ],
+      "off" : [ "/sfx/objects/generalmunitions/crptexp-gmgeneratorstop.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "bg" : "crptexp-gmgenerator.png",
+    "fg" : "crptexp-gmgeneratorlit.png"
+  },
+  "animationPosition" : [-32, 0],
+
+  "outputNodes" : [ [0, 0] ]
+}

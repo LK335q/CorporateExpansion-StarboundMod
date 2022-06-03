@@ -1,0 +1,17 @@
+{
+  "name" : "crptexp-gmraygundeathbomb",
+  "blockingStat" : "specialStatusImmunity",
+
+  "effectConfig" : {
+    "minMaxHealth" : 5,
+    "healthDamageFactor" : 0.5,
+    "bombConfig" : "/projectiles/generalmunitions/effects/crptexp-gmraygunashes/crptexp-gmraygunashesspawner.config",
+    "flashDirectives" : "fade=feffff;1.0?border=2;66ff66;00000000"
+  },
+
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "crptexp-deathbomb.lua"
+  ]
+}

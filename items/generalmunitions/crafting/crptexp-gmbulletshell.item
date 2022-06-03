@@ -1,0 +1,11 @@
+{
+  "itemName" : "crptexp-gmbulletshell",
+  "rarity" : "Common",
+  "category" : "junk",
+  "itemTags" : [ "reagent" ],
+  "price" : 2,
+  "inventoryIcon" : "crptexp-gmbulletshell.png",
+
+  "description" : "An empty brass shell. Not much can be done with this.",
+  "shortdescription" : "Bullet Shell"
+}

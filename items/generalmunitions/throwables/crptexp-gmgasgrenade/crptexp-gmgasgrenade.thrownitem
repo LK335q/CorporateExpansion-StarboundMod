@@ -1,0 +1,36 @@
+{
+  "itemName" : "crptexp-gmgasgrenade",
+  "price" : 50,
+  "rarity" : "Uncommon",
+
+  "builder" : "/items/buildscripts/crptexp-buildelementalitem.lua",
+  "tooltipKind" : "crptexp-elementalbase",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmgasgrenade.png",
+  "image" : "crptexp-gmgasgrenadeheld.png",
+
+  "shortdescription" : "M3 Gas Grenade",
+  "description" : "Releases clouds of toxic gas after being thrown. Don't breathe it in!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.0,
+
+  "elementalType" : "/interface/elements/poison.png",
+
+  "projectileType" : "crptexp-gmgasgrenade",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 0.4,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

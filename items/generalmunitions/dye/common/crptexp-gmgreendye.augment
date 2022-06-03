@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmgreendye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmgreendye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Infantry Green Dye",
+
+  "dyeDirectives" : { "ffca8a" : "878a63" , "e0975c" : "585c42" , "a85636" : "2f3323" , "6f2919" : "21211c",
+					  "ffca8afe" : "878a63fe" , "e0975cfe" : "585c42fe" , "a85636fe" : "2f3323fe" , "6f2919fe" : "21211cfe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

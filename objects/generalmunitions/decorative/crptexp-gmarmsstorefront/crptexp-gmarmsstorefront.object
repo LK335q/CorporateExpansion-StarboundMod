@@ -1,0 +1,38 @@
+{
+  "objectName" : "crptexp-gmarmsstorefront",
+  "colonyTags" : [ "commerce", "combat", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Uncommon",
+
+  "description" : "The inventory of a General Munitions Co. armorer.",
+  "shortdescription" : "GMC Armory Collection",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "Surplus arms and ammunition on display.",
+  "avianDescription" : "A messy display of weapons.",
+  "floranDescription" : "Lotss of weaponss stored here.",
+  "glitchDescription" : "Neutral. Surplus armaments on display.",
+  "humanDescription" : "A bunch of old-fashioned looking weapons.",
+  "hylotlDescription" : "Adequately crafted weapons and ammunition on display.",
+  "novakidDescription" : "Some fine lookin' weapons available here.",
+
+  "nexusdroidDescription" : "Display of inferior competitor armaments.",
+
+  "inventoryIcon" : "crptexp-gmarmsstorefronticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmarmsstorefront.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

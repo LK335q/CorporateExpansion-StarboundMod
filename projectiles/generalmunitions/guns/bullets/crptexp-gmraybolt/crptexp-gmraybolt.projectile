@@ -1,0 +1,44 @@
+{
+  "projectileName" : "crptexp-gmraybolt",
+  "image" : "crptexp-gmraybolt.png",
+  "physics" : "crptexp-bullet",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "lightColor" : [0, 65, 40],
+  "fullbright" : true,
+  "flippable" : true,
+  "orientationLocked" : true,
+  "actionOnReap" : [
+	{
+      "action" : "config",
+      "file" : "/projectiles/generalmunitions/explosions/crptexp-gmraygunexplosionsmall/crptexp-gmraygunexplosionsmall.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.025,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "animation" : "/animations/generalmunitions/trails/crptexp-gmrayguntrail/crptexp-gmrayguntrail.animation",
+		    "collidesForeground" : false,
+        "initialVelocity" : [0.0, 0.0],
+        "timeToLive" : 0.1,
+		    "destructionTime" : 0.25,
+        "destructionAction" : "fade",
+        "layer" : "back",
+		    "fullbright" : true,
+        "position" : [0.0, 0.0]
+      }
+    }
+  ],
+  "statusEffects" : [ "crptexp-gmraygundeathbomb" ],
+
+  "power" : 5.0,
+  "speed" : 75,
+  "knockback" : 0
+}

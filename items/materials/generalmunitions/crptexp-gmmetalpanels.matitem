@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmmetalpanels",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "crptexp-gmmetalpanels.png",
+
+  "shortdescription" : "Riveted Panels",
+  "description" : "Thin sheets of metal covered in rivets.",
+
+  "glitchDescription" : "Curious. How might the strength of this panelling compare to my own chassis?",
+  "floranDescription" : "Floran likess metal clang sound!",
+  "novakidDescription" : "Some heavy duty metal panels here.",
+
+  "nexusdroidDescription" : "Exterior metal plating.",
+
+  "materialId" : 2065
+}

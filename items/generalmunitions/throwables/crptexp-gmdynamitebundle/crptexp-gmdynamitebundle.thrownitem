@@ -1,0 +1,30 @@
+{
+  "itemName" : "crptexp-gmdynamitebundle",
+  "rarity" : "Uncommon",
+  "price" : 5,
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmdynamitebundle.png",
+  "image" : "crptexp-gmdynamitebundleheld.png",
+  "shortdescription" : "M2 Dynamite Bundle",
+  "description" : "A bunch of dynamite sticks bundled together. This can't be safe.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.2,
+
+  "projectileType" : "crptexp-gmdynamitebundle",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 40,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

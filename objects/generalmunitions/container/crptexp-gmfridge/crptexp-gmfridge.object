@@ -1,0 +1,52 @@
+{
+  "objectName" : "crptexp-gmfridge",
+  "colonyTags" : [ "generalmunitions", "cooking", "storage" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "description" : "A large fridge for storing bulk quantities of food.",
+  "shortdescription" : "Industrial Fridge",
+
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 110,
+
+  "health" : 1.5,
+
+  "apexDescription" : "A huge industrial fridge, fit for a chef's kitchen.",
+  "avianDescription" : "Who would need a fridge so large?",
+  "floranDescription" : "Floran can use this to store big meatsss.",
+  "glitchDescription" : "Neutral. A large metal fridge.",
+  "humanDescription" : "Not much to say, it's just a big fridge.",
+  "hylotlDescription" : "An uninteresting industrial fridge.",
+  "novakidDescription" : "A pretty big fridge.",
+
+  "nexusdroidDescription" : "Refrigerated nutrient storage unit.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmfridge.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/fridge_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/fridge_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "itemAgeMultiplier" : 0.0,
+
+  "soundEffect" : "/sfx/objects/fridge_hum.ogg"
+
+}

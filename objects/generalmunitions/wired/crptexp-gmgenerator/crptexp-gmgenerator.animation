@@ -1,0 +1,103 @@
+{
+  "animatedParts" : {
+    "stateTypes" : {
+      "switchState" : {
+        "default" : "off",
+        "states" : {
+          "off" : {
+            "properties" : {
+              "particleEmittersOff" : [ "generatorsmoke" ]
+            }
+          },
+          "on" : {
+            "frames" : 6,
+            "cycle" : 1.0,
+            "mode" : "loop",
+            "properties" : {
+              "persistentSound" : "/sfx/objects/generalmunitions/crptexp-gmgeneratorloop.ogg",
+              "persistentSoundRangeMultiplier" : 0.25,
+              "particleEmittersOn" : [ "generatorsmoke" ]
+            }
+          }
+        }
+      }
+    },
+
+    "parts" : {
+      "bg" : {
+        "properties" : {
+          "centered" : false
+        },
+
+        "partStates" : {
+          "switchState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>",
+                "fullbright" : true
+              }
+            }
+          }
+        }
+      },
+      "fg" : {
+        "properties" : {
+          "centered" : false,
+          "zLevel" : 1
+        },
+
+        "partStates" : {
+          "switchState" : {
+            "off" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.off"
+              }
+            },
+
+            "on" : {
+              "properties" : {
+                "image" : "<partImage>:<color>.<frame>"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "particleEmitters" : {
+    "generatorsmoke" : {
+      "emissionRate" : 7.0,
+      "emissionRateVariance" : 0.0,
+      "active" : true,
+
+      "particles" : [
+        {
+          "particle" : {
+          "type" : "animated",
+		      "image" : "/animations/dust2/dust2.animation",
+          "color": [255, 255, 255, 100],
+          "position" : [2.5, 1.5],
+          "layer" : "back",
+    	    "initialVelocity" : [0.0, 4.0],
+          "destructionTime" : 0.0,
+	        "timeToLive" : 1.0,
+          "destructionAction" : "fade",
+    	    "collidesForeground" : true,
+          "variance" : {
+   		      "initialVelocity" : [0.5, 1.0],
+            "position" : [0.8, 0.5],
+		        "size" : 0.2,
+		        "rotation" : 180
+            }
+          }
+        }
+      ]
+    }
+  }
+}

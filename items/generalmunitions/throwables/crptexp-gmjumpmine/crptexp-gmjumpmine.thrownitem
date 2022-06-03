@@ -1,0 +1,30 @@
+{
+  "itemName" : "crptexp-gmjumpmine",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmjumpmine.png",
+  "image" : "crptexp-gmjumpmineheld.png",
+  "shortdescription" : "M4 \"Jumping Jane\" Mine",
+  "description" : "Launches into the air and detonates, shooting steel balls in both directions.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.8,
+
+  "projectileType" : "crptexp-gmjumpmine",
+  "projectileConfig" : {
+    "speed" : 5,
+    "power" : 25,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

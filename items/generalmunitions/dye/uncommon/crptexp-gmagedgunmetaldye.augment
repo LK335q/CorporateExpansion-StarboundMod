@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmagedgunmetaldye",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmagedgunmetaldye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Aged Gunmetal Dye",
+
+  "dyeDirectives" : { "ffca8a" : "6f7375" , "e0975c" : "3e4242" , "a85636" : "212729" , "6f2919" : "14141a",
+					  "ffca8afe" : "6f7375fe" , "e0975cfe" : "3e4242fe" , "a85636fe" : "212729fe" , "6f2919fe" : "14141afe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

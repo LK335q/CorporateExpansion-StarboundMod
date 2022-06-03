@@ -1,0 +1,31 @@
+{
+
+  "materialName" : "crptexp-gmhull",
+  "particleColor" : [77, 77, 77, 255],
+  "itemDrop" : "crptexp-gmhull",
+
+  "shortdescription" : "Riveted Hull Panel",
+  "description" : "Heavy riveted sheets of metal, commonly used for hull plating on large structures.",
+
+  "glitchDescription" : "Confident. This hull looks strong enough to withstand substantial wear and tear.",
+  "floranDescription" : "Metal hull, feelss cold.",
+  "novakidDescription" : "Some pretty heavy lookin' industrial plating.",
+
+  "nexusdroidDescription" : "Robust metallic hull.",
+
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/slopedmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "crptexp-gmhull.png",
+    "variants" : 8,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1150
+  },
+
+  "materialId" : 2063
+}

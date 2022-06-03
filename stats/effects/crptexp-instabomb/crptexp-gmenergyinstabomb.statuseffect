@@ -1,0 +1,16 @@
+{
+  "name" : "crptexp-gmenergyinstabomb",
+  "blockingStat" : "specialStatusImmunity",
+
+  "effectConfig" : {
+    "minMaxHealth" : 5,
+    "healthDamageFactor" : 0.2,
+    "bombConfig" : "/projectiles/generalmunitions/explosions/crptexp-gmenergyexplosionsmall/crptexp-gmenergyexplosionsmall.config"
+  },
+
+  "defaultDuration" : 0.5,
+
+  "scripts" : [
+    "crptexp-instabomb.lua"
+  ]
+}

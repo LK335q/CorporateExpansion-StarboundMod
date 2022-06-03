@@ -1,0 +1,40 @@
+{
+  "projectileName" : "crptexp-gmjumpmine",
+  "physics" : "crptexp-landmine",
+  "bounces" : -1,
+  "timeToLive" : 60.0,
+  "image" : "crptexp-gmjumpmine.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "damageType" : "NoDamage",
+  
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [ 
+        "/sfx/melee/fist_hit_metal1.ogg",
+		"/sfx/melee/fist_hit_metal2.ogg",
+		"/sfx/melee/fist_hit_metal3.ogg",
+		"/sfx/melee/fist_hit_metal4.ogg",
+		"/sfx/melee/fist_hit_metal5.ogg",
+		"/sfx/melee/fist_hit_metal6.ogg"
+      ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "sound",
+      "options" : [ "/sfx/gun/rocket3.ogg" ]
+    },
+	{
+      "action" : "projectile",
+      "type" : "crptexp-gmjumpminelaunched",
+      "fuzzAngle" : 0,
+      "inheritDamageFactor" : 1.0,
+      "angleAdjust" : 180
+    }
+  ],
+  "power" : 60,
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+}

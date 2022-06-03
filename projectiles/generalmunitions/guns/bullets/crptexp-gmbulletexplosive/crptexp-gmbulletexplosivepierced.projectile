@@ -1,0 +1,51 @@
+{
+  "projectileName" : "crptexp-gmbulletexplosivepierced",
+  "image" : "crptexp-gmbulletexplosive.png",
+  "physics" : "crptexp-tileignorebullet",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "timeToLive" : 0.025,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "piercing" : true,
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "textured",
+        "image" : "/particles/generalmunitions/trails/images/crptexp-gmbullettrail.png",
+        "collidesForeground" : false,
+        "position" : [-1.5, 0],
+        "layer" : "back",
+        "timeToLive" : 0.0,
+        "approach" : [0, 25],
+        "destructionTime" : 0.4,
+        "destructionAction" : "fade",
+        "fullbright" : false,
+        "variance" : {
+          "position" : [0.0, 0.0],
+          "finalVelocity" : [0.0, 0.25],
+          "destructionTime" : 0.4
+        }
+      }
+    },
+    {
+     "time" : 0.001,
+     "repeat" : true,
+     "action" : "explosion",
+     "foregroundRadius" : 1,
+     "backgroundRadius" : 0,
+     "explosiveDamageAmount" : 2.0,
+     "delaySteps" : 2
+    }
+  ],
+  "statusEffects" : [ ],
+
+  "power" : 5.0,
+  "speed" : 150,
+  "knockback" : 0
+}

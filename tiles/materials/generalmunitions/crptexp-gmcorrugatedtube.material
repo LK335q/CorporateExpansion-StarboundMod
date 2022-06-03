@@ -1,0 +1,30 @@
+{
+  "materialName" : "crptexp-gmcorrugatedtube",
+  "particleColor" : [77, 77, 77, 255],
+  "itemDrop" : "crptexp-gmcorrugatedtube",
+
+  "shortdescription" : "Corrugated Tubing",
+  "description" : "Heavy industrial pipes for transferring fluids and/or gases.",
+
+  "glitchDescription" : "Uninterested. Plain metal tubing.",
+  "floranDescription" : "Floran yellss into pipes, make voice louder!",
+  "novakidDescription" : "Some plain lookin' plumbing.",
+
+  "nexusdroidDescription" : "Tubes for transference of fluid substances.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "health" : 6,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "crptexp-gmcorrugatedtube.png",
+    "variants" : 3,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1105
+  },
+
+  "materialId" : 2062
+}

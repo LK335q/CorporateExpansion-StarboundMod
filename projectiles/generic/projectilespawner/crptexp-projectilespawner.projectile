@@ -1,0 +1,17 @@
+{
+  "projectileName" : "crptexp-projectilespawner",
+  "image" : "crptexp-projectilespawner.png",
+  "physics" : "crptexp-explosion",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "timeToLive" : 0.0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "flippable" : true,
+  "piercing" : true,
+  "statusEffects" : [ ],
+
+  "power" : 5.0,
+  "speed" : 0,
+  "knockback" : 0
+}

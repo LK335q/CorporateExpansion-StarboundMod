@@ -1,0 +1,16 @@
+{
+  "projectileName" : "crptexp-gmfireexplosion",
+  "image" : "crptexp-gmfireexplosion.png",
+  "physics" : "crptexp-explosion",
+  "fullbright" : true,
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "speed" : 0,
+  "lightColor" : [160, 30, 30],
+  "pointLight" : true,
+  "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "damageKind" : "fire"
+}

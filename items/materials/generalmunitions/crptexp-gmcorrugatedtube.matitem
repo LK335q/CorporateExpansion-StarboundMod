@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmcorrugatedtube",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "crptexp-gmcorrugatedtube.png",
+
+  "shortdescription" : "Corrugated Tubing",
+  "description" : "Heavy industrial pipes for transferring fluids and/or gases.",
+
+  "glitchDescription" : "Uninterested. Plain metal tubing.",
+  "floranDescription" : "Floran yellss into pipes, make voice louder!",
+  "novakidDescription" : "Some plain lookin' plumbing.",
+
+  "nexusdroidDescription" : "Tubes for transference of fluid substances.",
+
+  "materialId" : 2062
+}

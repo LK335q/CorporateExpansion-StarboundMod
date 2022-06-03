@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmmesquitedye",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmmesquitedye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Mesquite Wood Dye",
+
+  "dyeDirectives" : { "ffca8a" : "946659" , "e0975c" : "7b4f42" , "a85636" : "472520" , "6f2919" : "2b100c",
+					  "ffca8afe" : "946659fe" , "e0975cfe" : "7b4f42fe" , "a85636fe" : "472520fe" , "6f2919fe" : "2b100cfe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

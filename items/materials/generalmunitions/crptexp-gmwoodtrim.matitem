@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmwoodtrim",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "crptexp-gmwoodtrim.png",
+
+  "shortdescription" : "Varnished Trim",
+  "description" : "Glossy wooden trim.",
+
+  "glitchDescription" : "Fascinated. Such a pleasant glossy finish.",
+  "floranDescription" : "Sshiny plant bones.",
+  "novakidDescription" : "Why, I can see my own reflection in here!",
+
+  "nexusdroidDescription" : "Simple plant-based construction treated for aesthetic purposes.",
+
+  "materialId" : 2071
+}

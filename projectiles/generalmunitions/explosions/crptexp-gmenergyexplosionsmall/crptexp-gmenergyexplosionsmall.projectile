@@ -1,0 +1,17 @@
+{
+  "projectileName" : "crptexp-gmenergyexplosionsmall",
+  "image" : "crptexp-gmenergyexplosionsmall.png",
+  "physics" : "crptexp-explosion",
+  "animationCycle" : 0.2,
+  "fullbright" : true,
+  "frameNumber" : 5,
+  "lightColor" : [100, 25, 60],
+  "speed" : 0,
+  "power" : 5,
+  "damagePoly" : [ [-18, 0], [-12, -12], [0, -18], [12, -12], [18, 0], [12, 12], [0, 18], [-12, 12] ],
+  "animationLoops" : false,
+  "piercing" : true,
+  "flippable" : true,
+  "knockback" : 15,
+  "damageKind" : "default"
+}

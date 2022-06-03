@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmmetalframe",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "crptexp-gmmetalframe.png",
+
+  "shortdescription" : "Industrial Frame",
+  "description" : "Compact metal frame used for structural support.",
+
+  "glitchDescription" : "Reassured. These supports look sturdy enough to hold up any structure.",
+  "floranDescription" : "Metal sskeleton for buildingss.",
+  "novakidDescription" : "Some thick ol' metal supports.",
+
+  "nexusdroidDescription" : "Metal frame designed to bear heavy material loads.",
+
+  "materialId" : 2064
+}

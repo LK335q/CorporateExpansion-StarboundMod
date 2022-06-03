@@ -1,0 +1,66 @@
+[
+
+  // ==============================================================================================
+  //                              GENERAL MUNITIONS CO. RECIPES
+  // ==============================================================================================
+
+  // ================================
+  //             FURNITURE
+  // ================================
+
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmbed"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmbunk"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmammoboxes"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmconcretebarrier"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmconsole"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmconsoletall"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmfoldingchair"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmfoldingtable"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmfullammocan"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmgenerator"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmonitor"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmonitorsmall"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmpc"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmradiotower"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmradiotowerpart"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmradiotowerpartpainted"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmradiotowerpartsmall"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmradiotowertop"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmscreen"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmscreensmall"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmwoodsupport"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetaldoor"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmshipdoor"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmshiphatch"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmammocan"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmarmscrate"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmbarrel"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmcrate"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmcratesmall"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdesk"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmfilingcabinet"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmfootlocker"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmgunlocker"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmheavycrate"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmheavycratesmall"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmlockers"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmstoragelocker"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmtinyboxes"}},
+
+  // ================================
+  //             TILES
+  // ================================
+
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmconcrete"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmcorrugatedtube"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmhull"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetalframe"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetalpanels"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetalplatform"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetalstairs"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetalsupport"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmwoodplanks"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmwoodplatform"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmwoodtrim"}}
+
+]

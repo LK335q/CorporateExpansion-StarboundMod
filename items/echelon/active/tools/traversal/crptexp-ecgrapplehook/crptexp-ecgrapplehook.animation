@@ -1,0 +1,17 @@
+{
+  "animatedParts" : {
+    "parts" : {
+      "rope" : {
+        "properties" : {
+          "centered" : false,
+          "image" : "crptexp-ecgrapplehook.png",
+          "offset" : [-0.7, -0.7]
+        }
+      }
+    }
+  },
+
+  "sounds" : {
+    "fire" : ["/sfx/gun/grapplegun.ogg"]
+  }
+}

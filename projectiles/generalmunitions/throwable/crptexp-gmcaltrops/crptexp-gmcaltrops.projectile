@@ -1,0 +1,34 @@
+{
+  "projectileName" : "crptexp-gmcaltrops",
+  "physics" : "crptexp-landmine",
+  "bounces" : -1,
+  "timeToLive" : 20.0,
+  "image" : "crptexp-gmcaltrops.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "piercing" : true,
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell1.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell2.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell3.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell4.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell5.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell6.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell7.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell8.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell9.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell10.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell11.ogg",
+        "/sfx/projectiles/generalmunitions/crptexp-gmshell12.ogg"
+      ]
+    }
+  ],
+  "power" : 60,
+  "speed" : 20,
+  "damageKind" : "spear",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+}

@@ -1,0 +1,46 @@
+{
+  "objectName" : "crptexp-gmammocan",
+  "colonyTags" : ["generalmunitions"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "description" : "A metal container for storing ammunition.",
+  "shortdescription" : "Ammo Can",
+
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 60,
+
+  "apexDescription" : "A green ammo can.",
+  "avianDescription" : "This little box seems to be used for storing bullets.",
+  "floranDescription" : "Floran can't fit many meatss in little box.",
+  "glitchDescription" : "Neutral. This can stores ammunition for small arms.",
+  "humanDescription" : "This box could fit a lot of bullets.",
+  "hylotlDescription" : "A means for fueling tools of violence.",
+  "novakidDescription" : "A lil' green metal box for storing ammo.",
+
+  "nexusdroidDescription" : "Basic metallic container designed for ammunition storage.",
+
+  "inventoryIcon" : "crptexp-gmammocanicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmammocan.png:<color>.<key>",
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/generalmunitions/crptexp-gmammocan_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/generalmunitions/crptexp-gmammocan_close.ogg" ],
+  "slotCount" : 1,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

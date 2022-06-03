@@ -1,0 +1,11 @@
+{
+  "itemName" : "crptexp-gmmetal",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "price" : 50,
+  "inventoryIcon" : "crptexp-gmmetal.png",
+
+  "description" : "This heavy industrial alloy can be used to build various blocks and furniture.",
+  "shortdescription" : "Heavy Metal Plate"
+}

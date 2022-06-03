@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmmuzzledye",
+  "price" : 25,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmmuzzledye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Muzzle Flash Dye",
+
+  "dyeDirectives" : { "ffca8a" : "fefffffe" , "e0975c" : "ffffb7fe" , "a85636" : "ffd085fe" , "6f2919" : "da5302fe",
+					  "ffca8afe" : "fefffffe" , "e0975cfe" : "ffffb7fe" , "a85636fe" : "ffd085fe" , "6f2919fe" : "da5302fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

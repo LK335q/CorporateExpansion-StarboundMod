@@ -1,0 +1,144 @@
+{
+  "projectileName" : "crptexp-gmfraggrenade",
+  "physics" : "grenade",
+  "bounces" : -1,
+  "timeToLive" : 5.0,
+  "image" : "crptexp-gmfraggrenade.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "damageType" : "NoDamage",
+
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/magnorb_impact1.ogg",
+		"/sfx/projectiles/magnorb_impact2.ogg",
+		"/sfx/projectiles/magnorb_impact3.ogg"
+      ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/generalmunitions/explosions/crptexp-gmexplosion/crptexp-gmexplosion.config"
+    },
+	{
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/bullet_ricochet6.ogg",
+        "/sfx/projectiles/bullet_ricochet7.ogg",
+        "/sfx/projectiles/bullet_ricochet12.ogg",
+        "/sfx/projectiles/bullet_ricochet13.ogg"
+      ]
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 340
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 320
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 300
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 280
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 260
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 240
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 140
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 220
+    }
+  ],
+  "power" : 60,
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+}

@@ -1,0 +1,11 @@
+[
+  
+  // GENERIC MELEE
+  
+  
+  {
+	"op" : "add",
+	"path" : "/crptexp-shivstab",
+	"value" : "/items/generic/active/weapons/melee/abilities/spear/crptexp-shivstab.weaponability"
+  }
+]

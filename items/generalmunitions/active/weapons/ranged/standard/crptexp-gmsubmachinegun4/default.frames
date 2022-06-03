@@ -1,0 +1,13 @@
+{
+  "frameGrid" : {
+    "size" : [32, 13],
+    "dimensions" : [2, 2],
+    "names" : [
+      ["default.1", null],
+      ["reload.1", "reload.2"]
+    ]
+  },
+
+  "aliases" : {
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmhull",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "crptexp-gmhull.png",
+
+  "shortdescription" : "Riveted Hull Panel",
+  "description" : "Heavy riveted sheets of metal, commonly used for hull plating on large structures.",
+
+  "glitchDescription" : "Confident. This hull looks strong enough to withstand substantial wear and tear.",
+  "floranDescription" : "Metal hull, feelss cold.",
+  "novakidDescription" : "Some pretty heavy lookin' industrial plating.",
+
+  "nexusdroidDescription" : "Robust metallic hull.",
+
+  "materialId" : 2063
+}

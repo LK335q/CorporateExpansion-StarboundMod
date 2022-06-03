@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmgolddye",
+  "price" : 25,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmgolddye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Gold Plating Dye",
+
+  "dyeDirectives" : { "ffca8a" : "ffefb9" , "e0975c" : "efb30a" , "a85636" : "8c4300" , "6f2919" : "3b1000",
+					  "ffca8afe" : "ffefb9fe" , "e0975cfe" : "efb30afe" , "a85636fe" : "8c4300fe" , "6f2919fe" : "3b1000fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

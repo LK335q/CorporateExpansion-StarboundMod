@@ -1,0 +1,20 @@
+{
+  "kind" : "crptexp-gmshotgunshell",
+  "definition" : {
+    "type" : "animated",
+    "animation" : "/animations/generalmunitions/bulletshell/crptexp-gmshotgunshell/crptexp-gmshotgunshell.animation",
+    "position" : [0, 0],
+    "initialVelocity" : [-8, 10],
+    "finalVelocity" : [0, -50],
+    "approach" : [8, 40],
+    "fade" : 1,
+    "size" : 1,
+    "layer" : "middle",
+	  "collidesForeground" : true,
+    "timeToLive" : 3,
+    "variance" : {
+      "initialVelocity" : [2.0, 2.0],
+	  "angularVelocity" : 180
+    }
+  }
+}

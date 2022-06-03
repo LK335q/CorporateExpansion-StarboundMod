@@ -1,0 +1,30 @@
+{
+  "itemName" : "crptexp-gmhandgrenade",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmhandgrenade.png",
+  "image" : "crptexp-gmhandgrenadeheld.png",
+  "shortdescription" : "M2 Hand Grenade",
+  "description" : "A simple hand grenade.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.2,
+
+  "projectileType" : "crptexp-gmhandgrenade",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 25,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

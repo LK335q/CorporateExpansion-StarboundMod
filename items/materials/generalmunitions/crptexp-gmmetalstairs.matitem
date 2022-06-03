@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmmetalstairs",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "crptexp-gmmetalstairs.png",
+
+  "shortdescription" : "Industrial Catwalk",
+  "description" : "Not exclusively used by cats, contrary to the name.",
+
+  "glitchDescription" : "Uninterested. A rather simple metal platform.",
+  "floranDescription" : "Floran pushess prey off platform, let gravity hunt for Floran!",
+  "novakidDescription" : "Thin metal platforms for whatever suits your fancy I guess.",
+
+  "nexusdroidDescription" : "Metal walkway for observational or technical use.",
+
+  "materialId" : 2067
+}

@@ -1,0 +1,50 @@
+{
+  "objectName" : "crptexp-gmbarrel",
+  "colonyTags" : [ "generalmunitions", "storage", "commerce" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "description" : "A worn wooden barrel. It smells faintly of gunpowder.",
+  "shortdescription" : "Powder Keg",
+
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 110,
+
+  "health" : 1.5,
+
+  "apexDescription" : "A wooden barrel. Anything inside?",
+  "avianDescription" : "A rounded wooden container held together with iron.",
+  "floranDescription" : "Floran can put thingsss insside and roll it around.",
+  "glitchDescription" : "Pleased. A barrel, good storage for cheap items.",
+  "humanDescription" : "A barrel. Good for storing food and materials.",
+  "hylotlDescription" : "A barrel for storing goods.",
+  "novakidDescription" : "A plain ol' barrel.",
+
+  "nexusdroidDescription" : "Storage container manufactured using deceased plant matter.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmbarrel.png:<color>",
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+	  "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

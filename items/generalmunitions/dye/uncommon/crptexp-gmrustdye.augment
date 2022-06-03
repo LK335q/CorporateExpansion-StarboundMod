@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmrustdye",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmrustdye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Rust Dye",
+
+  "dyeDirectives" : { "ffca8a" : "885d45" , "e0975c" : "5f4030" , "a85636" : "3b241d" , "6f2919" : "210f0d",
+					  "ffca8afe" : "885d45fe" , "e0975cfe" : "5f4030fe" , "a85636fe" : "3b241dfe" , "6f2919fe" : "210f0dfe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

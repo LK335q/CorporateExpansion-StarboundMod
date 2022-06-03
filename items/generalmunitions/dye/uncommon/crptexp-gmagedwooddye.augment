@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmagedwooddye",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmagedwooddye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Aged Wood Dye",
+
+  "dyeDirectives" : { "ffca8a" : "82654a" , "e0975c" : "694934" , "a85636" : "40251f" , "6f2919" : "241716",
+					  "ffca8afe" : "82654afe" , "e0975cfe" : "694934fe" , "a85636fe" : "40251ffe" , "6f2919fe" : "241716fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

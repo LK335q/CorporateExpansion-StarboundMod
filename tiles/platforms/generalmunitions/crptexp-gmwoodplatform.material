@@ -1,0 +1,30 @@
+{
+  "materialName" : "crptexp-gmwoodplatform",
+  "itemDrop" : "crptexp-gmwoodplatform",
+
+  "collisionKind" : "platform",
+
+  "shortdescription" : "Varnished Platform",
+  "description" : "Glossy wooden platforms.",
+
+  "glitchDescription" : "Fascinated. Such a pleasant glossy finish.",
+  "floranDescription" : "Sshiny plant bones.",
+  "novakidDescription" : "Why, I can see my own reflection in here!",
+
+  "nexusdroidDescription" : "Simple plant-based construction treated for aesthetic purposes.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightwood.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "crptexp-gmwoodplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  },
+
+  "materialId" : 2070
+}

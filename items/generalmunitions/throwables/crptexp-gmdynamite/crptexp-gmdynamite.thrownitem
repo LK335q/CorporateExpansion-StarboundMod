@@ -1,0 +1,30 @@
+{
+  "itemName" : "crptexp-gmdynamite",
+  "rarity" : "Common",
+  "price" : 5,
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmdynamite.png",
+  "image" : "crptexp-gmdynamiteheld.png",
+  "shortdescription" : "M2 Dynamite",
+  "description" : "A powerful explosive capable of clearing out chunks of terrain. Be sure to step back!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.6,
+
+  "projectileType" : "crptexp-gmdynamite",
+  "projectileConfig" : {
+    "speed" : 25,
+    "power" : 40,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item_small.ogg" ]
+      }
+    ]
+  }
+}

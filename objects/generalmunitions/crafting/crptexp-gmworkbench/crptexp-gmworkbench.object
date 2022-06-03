@@ -1,0 +1,56 @@
+{
+  "objectName" : "crptexp-gmworkbench",
+  "colonyTags" : [ "commerce", "crafting", "generalmunitions" ],
+  "rarity" : "Uncommon",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/craftingfurniture.config",
+    "filter" : [ "crptexp-gmworkbench" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Barracks Workbench",
+        "subtitle" : " ^#b9b5b2;Military-grade furniture and blocks",
+        "icon" : {
+          "file" : "/interface/crafting/craftingfurniture.png"
+        }
+      }
+    }
+  },
+
+  "price" : 40,
+  "printable" : false,
+
+  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
+
+  "inventoryIcon" : "icon.png",
+
+  "description" : "Can be used to produce materials and objects needed to build a military base.",
+  "shortdescription" : "^orange;Barracks Workbench^white;",
+
+  "apexDescription" : "A table that's fit for crafting furniture.",
+  "avianDescription" : "A chance to showcase one's crafting abilities.",
+  "floranDescription" : "Floran ussse table to make nice housse.",
+  "glitchDescription" : "Inspired. Crafting module activated.",
+  "humanDescription" : "I could make a well furnished home with this.",
+  "hylotlDescription" : "All you need to make a house into a home.",
+  "novakidDescription" : "I could make some mighty fine furniture with this table.",
+
+  "nexusdroidDescription" : "Basic crafting workbench specialized for furniture synthesis.",
+
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmworkbench.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

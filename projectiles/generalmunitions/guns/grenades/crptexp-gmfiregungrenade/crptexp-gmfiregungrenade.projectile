@@ -1,0 +1,118 @@
+{
+  "projectileName" : "crptexp-gmfiregungrenade",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "timeToLive" : 5.0,
+  "speed" : 50,
+  "image" : "crptexp-gmfiregungrenade.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/generalmunitions/explosions/crptexp-gmfireexplosion/crptexp-gmfireexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flame",
+      "fuzzAngle" : 12,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 35
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flame",
+      "fuzzAngle" : 12,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : -35
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flame",
+      "fuzzAngle" : 12,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 1
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flame",
+      "fuzzAngle" : 12,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : -18
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flame",
+      "fuzzAngle" : 12,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 18
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flame",
+      "fuzzAngle" : 12,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 55
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flame",
+      "fuzzAngle" : 12,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : -55
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flame",
+      "fuzzAngle" : 12,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : -1
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flame",
+      "fuzzAngle" : 12,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : -65
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flame",
+      "fuzzAngle" : 12,
+      "inheritDamageFactor" : 0.05,
+      "angleAdjust" : 65
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "streak",
+        "layer" : "back",
+        "fullbright" : false,
+        "destructionAction" : "shrink",
+        "size" : 2,
+        "color" : [220, 216, 203, 38],
+        "collidesForeground" : false,
+        "length" : 13,
+        "position" : [0.5, 0.0],
+        "timeToLive" : 0.1,
+        "destructionTime" : 0.1,
+        "initialVelocity" : [0.5, 0],
+        "variance" : {
+          "size" : 0,
+          "destructionTime" : 0.1,
+          "length" : 0
+        }
+      }
+    }
+  ],
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "power" : 60,
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+}

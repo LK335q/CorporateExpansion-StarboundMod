@@ -1,0 +1,85 @@
+{
+  "objectName" : "crptexp-gmconsole",
+  "colonyTags" : [ "generalmunitions", "electronic" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "description" : "A solid metal control console. It has lots of coloured lights that indicate... something.",
+  "shortdescription" : "Control Console",
+
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 70,
+  "lightColor" : [0, 0, 0],
+
+  "apexDescription" : "A control console.",
+  "avianDescription" : "A control console...",
+  "floranDescription" : "Floran does not know what buttons and lightss mean!",
+  "glitchDescription" : "Unamused. A rather basic control system.",
+  "humanDescription" : "An old fashioned console with blinking lights.",
+  "hylotlDescription" : "How does one keep track of the meaning of all these lights?",
+  "novakidDescription" : "If I press enough buttons it might do somethin'.",
+
+  "nexusdroidDescription" : "Basic control station.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "crptexp-gmconsole.png:<color>.on",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "crptexp-gmconsole.png:<color>.on",
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua",
+    "/scripts/npcToyObject.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "crptexp-gmconsole.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/console_button2.ogg" ],
+      "off" : [ "/sfx/objects/console_button2.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "bg" : "crptexp-gmconsole.png",
+    "fg" : "crptexp-gmconsolelit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "outputNodes" : [ [0, 0] ],
+
+  "npcToy" : {
+    "influence" : [
+      "console"
+    ],
+    "defaultReactions" : {},
+    "preciseStandPositionLeft" : [-0.5, 0.0],
+    "preciseStandPositionRight" : [2.0, 0.0],
+    "maxNpcs" : 1
+  }
+}

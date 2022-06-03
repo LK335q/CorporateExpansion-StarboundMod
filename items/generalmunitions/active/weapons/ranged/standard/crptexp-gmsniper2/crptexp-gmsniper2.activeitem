@@ -1,0 +1,198 @@
+{
+  "itemName" : "crptexp-gmsniper2",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Common",
+
+  "description" : "",
+  "shortdescription" : "CBR-14",
+
+  "tooltipKind" : "gun",
+  "category" : "sniperRifle",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "ranged", "sniperrifle", "generalmunitions" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "cursor" : "/cursors/generalmunitions/crptexp-gmsniperreticle.cursor",
+
+  "inventoryIcon" : "crptexp-gmsniper2.png:default.1",
+
+  "animation" : "crptexp-gmsniper2.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-gmsniper2.png",
+	"middleFullbright" : "",
+    "barrel" : "",
+    "muzzleFlash" : "/items/generalmunitions/active/weapons/ranged/muzzleflash/crptexp-gmmuzzleflash2.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "ammoType" : {
+          "default" : "1",
+          "states" : {
+            "1" : {
+              "frames" : 1
+            },
+            "2" : {
+              "frames" : 1
+            }
+          }
+        }
+      },
+      "parts" : {
+        "middleFullbright" : {
+          "properties" : {
+            "image" : null
+          },
+          "partStates" : {
+            "ammoType" : {
+              "1" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              },
+              "2" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/gun/generalmunitions/reload/crptexp-gmammoshotgun.ogg" ],
+	  "fire" : {
+       "pitchMultiplier" : 1.0,
+	   "volume" : 1.0,
+	   "pool" : ["/sfx/gun/generalmunitions/crptexp-gmsniper3.ogg"]
+	  }
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "pointLight" : true,
+        "color" : [75, 75, 40],
+	    	"position" : [3.2, 0.35]
+      }
+    }
+  },
+
+  "baseOffset" : [0.9, 0.1],
+  "muzzleOffset" : [2.2, 0.25],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.6,
+    "baseDps" : 11.5,
+    "energyUsage" : 31.5,
+    "inaccuracy" : 0.008,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-gmbullet",
+    "projectileParameters" : {
+      "damageKind" : "shotgunbullet",
+      "knockback" : 25
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+		"armAngularVelocity" : -30,
+		"weaponAngularVelocity" : -25,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+
+      },
+      "cooldown" : {
+        "duration" : 0.35,
+        "armRotation" : -20,
+	    	"weaponRotation" : 30,
+		    "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+		    "weaponAngularVelocity": -100,
+		    "armAngularVelocity": 100,
+
+		    "animationStates" : {
+          "body" : "reload"
+		    },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Load Ricochet Rounds",
+    "scripts" : ["/items/active/weapons/other/adaptablecrossbow/adaptableammo.lua"],
+    "class" : "AdaptableAmmo",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        // Standard
+        "projectileType" : "crptexp-gmbullet",
+        "baseDps" : 11.5,
+        "energyUsage" : 31.5
+      },
+      {
+        // Ricochet Rounds
+        "projectileType" : "crptexp-gmbulletbouncing",
+         "baseDps" : 11.5,
+         "energyUsage" : 31.5
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

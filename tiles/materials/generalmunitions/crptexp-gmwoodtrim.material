@@ -1,0 +1,31 @@
+{
+  "materialName" : "crptexp-gmwoodtrim",
+  "particleColor" : [125, 100, 70, 255],
+  "itemDrop" : "crptexp-gmwoodtrim",
+
+  "shortdescription" : "Varnished Trim",
+  "description" : "Glossy wooden trim.",
+
+  "glitchDescription" : "Fascinated. Such a pleasant glossy finish.",
+  "floranDescription" : "Sshiny plant bones.",
+  "novakidDescription" : "Why, I can see my own reflection in here!",
+
+  "nexusdroidDescription" : "Simple plant-based construction treated for aesthetic purposes.",
+
+  "footstepSound" : "/sfx/blocks/footstep_wood.ogg",
+  "health" : 2,
+  "category" : "materials",
+  "damageTable" : "/tiles/flammableDamage.config",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "crptexp-gmwoodtrim.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 1001
+  },
+
+  "materialId" : 2071
+}

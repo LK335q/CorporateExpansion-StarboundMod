@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmenergydye",
+  "price" : 25,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmenergydye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Ballistic Energy Dye",
+
+  "dyeDirectives" : { "ffca8a" : "fefffffe" , "e0975c" : "ff96aefe" , "a85636" : "ff5c4dfe" , "6f2919" : "bb2d6dfe",
+					  "ffca8afe" : "fefffffe" , "e0975cfe" : "ff96aefe" , "a85636fe" : "ff5c4dfe" , "6f2919fe" : "bb2d6dfe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

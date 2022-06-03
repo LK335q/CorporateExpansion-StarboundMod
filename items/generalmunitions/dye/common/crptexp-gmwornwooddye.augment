@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmwornwooddye",
+  "price" : 25,
+  "rarity" : "Common",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmwornwooddye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Worn Wood Dye",
+
+  "dyeDirectives" : { "ffca8a" : "947e5c" , "e0975c" : "7d6446" , "a85636" : "4d3729" , "6f2919" : "2b1e17",
+					  "ffca8afe" : "947e5cfe" , "e0975cfe" : "7d6446fe" , "a85636fe" : "4d3729fe" , "6f2919fe" : "2b1e17fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

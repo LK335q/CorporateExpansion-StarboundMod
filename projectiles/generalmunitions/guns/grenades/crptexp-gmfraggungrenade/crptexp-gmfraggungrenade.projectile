@@ -1,0 +1,162 @@
+{
+  "projectileName" : "crptexp-gmfraggungrenade",
+  "physics" : "grenade",
+  "bounces" : 0,
+  "timeToLive" : 5.0,
+  "speed" : 50,
+  "image" : "crptexp-gmfraggungrenade.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "supportsProcessing" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/generalmunitions/explosions/crptexp-gmexplosion/crptexp-gmexplosion.config"
+    },
+	{
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/bullet_ricochet6.ogg",
+        "/sfx/projectiles/bullet_ricochet7.ogg",
+        "/sfx/projectiles/bullet_ricochet12.ogg",
+        "/sfx/projectiles/bullet_ricochet13.ogg"
+      ]
+    },
+	  {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 20
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 340
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 40
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 320
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 60
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 300
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 280
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 260
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 240
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 140
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmgrenadeshrapnel",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.25,
+      "angleAdjust" : 220
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "streak",
+        "layer" : "back",
+        "fullbright" : false,
+        "destructionAction" : "shrink",
+        "size" : 2,
+        "color" : [220, 216, 203, 38],
+        "collidesForeground" : false,
+        "length" : 13,
+        "position" : [0.5, 0.0],
+        "timeToLive" : 0.1,
+        "destructionTime" : 0.1,
+        "initialVelocity" : [0.5, 0],
+        "variance" : {
+          "size" : 0,
+          "destructionTime" : 0.1,
+          "length" : 0
+        }
+      }
+    }
+  ],
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "power" : 60,
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+}

@@ -1,0 +1,53 @@
+{
+  "projectileName" : "crptexp-gmraygunashes",
+  "image" : "crptexp-gmraygunashes.png",
+  "frameNumber" : 1,
+  "timeToLive" : 10,
+  "physics" : "grenadenobounce",
+  "piercing" : true,
+  "damageKindImage" : "icon.png",
+  "bounces" : -1,
+  "statusEffects" : [ ],
+  "power" : 5.0,
+  "speed" : 0,
+  "knockback" : 0,
+  "onlyHitTerrain" : true,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "emitters" : [ "smoke" ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/smoke/smoke.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+  	  "time" : 0.1,
+        "repeat" : true,
+        "action" : "particle",
+        "rotate" : true,
+        "specification" : {
+        "type" : "ember",
+        "size" : 1.0,
+        "color" : [0, 191, 124, 255],
+  		  "light" : [0, 20, 10],
+        "initialVelocity" : [-3.0, 0.0],
+  		  "approach" : [-3.0, 0.5],
+  	  	"finalVelocity" : [0.0, 0.0],
+        "timeToLive" : 0.5,
+  	  	"destructionTime" : 0.4,
+        "destructionAction" : "shrink",
+        "layer" : "back",
+  		  "fullbright" : true,
+        "position" : [0.0, 0.0],
+  		  "variance" : {
+  		    "initialVelocity" : [1.0, 0.5],
+          "position" : [0.5, 1.0],
+  		    "size" : 0.5,
+  		    "timeToLive" : 0.1
+        }
+      }
+  	}
+  ]
+}

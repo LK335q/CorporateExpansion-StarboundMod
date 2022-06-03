@@ -1,0 +1,26 @@
+{
+  "projectileName" : "crptexp-gmnail",
+  "image" : "crptexp-gmnail.png",
+  "physics" : "arrow",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "shotgunbullet",
+  "timeToLive" : 5,
+  "pointLight" : false,
+  "flippable" : true,
+  "supportsProcessing" : true,
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [
+        "/sfx/gun/impact_arrow.ogg"
+      ]
+    }
+  ],
+  "statusEffects" : [ ],
+  
+  "power" : 5.0,
+  "speed" : 100,
+  "knockback" : 0,
+  "damagePoly" : [ [8, -0.2], [8.5, -0.2], [8.5, 0.2], [8, 0.2] ]
+}

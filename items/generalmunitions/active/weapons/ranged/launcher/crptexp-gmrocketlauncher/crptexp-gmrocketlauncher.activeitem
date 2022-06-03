@@ -1,0 +1,161 @@
+{
+  "itemName" : "crptexp-gmrocketlauncher",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+
+  "description" : "",
+  "shortdescription" : "PRL.F-88",
+
+  "tooltipKind" : "gun",
+  "category" : "rocketLauncher",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "ranged", "rocketlauncher", "generalmunitions" ],
+  "level" : 5,
+
+  "cursor" : "/cursors/generalmunitions/crptexp-gmgrenadelauncherreticle.cursor",
+
+  "inventoryIcon" : "crptexp-gmrocketlauncher.png:default.1",
+
+  "animation" : "crptexp-gmrocketlauncher.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-gmrocketlauncher.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+	    "fire" : ["/sfx/gun/rocket2.ogg"]
+	  }
+  },
+
+  "baseOffset" : [-0.6, 0.5],
+  "muzzleOffset" : [2.0, 0.2],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.4,
+    "baseDps" : 8,
+    "energyUsage" : 40,
+    "inaccuracy" : 0.0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-gmrocket",
+    "projectileParameters" : { },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true,
+
+        "frontArmFrame" : "rotation",
+	    	"backArmFrame": "run.2"
+      },
+      "fire" : {
+        "duration" : 0.6,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+        "animationStates" : {
+              "body" : "reload"
+    		  },
+
+        "allowRotate" : false,
+        "allowFlip" : false,
+
+        "frontArmFrame" : "rotation",
+	    	"backArmFrame": "run.2"
+      },
+      "cooldown" : {
+        "duration" : 0.8,
+        "armRotation" : -40,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
+        "weaponAngularVelocity" : 150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "altAbility" : {
+  "name" : "Napalm Rocket",
+   "scripts" : ["/items/active/weapons/ranged/abilities/altfire.lua"],
+   "class" : "AltFireAttack",
+
+   "baseDps" : 6,
+   "energyUsage" : 55,
+
+   "projectileType" : "crptexp-gmnapalmrocket",
+    "projectileParameters" : { },
+
+	"hidePrimaryMuzzleFlash" : false,
+	"usePrimaryFireSound" : true,
+
+  "stances" : {
+    "idle" : {
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "weaponOffset" : [0, 0],
+      "twoHanded" : true,
+
+      "allowRotate" : true,
+      "allowFlip" : true,
+
+      "frontArmFrame" : "rotation",
+      "backArmFrame": "run.2"
+    },
+    "fire" : {
+      "duration" : 0.6,
+      "armRotation" : 0,
+      "weaponRotation" : 0,
+      "weaponOffset" : [-0.2, 0],
+      "twoHanded" : true,
+
+      "animationStates" : {
+            "body" : "reload"
+        },
+
+      "allowRotate" : false,
+      "allowFlip" : false,
+
+      "frontArmFrame" : "rotation",
+      "backArmFrame": "run.2"
+    },
+    "cooldown" : {
+      "duration" : 0.8,
+      "armRotation" : -40,
+      "weaponRotation" : 0,
+      "weaponOffset" : [-0.2, 0],
+      "weaponAngularVelocity" : 150,
+      "armAngularVelocity" : 100,
+      "twoHanded" : true,
+
+      "allowRotate" : false,
+      "allowFlip" : true
+    }
+  }
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

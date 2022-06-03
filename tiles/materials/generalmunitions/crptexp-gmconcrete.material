@@ -1,0 +1,30 @@
+{
+  "materialName" : "crptexp-gmconcrete",
+  "particleColor" : [106, 101, 97, 255],
+  "itemDrop" : "crptexp-gmconcrete",
+
+  "shortdescription" : "Smooth Concrete",
+  "description" : "Cold, hard, concrete.",
+
+  "glitchdescription" : "Aqainted. Concrete is a commonly used construction material.",
+  "florandescription" : "Floran disslike cold concrete.",
+  "novakiddescription" : "Concrete makes a mighty sturdy block.",
+
+  "nexusdroidDescription" : "Basic hardened mixture used for construction.",
+
+  "footstepSound" : "/sfx/blocks/footstep_stone.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/pipetemplate.config",
+  "renderParameters" : {
+    "texture" : "crptexp-gmconcrete.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 1500
+  },
+
+  "materialId" : 2061
+}

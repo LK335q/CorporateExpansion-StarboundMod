@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmrecycleddye",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmrecycleddye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Recycled Metal Dye",
+
+  "dyeDirectives" : { "ffca8a" : "a09ba8" , "e0975c" : "686370" , "a85636" : "39333b" , "6f2919" : "231e1f",
+					  "ffca8afe" : "a09ba8fe" , "e0975cfe" : "686370fe" , "a85636fe" : "39333bfe" , "6f2919fe" : "231e1ffe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

@@ -1,0 +1,105 @@
+{
+  "type" : "crptexp-gmsoldier",
+  "baseType" : "villageguard",
+
+  "levelVariance" : [0, 0],
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+    "dialog" : {
+      "hail" : "/dialog/crptexp-gmguard.config:hail"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmsoldierhead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "primary" : [
+              "crptexp-gmassaultrifle",
+              "crptexp-gmassaultrifle2",
+              "crptexp-gmassaultrifle3",
+              "crptexp-gmassaultrifle4",
+              "crptexp-gmassaultrifle5",
+              "crptexp-gmassaultrifle6",
+              "crptexp-gmshotgun",
+              "crptexp-gmshotgun3",
+              "crptexp-gmshotgunauto",
+              "crptexp-gmsniper",
+              "crptexp-gmsniper3",
+              "crptexp-gmlightmachinegun",
+              "crptexp-gmlightmachinegun2",
+              "crptexp-gmlightmachinegun3",
+              "crptexp-gmlightmachinegun4",
+              "crptexp-gmenergyassaultrifle",
+              "crptexp-gmenergyshotgun",
+              "crptexp-gmenergysniper",
+              "crptexp-gmenergylightmachinegun"
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmdagger",
+              "crptexp-gmdagger",
+              "crptexp-gmtrenchshovel",
+              "crptexp-gmtrenchshovel",
+              "crptexp-gmmachete",
+              "crptexp-gmmachete",
+              "crptexp-gmaxe",
+              "crptexp-gmmace",
+              "crptexp-gmshortsword",
+              "crptexp-gmshortsword2"
+            ]
+          },
+          {
+            "head" : [
+              { "name" : "crptexp-gmsoldierhead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "primary" : [
+              "crptexp-gmbroadsword",
+              "crptexp-gmbroadsword2",
+              "crptexp-gmspear"
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmpistol",
+              "crptexp-gmpistol2",
+              "crptexp-gmmachinepistol",
+              "crptexp-gmmachinepistol2",
+              "crptexp-gmmachinepistol3",
+              "crptexp-gmmachinepistol4",
+              "crptexp-gmsubmachinegun",
+              "crptexp-gmsubmachinegun2",
+              "crptexp-gmsubmachinegun3",
+              "crptexp-gmsubmachinegun4",
+              "crptexp-gmhandcannon",
+              "crptexp-gmhandcannon3",
+              "crptexp-gmhandcannon4",
+              "crptexp-gmenergymachinepistol",
+              "crptexp-gmenergysubmachinegun",
+              "crptexp-gmenergyhandcannon"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "projectileName" : "crptexp-gmdynamitebundle",
+  "physics" : "grenadenobounce",
+  "bounces" : -1,
+  "timeToLive" : 3,
+  "image" : "crptexp-gmdynamitebundle.png",
+  "animationCycle" : 3.0,
+  "lightColor" : [105, 64, 0],
+  "emitters" : [ "crptexp-gmdynamitesparks" ],
+  "frameNumber" : 16,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/generalmunitions/explosions/crptexp-gmdynamiteexplosion/crptexp-gmdynamiteexplosion.config"
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmexplosiondebris",
+      "fuzzAngle" : 40,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmexplosiondebris",
+      "fuzzAngle" : 40,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 72
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmexplosiondebris",
+      "fuzzAngle" : 40,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 144
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmexplosiondebris",
+      "fuzzAngle" : 40,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 216
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmexplosiondebris",
+      "fuzzAngle" : 40,
+      "inheritDamageFactor" : 0.2,
+      "angleAdjust" : 288
+    },
+
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmdynamitenobounce",
+      "fuzzAngle" : 90,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 0
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmdynamitenobounce",
+      "fuzzAngle" : 90,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 120
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmdynamitenobounce",
+      "fuzzAngle" : 90,
+      "inheritDamageFactor" : 0.3,
+      "angleAdjust" : 240
+    }
+  ],
+  "power" : 0,
+  "piercing" : true,
+  "damageKind" : "default",
+  "damageType" : "NoDamage",
+
+  "statusEffects" : [ ],
+
+  "persistentAudio" : "/sfx/projectiles/burning_loop.ogg"
+}

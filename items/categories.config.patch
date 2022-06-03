@@ -1,0 +1,59 @@
+[
+ // WEAPONS
+
+ // RANGED
+ {
+   "op" : "add",
+ "path" : "/labels/antimaterielRifle",
+ "value" : "Anti-Materiel Rifle"
+ },
+ {
+   "op" : "add",
+ "path" : "/labels/submachineGun",
+ "value" : "Submachine Gun"
+ },
+  {
+    "op" : "add",
+	"path" : "/labels/handCannon",
+	"value" : "Hand Cannon"
+  },
+  {
+    "op" : "add",
+	"path" : "/labels/lightMachineGun",
+	"value" : "Light Machine Gun"
+  },
+  {
+    "op" : "add",
+	"path" : "/labels/heavyMachineGun",
+	"value" : "Heavy Machine Gun"
+  },
+  {
+    "op" : "add",
+	"path" : "/labels/flamethrower",
+	"value" : "Flamethrower"
+  },
+
+  // MELEE
+  {
+    "op" : "add",
+	"path" : "/labels/shiv",
+	"value" : "Shiv"
+  },
+
+  // TOOLS
+  {
+    "op" : "add",
+	"path" : "/labels/lightingTool",
+	"value" : "Lighting Tool"
+  },
+  {
+    "op" : "add",
+	"path" : "/labels/traversalTool",
+	"value" : "Traversal Tool"
+  },
+  {
+  "op" : "add",
+  "path" : "/labels/miningTool",
+  "value" : "Mining Tool"
+  }
+]

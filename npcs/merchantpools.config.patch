@@ -1,0 +1,175 @@
+[
+
+  // ==============================================================================================
+  //                                     MERCHANT POOLS
+  // ==============================================================================================
+
+  // ================================
+  //       GMC Arms Dealer
+  // ================================
+
+  { "op" : "add", "path" : "/crptexp-gmarmsdealer_t0",
+    "value" : [
+      [0, [
+        // RANGED WEAPONS
+        { "item" : { "name" : "crptexp-gmassaultrifle" }, "rarity" : 0.05 },
+    	  { "item" : { "name" : "crptexp-gmassaultrifle2" }, "rarity" : 0.05 },
+    	  { "item" : { "name" : "crptexp-gmassaultrifle4" }, "rarity" : 0.05 },
+    	  { "item" : { "name" : "crptexp-gmpistol" }, "rarity" : 0.05 },
+        { "item" : { "name" : "crptexp-gmpistol2" }, "rarity" : 0.05 },
+        { "item" : { "name" : "crptexp-gmpistol3" }, "rarity" : 0.05 },
+    	  { "item" : { "name" : "crptexp-gmshotgun" }, "rarity" : 0.05 },
+    	  { "item" : { "name" : "crptexp-gmshotgun2" }, "rarity" : 0.05 },
+        { "item" : { "name" : "crptexp-gmshotgun3" }, "rarity" : 0.05 },
+    	  { "item" : { "name" : "crptexp-gmsniper" }, "rarity" : 0.05 },
+        { "item" : { "name" : "crptexp-gmsniper2" }, "rarity" : 0.05 },
+        { "item" : { "name" : "crptexp-gmsniper3" }, "rarity" : 0.05 },
+        { "item" : { "name" : "crptexp-gmgrenadelauncher" }, "rarity" : 0.05 },
+        // MELEE WEAPONS
+        { "item" : { "name" : "crptexp-gmdagger" }, "rarity" : 0.05 },
+    	  { "item" : { "name" : "crptexp-gmmachete" }, "rarity" : 0.05 },
+        { "item" : { "name" : "crptexp-gmshiv" }, "rarity" : 0.05 },
+        { "item" : { "name" : "crptexp-gmtrenchshovel" }, "rarity" : 0.02 },
+        // THROWABLE ITEMS
+        { "item" : { "name" : "crptexp-gmdynamite" }, "rarity" : 0.2 },
+        { "item" : { "name" : "crptexp-gmflare" }, "rarity" : 0.3 },
+        // { "item" : { "name" : "crptexp-gmcaltrops" }, "rarity" : 0.2 },
+        // CRAFTING MATERIALS
+        { "item" : { "name" : "crptexp-gmbulletshell" }, "rarity" : 1.0 }
+      ]]
+    ]
+  },
+
+  { "op" : "add", "path" : "/crptexp-gmarmsdealer_t3",
+    "value" : [ [ 2.9, [
+
+      // ARMOR
+      { "item" : { "name" : "crptexp-gmsoldierhead" }, "rarity" : 0.2 },
+      { "item" : { "name" : "crptexp-gmsoldieralthead" }, "rarity" : 0.01 },
+      // RANGED WEAPONS
+      { "item" : { "name" : "crptexp-gmlightmachinegun" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmlightmachinegun2" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmassaultrifle3" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmassaultrifle5" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmassaultrifle6" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmgrenadelauncher2" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmmachinepistol" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmmachinepistol2" }, "rarity" : 0.05 },
+      // MELEE WEAPONS
+      { "item" : { "name" : "crptexp-gmbroadsword" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmshortsword" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmspear" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmaxe" }, "rarity" : 0.05 }
+      // THROWABLE ITEMS
+      // { "item" : { "name" : "crptexp-gmhandgrenade" }, "rarity" : 0.3 },
+      // { "item" : { "name" : "crptexp-gmstickgrenade" }, "rarity" : 0.2 },
+      // { "item" : { "name" : "crptexp-gmfraggrenade" }, "rarity" : 0.2 },
+      // { "item" : { "name" : "crptexp-gmmine" }, "rarity" : 0.3 }
+      ]]
+    ]
+  },
+
+  { "op" : "add", "path" : "/crptexp-gmarmsdealer_t4",
+    "value" : [ [ 3.9, [
+
+      // RANGED WEAPONS
+      { "item" : { "name" : "crptexp-gmrocketlauncher" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmgrenadelauncher3" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmheavymachinegun" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmheavymachinegun2" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmheavymachinegun3" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmsubmachinegun" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmsubmachinegun2" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmsubmachinegun3" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmsubmachinegun4" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmlightmachinegun3" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmlightmachinegun4" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmhandcannon" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmhandcannon2" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmhandcannon3" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmhandcannon4" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmshotgunauto" }, "rarity" : 0.05 },
+      // MELEE WEAPONS
+      { "item" : { "name" : "crptexp-gmbroadsword2" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmshortsword2" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmmace" }, "rarity" : 0.05 },
+      // TOOLS
+      { "item" : { "name" : "crptexp-gmflaregun" }, "rarity" : 0.01 },
+      { "item" : { "name" : "crptexp-gmgrapplinghook" }, "rarity" : 0.01 },
+      // THROWABLE ITEMS
+      // { "item" : { "name" : "crptexp-gmfiregrenade" }, "rarity" : 0.2 },
+      // { "item" : { "name" : "crptexp-gmgasgrenade" }, "rarity" : 0.2 },
+      // { "item" : { "name" : "crptexp-gmjumpmine" }, "rarity" : 0.2 },
+      { "item" : { "name" : "crptexp-gmdynamitebundle" }, "rarity" : 0.01 }
+      ]]
+    ]
+  },
+
+  { "op" : "add", "path" : "/crptexp-gmarmsdealer_t5",
+    "value" : [ [ 4.9, [
+
+      // RANGED WEAPONS
+      { "item" : { "name" : "crptexp-gmenergyassaultrifle" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmenergylightmachinegun" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmenergyshotgun" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmenergysniper" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmenergysubmachinegun" }, "rarity" : 0.05 }
+      // THROWABLE ITEMS
+      // { "item" : { "name" : "crptexp-gmenergygrenade" }, "rarity" : 0.2 }
+      ]]
+    ]
+  },
+
+  // { "op" : "add", "path" : "/crptexp-gmarmsdealer_t6",
+    // "value" : [ [ 5.9, [
+
+      // RANGED WEAPONS
+      // { "item" : { "name" : "crptexp-gmraypistol" }, "rarity" : 0.05 },
+      // { "item" : { "name" : "crptexp-gmrayrifle" }, "rarity" : 0.05 },
+      // { "item" : { "name" : "crptexp-gmraysniper" }, "rarity" : 0.05 },
+      // { "item" : { "name" : "crptexp-gmrayshotgun" }, "rarity" : 0.05 }
+      // ]]
+    // ]
+  // },
+
+  // ================================
+  //         GMC Supplier
+  // ================================
+
+  { "op" : "add", "path" : "/crptexp-gmsupplier",
+    "value" : [
+      [0, [
+        // CRAFTING MATERIALS
+        { "item" : { "name" : "crptexp-gmmetal" }, "rarity" : 1.0 },
+        { "item" : { "name" : "crptexp-gmvarnish" }, "rarity" : 1.0 },
+        // DYES
+        { "item" : { "name" : "crptexp-gmgreendye" }, "rarity" : 1.0 },
+    	  { "item" : { "name" : "crptexp-gmreddye" }, "rarity" : 1.0 },
+        { "item" : { "name" : "crptexp-gmgunmetaldye" }, "rarity" : 0.2 },
+        { "item" : { "name" : "crptexp-gmbrassdye" }, "rarity" : 0.2 },
+        // { "item" : { "name" : "crptexp-gmpurpledye" }, "rarity" : 0.2 },
+        // { "item" : { "name" : "crptexp-gmrustymetaldye" }, "rarity" : 0.2 },
+        // { "item" : { "name" : "crptexp-gmsteeldye" }, "rarity" : 0.2 },
+        // { "item" : { "name" : "crptexp-gmwooddye" }, "rarity" : 0.2 },
+        // { "item" : { "name" : "crptexp-gmwornwooddye" }, "rarity" : 0.2 },
+        // { "item" : { "name" : "crptexp-gmbluedye" }, "rarity" : 0.2 },
+        // { "item" : { "name" : "crptexp-gmagedgunmetaldye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmagedwooddye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmbleachedwooddye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmblueddye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmdustydye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmmahoganydye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmmapledye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmmesquitedye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmpinewooddye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmrecycleddye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmrustdye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmsootydye" }, "rarity" : 0.05 },
+        // { "item" : { "name" : "crptexp-gmstampeddye" }, "rarity" : 0.05 },
+        // RANGED WEAPONS
+        { "item" : { "name" : "crptexp-gmnailgun" }, "rarity" : 0.02 }
+      ]]
+    ]
+  }
+
+]

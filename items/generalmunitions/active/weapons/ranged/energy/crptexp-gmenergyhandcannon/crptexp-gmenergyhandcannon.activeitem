@@ -1,0 +1,105 @@
+{
+  "itemName" : "crptexp-gmenergyhandcannon",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "description" : "",
+  "shortdescription" : "DE.SCG-44",
+
+  "tooltipKind" : "gun",
+  "category" : "handCannon",
+  "twoHanded" : false,
+  "itemTags" : [ "weapon", "ranged", "handcannon", "generalmunitions" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "cursor" : "/cursors/reticle0.cursor",
+
+  "inventoryIcon" : "crptexp-gmenergyhandcannon.png:default.1",
+
+  "animation" : "crptexp-gmenergyhandcannon.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-gmenergyhandcannon.png",
+	  "middleFullbright" : "crptexp-gmenergyhandcannonfullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/generalmunitions/active/weapons/ranged/muzzleflash/crptexp-gmenergymuzzleflash2.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : {
+       "pitchMultiplier" : 1.15,
+	     "volume" : 0.85,
+	     "pool" : ["/sfx/gun/omnicannon_shot1.ogg"]
+	    }
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "pointLight" : true,
+        "color" : [100, 25, 60],
+		    "position" : [2.35, 0.45]
+      }
+    }
+  },
+
+  "baseOffset" : [0.65, 0.25],
+  "muzzleOffset" : [1.35, 0.45],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.6,
+    "baseDps" : 5.5,
+    "energyUsage" : 18,
+    "inaccuracy" : 0.008,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-gmenergybullet",
+    "projectileParameters" : { },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+
+      },
+      "cooldown" : {
+        "duration" : 0.3,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : false,
+
+		    "animationStates" : {
+          "body" : "reload"
+		    },
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

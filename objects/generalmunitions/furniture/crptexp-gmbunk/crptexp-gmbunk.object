@@ -1,0 +1,64 @@
+{
+  "objectName" : "crptexp-gmbunk",
+  "colonyTags" : ["generalmunitions"],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "description" : "A basic stackable bunk bed.",
+  "shortdescription" : "Barracks Bunk",
+
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 140,
+
+  "apexDescription" : "A basic barracks bed.",
+  "avianDescription" : "This bed looks rather basic.",
+  "floranDescription" : "Floran likes to ssleep!",
+  "glitchDescription" : "Pleased. A comfortable place for a nap.",
+  "humanDescription" : "A good standard bed.",
+  "hylotlDescription" : "A crude bed.",
+  "novakidDescription" : "Good a place as any to take a nap.",
+
+  "nexusdroidDescription" : "Designated resting station.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-10, 13],
+
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generalmunitions/furniture/crptexp-gmbunk/crptexp-gmbunkcover.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed1"
+  ],
+  "sitEffectEmitters" : [ "sleepbubbles" ],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "crptexp-gmbunk.png:<color>",
+      "flipImages" : true,
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "left",
+      "collision" : "platform"
+    },
+    {
+      "image" : "crptexp-gmbunk.png:<color>",
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "collision" : "platform"
+    }
+
+  ]
+}

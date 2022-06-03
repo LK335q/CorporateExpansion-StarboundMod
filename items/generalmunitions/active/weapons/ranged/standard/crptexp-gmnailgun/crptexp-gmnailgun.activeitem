@@ -1,0 +1,90 @@
+{
+  "itemName" : "crptexp-gmnailgun",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Common",
+
+  "description" : "Normally used for construction of battlements, the GMC nailgun also works as a decent weapon.",
+  "shortdescription" : "GMC Nailgun",
+
+  "tooltipKind" : "gun",
+  "category" : "machinePistol",
+  "tooltipFields" : { "subtitle" : "Nail Gun" },
+  "twoHanded" : false,
+  "itemTags" : [ "weapon", "ranged", "machinepistol", "nailgun", "generalmunitions" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "cursor" : "/cursors/reticle3.cursor",
+
+  "inventoryIcon" : "crptexp-gmnailgun.png",
+
+  "animation" : "crptexp-gmnailgun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-gmnailgun.png",
+	"middleFullbright" : "",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : ["/sfx/gun/generalmunitions/crptexp-gmnailgun1.ogg"]
+    }
+  },
+
+  "baseOffset" : [0.35, 0.1],
+  "muzzleOffset" : [0.7, 0.45],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.052,
+    "baseDps" : 4,
+    "energyUsage" : 12.0,
+    "inaccuracy" : 0.04,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-gmnail",
+    "projectileParameters" : { },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : false,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 1.5,
+        "weaponRotation" : 1.5,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+
+      },
+      "cooldown" : {
+        "duration" : 0.03,
+        "armRotation" : 1.5,
+        "weaponRotation" : 1.5,
+        "twoHanded" : false,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

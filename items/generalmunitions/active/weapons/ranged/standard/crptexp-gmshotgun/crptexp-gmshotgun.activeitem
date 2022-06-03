@@ -1,0 +1,214 @@
+{
+  "itemName" : "crptexp-gmshotgun",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+
+  "description" : "",
+  "shortdescription" : "TGS-63",
+
+  "tooltipKind" : "gun",
+  "category" : "shotgun",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "ranged", "shotgun", "generalmunitions" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "cursor" : "/cursors/generalmunitions/crptexp-gmshotgunreticle.cursor",
+
+  "inventoryIcon" : "crptexp-gmshotgun.png:default.1",
+
+  "animation" : "crptexp-gmshotgun.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-gmshotgun.png",
+	"middleFullbright" : "",
+    "barrel" : "",
+    "muzzleFlash" : "/items/generalmunitions/active/weapons/ranged/muzzleflash/crptexp-gmmuzzleflash2.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "ammoType" : {
+          "default" : "1",
+          "states" : {
+            "1" : {
+              "frames" : 1
+            },
+            "2" : {
+              "frames" : 1
+            }
+          }
+        }
+      },
+      "parts" : {
+        "middleFullbright" : {
+          "properties" : {
+            "image" : null
+          },
+          "partStates" : {
+            "ammoType" : {
+              "1" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              },
+              "2" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/gun/generalmunitions/reload/crptexp-gmammoshotgun.ogg" ],
+	  "fire" : {
+       "pitchMultiplier" : 1.0,
+	   "volume" : 1.0,
+	   "pool" : ["/sfx/gun/generalmunitions/crptexp-gmshotgun1.ogg"]
+	  }
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "pointLight" : true,
+        "color" : [75, 75, 40],
+	    	"position" : [3.2, 0.35]
+      }
+    }
+  },
+
+  "baseOffset" : [0.9, 0.1],
+  "muzzleOffset" : [2.2, 0.35],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.65,
+    "baseDps" : 10,
+    "energyUsage" : 35,
+    "inaccuracy" : 0.13,
+
+    "projectileCount" : 6,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-gmbullet",
+    "projectileParameters" : {
+      "damageKind" : "shotgunbullet",
+      "knockback" : 25
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.2,
+        "armRotation" : 8,
+        "weaponRotation" : 8,
+        "twoHanded" : true,
+
+		"armAngularVelocity" : -30,
+		"weaponAngularVelocity" : -25,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+
+      },
+      "cooldown" : {
+        "duration" : 0.4,
+        "armRotation" : -20,
+	    	"weaponRotation" : 30,
+		    "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+		    "weaponAngularVelocity": -100,
+		    "armAngularVelocity": 100,
+
+		    "animationStates" : {
+          "body" : "reload"
+		    },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Load Dragon's Breath",
+    "scripts" : ["/items/active/weapons/other/adaptablecrossbow/adaptableammo.lua"],
+    "class" : "AdaptableAmmo",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        // Standard
+        "projectileType" : "crptexp-gmbullet",
+        "projectileParameters" : {
+          "damageKind" : "shotgunbullet",
+          "knockback" : 25
+        },
+        "fireTime" : 0.6,
+        "baseDps" : 10,
+        "energyUsage" : 35,
+        "inaccuracy" : 0.13,
+
+        "projectileCount" : 6
+      },
+      {
+        // Dragon's Breath
+        "projectileType" : "crptexp-gmbulletfire",
+        "projectileParameters" : {
+          "damageKind" : "fireplasmabullet",
+     	    "knockback" : 25
+         },
+         "fireTime" : 0.6,
+         "baseDps" : 8,
+         "energyUsage" : 35,
+         "inaccuracy" : 0.13,
+
+         "projectileCount" : 6
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

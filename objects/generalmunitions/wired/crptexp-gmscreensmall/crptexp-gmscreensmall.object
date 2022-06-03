@@ -1,0 +1,68 @@
+{
+  "objectName" : "crptexp-gmscreensmall",
+  "colonyTags" : [ "generalmunitions", "electronic" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "description" : "A monochrome green monitor displaying information.",
+  "shortdescription" : "Small Wall Screen",
+
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 70,
+  "lightColor" : [0, 50, 0],
+
+  "apexDescription" : "A display screen.",
+  "avianDescription" : "What does this informantion mean?",
+  "floranDescription" : "Floran likess screen glow.",
+  "glitchDescription" : "Captivated. The green glow of this monitor is mesmerizing.",
+  "humanDescription" : "A green monochrome monitor.",
+  "hylotlDescription" : "A rather basic computer monitor.",
+  "novakidDescription" : "A computer monitor of some sort.",
+
+  "nexusdroidDescription" : "Basic visual display.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "crptexp-gmscreensmall.png:<color>.on",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "crptexp-gmscreensmall.png:<color>.on",
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "animation" : "crptexp-gmscreensmall.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/generalmunitions/crptexp-gmscreenon.ogg" ],
+      "off" : [ "/sfx/objects/generalmunitions/crptexp-gmscreenoff.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "bg" : "crptexp-gmscreensmall.png",
+    "fg" : "crptexp-gmscreensmalllit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

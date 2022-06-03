@@ -1,0 +1,36 @@
+{
+  "objectName" : "crptexp-gmradiotowertop",
+  "colonyTags" : ["generalmunitions"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 20,
+
+  "description" : "A radio tower for picking up inter-planetary communications.",
+  "shortdescription" : "Radio Tower Top",
+  "race" : "generic",
+
+  "apexDescription" : "A simple radio tower, capable of transmitting interstellar signals.",
+  "avianDescription" : "A communications tower of some type.",
+  "floranDescription" : "Towerss good for climbing.",
+  "glitchDescription" : "Dazed. This radio tower's signals are interfering with my systems.",
+  "humanDescription" : "A tall radio tower.",
+  "hylotlDescription" : "An imposing communications tower.",
+  "novakidDescription" : "A radio time of some kind.",
+
+  "nexusdroidDescription" : "Archaic method of interstellar communication.",
+
+  "inventoryIcon" : "crptexp-gmradiotowertopicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmradiotowertop.png:<color>",
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 0.4,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

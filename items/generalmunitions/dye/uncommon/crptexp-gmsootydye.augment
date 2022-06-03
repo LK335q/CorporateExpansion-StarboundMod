@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmsootydye",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmsootydye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Sooty Metal Dye",
+
+  "dyeDirectives" : { "ffca8a" : "63635b" , "e0975c" : "393939" , "a85636" : "202022" , "6f2919" : "121214",
+					  "ffca8afe" : "63635bfe" , "e0975cfe" : "393939fe" , "a85636fe" : "202022fe" , "6f2919fe" : "121214fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

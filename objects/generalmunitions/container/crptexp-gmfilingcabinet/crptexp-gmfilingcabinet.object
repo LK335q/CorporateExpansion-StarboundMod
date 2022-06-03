@@ -1,0 +1,47 @@
+{
+  "objectName" : "crptexp-gmfilingcabinet",
+  "colonyTags" : [ "storage", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "description" : "A basic filing cabinet.",
+  "shortdescription" : "Barracks Filing Cabinet",
+
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 60,
+
+  "apexDescription" : "Ugh, paperwork.",
+  "avianDescription" : "An office cabinet.",
+  "floranDescription" : "Cabinet can hold many thingss.",
+  "glitchDescription" : "Bored. Paperwork.",
+  "humanDescription" : "An essential component to an office cubicle.",
+  "hylotlDescription" : "Cabinets for storing files and records.",
+  "novakidDescription" : "Fit for storin' a bunch of boring paperwork.",
+
+  "nexusdroidDescription" : "Storage unit designed for archiving physical documents.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmfilingcabinet.png:<color>.<key>",
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bunkercabinet_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bunkercabinet_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

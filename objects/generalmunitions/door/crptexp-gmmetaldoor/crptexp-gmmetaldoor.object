@@ -1,0 +1,62 @@
+{
+  "objectName" : "crptexp-gmmetaldoor",
+  "colonyTags" : [ "door", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "category" : "door",
+  "price" : 60,
+  "description" : "A basic metal door.",
+  "shortdescription" : "Barracks Door",
+  "race" : "generic",
+
+  "apexDescription" : "This door is relatively secure.",
+  "avianDescription" : "Fairly sturdy for a basic door.",
+  "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
+  "glitchDescription" : "Approving. A useful, basic door.",
+  "humanDescription" : "A sturdy metal door.",
+  "hylotlDescription" : "Just a simple door, does the job I guess.",
+  "novakidDescription" : "Just a door, does the job I guess.",
+
+  "nexusdroidDescription" : "Solid metal door.",
+
+  "inventoryIcon" : "icon.png",
+
+  "tooltipKind" : "door",
+  "largeImage" : "crptexp-gmmetaldoor.png:right",
+
+  "orientations" : [
+    {
+      "image" : "crptexp-gmmetaldoor.png:default",
+      "imagePosition" : [-16, 0],
+      "renderLayer" : "Object+5",
+
+      "spaces" : [ [0,0], [0,1], [0,2], [0,3], [0,4] ],
+      "anchors" : [ "bottom", "top" ]
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/wooddoor3_open.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/wooddoor3_close.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "crptexp-gmmetaldoor.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "crptexp-admincoin", "count" : 1 }
+  ],
+  "output" : { "item" : "crptexp-gmarmsstorefront", "count" : 1 },
+  "groups" : [ "crptexp-gmworkbench", "decoration", "all" ]
+}

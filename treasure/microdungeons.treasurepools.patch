@@ -1,0 +1,148 @@
+[
+
+  // ==============================================================================================
+  //                                       MICRO DUNGEONS
+  // ==============================================================================================
+
+
+  // ================================
+  //           GMC Pools
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmbasictreasure",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.30, "pool" : "money"},
+        {"weight" : 0.70, "pool" : "basicTreasure"},
+        {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"}
+      ],
+      "poolRounds" : [
+        [0.25, 0],
+        [0.50, 1],
+        [0.25, 2]
+      ],
+      "allowDuplication" : false
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmarmstreasure",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.30, "pool" : "money"},
+        {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"},
+        {"weight" : 0.30, "pool" : "crptexp-gmweaponsloot_t0"}
+      ],
+      "poolRounds" : [
+        [0.25, 0],
+        [0.50, 1],
+        [0.25, 2]
+      ],
+      "allowDuplication" : false
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmclothingtreasure",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.30, "pool" : "money"},
+        {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"},
+        {"weight" : 0.30, "pool" : "crptexp-gmarmorloot"}
+      ],
+      "poolRounds" : [
+        [0.25, 0],
+        [0.50, 1],
+        [0.25, 2]
+      ],
+      "allowDuplication" : false
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmloretreasure",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.30, "pool" : "money"},
+        {"weight" : 0.70, "pool" : "basicTreasure"},
+        {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"}
+      ],
+      "poolRounds" : [
+        [0.25, 0],
+        [0.50, 1],
+        [0.25, 2]
+      ],
+      "allowDuplication" : false
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmarmorloot",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "crptexp-gminfantrychest"},
+        {"weight" : 0.5, "item" : "crptexp-gminfantrylegs"}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : false
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmjunkloot",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.1, "item" : [ "crptexp-gmbulletshell", 5]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmbulletshell", 3]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmbulletshell", 1]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmmetal", 3]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmmetal", 2]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmmetal", 1]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmvarnish", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : false
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmweaponsloot_t0",
+    "value": [[0, {
+      "pool" : [
+        // RANGED WEAPONS
+        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle" },
+        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle2" },
+        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle4" },
+        {"weight" : 0.1, "item" : "crptexp-gmpistol" },
+        {"weight" : 0.1, "item" : "crptexp-gmpistol2" },
+        {"weight" : 0.5, "item" : "crptexp-gmpistol3" },
+        {"weight" : 0.1, "item" : "crptexp-gmshotgun" },
+        {"weight" : 0.5, "item" : "crptexp-gmshotgun2" },
+        {"weight" : 0.1, "item" : "crptexp-gmshotgun3" },
+        {"weight" : 0.1, "item" : "crptexp-gmsniper" },
+        {"weight" : 0.5, "item" : "crptexp-gmsniper2" },
+        {"weight" : 0.1, "item" : "crptexp-gmsniper3" },
+        {"weight" : 0.5, "item" : "crptexp-gmgrenadelauncher" },
+        // MELEE WEAPONS
+        {"weight" : 0.5, "item" : "crptexp-gmdagger" },
+        {"weight" : 0.5, "item" : "crptexp-gmmachete" },
+        {"weight" : 0.5, "item" : "crptexp-gmshiv" },
+        {"weight" : 0.5, "item" : "crptexp-gmtrenchshovel" }
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : false
+    }]]
+  }
+
+]

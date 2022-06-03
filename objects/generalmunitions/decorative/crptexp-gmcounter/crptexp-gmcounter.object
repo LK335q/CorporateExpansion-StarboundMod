@@ -1,0 +1,39 @@
+{
+  "objectName" : "crptexp-gmcounter",
+  "colonyTags" : [ "generalmunitions", "cooking" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "description" : "A solid metal countertop.",
+  "shortdescription" : "Industrial Counter",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "This simple countertop serves its purpose.",
+  "avianDescription" : "A solid countertop.",
+  "floranDescription" : "Table good enough for Floran to ssslice meatsss.",
+  "glitchDescription" : "Approving. A simple yet servicable place to make a meal.",
+  "humanDescription" : "Looks suitable for a restaurant kitchen.",
+  "hylotlDescription" : "A suitable place to prepare some fine dishes.",
+  "novakidDescription" : "Looks like a pretty sturdy counter.",
+
+  "nexusdroidDescription" : "Metal surface designed for culinary purposes.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmcounter.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

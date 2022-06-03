@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmpinewooddye",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmpinewooddye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Pine Wood Dye",
+
+  "dyeDirectives" : { "ffca8a" : "cfb081" , "e0975c" : "af8c62" , "a85636" : "6c4d39" , "6f2919" : "3c2a20",
+					  "ffca8afe" : "cfb081fe" , "e0975cfe" : "af8c62fe" , "a85636fe" : "6c4d39fe" , "6f2919fe" : "3c2a20fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

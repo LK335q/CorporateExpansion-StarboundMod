@@ -1,0 +1,49 @@
+{
+  "objectName" : "crptexp-gmgunlocker",
+  "colonyTags" : [ "generalmunitions", "storage", "commerce" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "description" : "A metal cabinet for storing firearms and combat equipment.",
+  "shortdescription" : "Armory Locker",
+
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 110,
+
+  "health" : 1.5,
+
+  "apexDescription" : "A weapons locker.",
+  "avianDescription" : "A locker for storing weapons.",
+  "floranDescription" : "Floran can fit many spearss in locker.",
+  "glitchDescription" : "Curious. A gun locker, I wonder what weapons are stored in here?",
+  "humanDescription" : "A simple gun locker. Someone left it unlocked.",
+  "hylotlDescription" : "A basic, ugly locker.",
+  "novakidDescription" : "This here locker could fit many a pea shooter.",
+
+  "nexusdroidDescription" : "Munitions storage unit.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmgunlocker.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/metalslidingdoor_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/metalslidingdoor_close.ogg" ],
+  "slotCount" : 48,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "openFrameIndex" : 3,
+  "autoCloseCooldown" : 3600
+
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "crptexp-gmlockers",
+  "colonyTags" : [ "generalmunitions", "storage", "commerce" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "description" : "A row of military lockers.",
+  "shortdescription" : "Barracks Lockers",
+  
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 110,
+
+  "health" : 1.5,
+
+  "apexDescription" : "Whose locker is this, I wonder?",
+  "avianDescription" : "I wonder if I could fit in this locker.",
+  "floranDescription" : "Floran wonders what'sss inside locker.",
+  "glitchDescription" : "Neutral. A locker, for locking up things you want to lock away.",
+  "humanDescription" : "Ah, this reminds me of high school.",
+  "hylotlDescription" : "A basic, ugly locker.",
+  "novakidDescription" : "Just a locker, does the job I guess.",
+
+  "nexusdroidDescription" : "Matrix of individualized storage units.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmlockers.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/locker_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/locker_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

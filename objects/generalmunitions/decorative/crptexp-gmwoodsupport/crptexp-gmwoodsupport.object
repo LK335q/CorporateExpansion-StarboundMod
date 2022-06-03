@@ -1,0 +1,55 @@
+{
+  "objectName" : "crptexp-gmwoodsupport",
+  "colonyTags" : ["generalmunitions"],
+  "printable" : false,
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 5,
+  "description" : "A worn wooden support.",
+  "shortdescription" : "Varnished Wood Support",
+  "race" : "generic",
+
+  "apexDescription" : "A wooden support. Looks worse for wear.",
+  "avianDescription" : "A wooden support.",
+  "floranDescription" : "Wood made into sssupport.",
+  "glitchDescription" : "Disturbed. I believe this wood has been half eaten by woodworm.",
+  "humanDescription" : "A wooden support in poor condition.",
+  "hylotlDescription" : "This support does not look to be structurally sound.",
+  "novakidDescription" : "A rotten old wooden beam.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "crptexp-gmwoodsupportleft.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [0, 1], [1, 1], [1, 2], [2, 2], [2, 3], [3, 3] ],
+      "fgAnchors" : [ [-1, 0], [3, 4] ]
+    },
+    {
+      "image" : "crptexp-gmwoodsupportright.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "left",
+
+      "spaces" : [ [0, 0], [0, 1], [-1, 1], [-1, 2], [-2, 2], [-2, 3], [-3, 3] ],
+      "fgAnchors" : [ [1, 0], [-3, 4] ]
+    },
+    {
+      "image" : "crptexp-gmwoodsupportgroundleft.png:<color>",
+      "imagePosition" : [-24, 0],
+      "direction" : "right",
+
+      "spaces" : [ [0, 0], [-1, 0], [-1, 1], [-2, 1], [-2, 2], [-3, 2], [-3, 3] ],
+      "fgAnchors" : [ [0, -1], [-4, 3] ]
+    },
+    {
+      "image" : "crptexp-gmwoodsupportgroundright.png:<color>",
+      "imagePosition" : [0, 0],
+      "direction" : "left",
+
+      "spaces" : [ [0, 0], [1, 0], [1, 1], [2, 1], [2, 2], [3, 2], [3, 3] ],
+      "fgAnchors" : [ [0, -1], [4, 3] ]
+    }
+  ]
+}

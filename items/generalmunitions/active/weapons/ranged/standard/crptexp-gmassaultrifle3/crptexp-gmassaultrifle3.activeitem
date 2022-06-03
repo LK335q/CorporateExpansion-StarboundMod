@@ -1,0 +1,192 @@
+{
+  "itemName" : "crptexp-gmassaultrifle3",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+
+  "description" : "",
+  "shortdescription" : "BR-54",
+
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "ranged", "assaultrifle", "generalmunitions" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "cursor" : "/cursors/reticle1.cursor",
+
+  "inventoryIcon" : "crptexp-gmassaultrifle3.png:default.1",
+
+  "animation" : "crptexp-gmassaultrifle3.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-gmassaultrifle3.png",
+	"middleFullbright" : "",
+    "barrel" : "",
+    "muzzleFlash" : "/items/generalmunitions/active/weapons/ranged/muzzleflash/crptexp-gmmuzzleflash2.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "ammoType" : {
+          "default" : "1",
+          "states" : {
+            "1" : {
+              "frames" : 1
+            },
+            "2" : {
+              "frames" : 1
+            }
+          }
+        }
+      },
+      "parts" : {
+        "middleFullbright" : {
+          "properties" : {
+            "image" : null
+          },
+          "partStates" : {
+            "ammoType" : {
+              "1" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              },
+              "2" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/gun/reload/grenade_reload_clip2.ogg" ],
+	  "fire" : {
+       "pitchMultiplier" : 1.0,
+	   "volume" : 1.0,
+	   "pool" : ["/sfx/gun/generalmunitions/crptexp-gmassaultrifle3.ogg"]
+	  }
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "pointLight" : true,
+        "color" : [75, 75, 40],
+		"position" : [3.1, 0.45]
+      }
+    }
+  },
+
+  "baseOffset" : [0.9, 0.1],
+  "muzzleOffset" : [2.1, 0.45],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.35,
+    "baseDps" : 11.5,
+    "energyUsage" : 33,
+    "inaccuracy" : 0.01,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-gmbullet",
+    "projectileParameters" : { },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 5,
+        "weaponRotation" : 5,
+        "twoHanded" : true,
+
+		"animationStates" : {
+          "body" : "reload"
+		  },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Load Rifle Grenade",
+    "scripts" : ["/items/active/weapons/other/adaptablecrossbow/adaptableammo.lua"],
+    "class" : "AdaptableAmmo",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        // Standard
+        "projectileType" : "crptexp-gmbullet",
+        "fireTime" : 0.35,
+        "baseDps" : 11.5,
+        "energyUsage" : 33,
+        "inaccuracy" : 0.01
+      },
+      {
+        // Rifle Grenade
+        "projectileType" : "crptexp-gmriflegrenade",
+         "fireTime" : 1.0,
+		     "baseDps" : 9.5,
+		     "energyUsage" : 33,
+		     "inaccuracy" : 0.008
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 90,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.6,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

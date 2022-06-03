@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmwoodplanks", "count" : 15 }
+  ],
+  "output" : { "item" : "crptexp-gmcratesmall", "count" : 1 },
+  "groups" : [ "crptexp-gmworkbench", "storage", "all" ]
+}

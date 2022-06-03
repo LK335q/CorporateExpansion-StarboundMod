@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmconcrete",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "crptexp-gmconcrete.png",
+
+  "shortdescription" : "Smooth Concrete",
+  "description" : "Cold, hard, concrete.",
+
+  "glitchdescription" : "Aqainted. Concrete is a commonly used construction material.",
+  "florandescription" : "Floran disslike cold concrete.",
+  "novakiddescription" : "Concrete makes a mighty sturdy block.",
+
+  "nexusdroidDescription" : "Basic hardened mixture used for construction.",
+
+  "materialId" : 2061
+}

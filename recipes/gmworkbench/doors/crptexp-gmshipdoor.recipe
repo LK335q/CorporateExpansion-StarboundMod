@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "crptexp-gmmetal", "count" : 1 }
+  ],
+  "output" : { "item" : "crptexp-gmshipdoor", "count" : 1 },
+  "groups" : [ "crptexp-gmworkbench", "doors", "all" ]
+}

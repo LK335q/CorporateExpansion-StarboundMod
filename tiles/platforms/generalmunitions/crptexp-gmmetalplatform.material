@@ -1,0 +1,30 @@
+{
+  "materialName" : "crptexp-gmmetalplatform",
+  "itemDrop" : "crptexp-gmmetalplatform",
+
+  "collisionKind" : "platform",
+
+  "shortdescription" : "Riveted Platform",
+  "description" : "Heavy duty metal platform.",
+
+  "glitchDescription" : "Content. These sturdy platforms are suitable for my needs.",
+  "floranDescription" : "Sstable perch for Floran to leap from!",
+  "novakidDescription" : "These platforms look mighty sturdy.",
+
+  "nexusdroidDescription" : "Thick industrial metal platform.",
+
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "crptexp-gmmetalplatform.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  },
+
+  "materialId" : 2066
+}

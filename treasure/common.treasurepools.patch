@@ -1,0 +1,188 @@
+[
+
+  // ==============================================================================================
+  //                                     COMMON TREASURE POOLS
+  // ==============================================================================================
+
+  // ================================
+  //       Green MRE Pool
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmgreenmrefood",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "crptexp-gmbeanscan"},
+        {"weight" : 0.015, "item" : "crptexp-gmtincan"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmgreenmresnack",
+    "value": [[0, {
+      "pool" : [
+	      {"weight" : 0.1, "item" : "crptexp-gmcracker"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmgreenmredrink",
+    "value": [[0, {
+      "pool" : [
+	      {"weight" : 0.1, "item" : "crptexp-gmwatercan"},
+        {"weight" : 0.01, "item" : "crptexp-gmtincan"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmgreenmre",
+    "value": [[0, {
+      "fill" : [
+	      {"weight" : 1.0, "pool" : "crptexp-gmgreenmrefood"},
+        {"weight" : 1.0, "pool" : "crptexp-gmgreenmresnack"},
+        {"weight" : 1.0, "pool" : "crptexp-gmgreenmredrink"}
+      ]
+    }]]
+  },
+
+  // ================================
+  //       Grey MRE Pool
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmgreymrefood",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "crptexp-gmboltscan"},
+        {"weight" : 0.015, "item" : "crptexp-gmtincan"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmgreymredrink",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "crptexp-gmwatercan"},
+        {"weight" : 0.01, "item" : "crptexp-gmtincan"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmgreymre",
+    "value": [[0, {
+      "fill" : [
+	      {"weight" : 1.0, "pool" : "crptexp-gmgreymrefood"},
+        {"weight" : 1.0, "pool" : "crptexp-gmgreymredrink"}
+      ]
+    }]]
+  },
+
+  // ================================
+  //       Red MRE Pool
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmredmrefood",
+    "value": [[0, {
+      "pool" : [
+	      {"weight" : 0.1, "item" : "crptexp-gmstewcan"},
+        {"weight" : 0.015, "item" : "crptexp-gmtincan"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmredmresnack",
+    "value": [[0, {
+      "pool" : [
+	      {"weight" : 0.1, "item" : "crptexp-gmsausagecube"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmredmredrink",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "crptexp-gmwatercan"},
+        {"weight" : 0.01, "item" : "crptexp-gmtincan"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmredmre",
+    "value": [[0, {
+      "fill" : [
+	      {"weight" : 1.0, "pool" : "crptexp-gmredmrefood"},
+        {"weight" : 1.0, "pool" : "crptexp-gmredmresnack"},
+        {"weight" : 1.0, "pool" : "crptexp-gmredmredrink"}
+      ]
+    }]]
+  },
+
+  // ================================
+  //       Yellow MRE Pool
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmyellowmrefood",
+    "value": [[0, {
+      "pool" : [
+	      {"weight" : 0.1, "pool" : "crptexp-gmredmrefood"},
+		    {"weight" : 0.1, "pool" : "crptexp-gmgreenmrefood"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmyellowmresnack",
+    "value": [[0, {
+      "pool" : [
+	      {"weight" : 0.1, "pool" : "crptexp-gmgreenmresnack"},
+        {"weight" : 0.1, "pool" : "crptexp-gmredmresnack"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmyellowmredrink",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.1, "item" : "crptexp-gmwatercan"},
+        {"weight" : 0.01, "item" : "crptexp-gmtincan"}
+      ]
+    }]]
+  },
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmyellowmre",
+    "value": [[0, {
+      "fill" : [
+	      {"weight" : 1.0, "pool" : "crptexp-gmyellowmrefood"},
+        {"weight" : 1.0, "pool" : "crptexp-gmyellowmresnack"},
+        {"weight" : 1.0, "pool" : "crptexp-gmyellowmredrink"}
+      ]
+    }]]
+  }
+]

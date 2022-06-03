@@ -1,0 +1,30 @@
+{
+  "materialName" : "crptexp-gmmetalstairs",
+  "itemDrop" : "crptexp-gmmetalstairs",
+
+  "collisionKind" : "platform",
+
+  "shortdescription" : "Industrial Catwalk",
+  "description" : "Not exclusively used by cats, contrary to the name.",
+
+  "glitchDescription" : "Uninterested. A rather simple metal platform.",
+  "floranDescription" : "Floran pushess prey off platform, let gravity hunt for Floran!",
+  "novakidDescription" : "Thin metal platforms for whatever suits your fancy I guess.",
+
+  "nexusdroidDescription" : "Metal walkway for observational or technical use.",
+
+  "footstepSound" : "/sfx/blocks/footstep_lightmetal.ogg",
+  "category" : "Supports",
+
+  "renderTemplate" : "/tiles/platformtemplate.config",
+  "renderParameters" : {
+    "texture" : "crptexp-gmmetalstairs.png",
+    "variants" : 1,
+    "lightTransparent" : true,
+    "occludesBelow" : false,
+    "multiColored" : true,
+    "zLevel" : 0
+  },
+
+  "materialId" : 2067
+}

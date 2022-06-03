@@ -1,0 +1,45 @@
+{
+  "itemName" : "crptexp-gmgrapplinghook",
+  "price" : 3000,
+  "inventoryIcon" : "crptexp-gmgrapplinghook.png",
+  "rarity" : "Legendary",
+  "maxStack" : 1,
+
+  "description" : "A reliable weighted grappling hook.",
+  "shortdescription" : "M3 Grappling Tool",
+
+  "largeImage" : "crptexp-gmgrapplinghook.png",
+  "category" : "traversalTool",
+  "fireTime" : 0,
+  "twoHanded" : false,
+
+  "scripts" : ["/items/active/grapplinghooks/grapplinghook.lua"],
+  "animationScripts" : ["/items/active/effects/renderrope.lua"],
+
+  "animation" : "crptexp-gmgrapplinghook.animation",
+
+  "fireOffset" : [0, 0.6],
+  "ropeOffset" : [-1.75, 0.5],
+  "ropeVisualOffset" : [0.75, 0.5],
+
+  "consumeOnUse" : false,
+
+  "projectileType" : "crptexp-gmgrapplehook",
+  "projectileParameters" : {
+    "speed" : 60
+  },
+
+  "ropeWidth" : 1.0,
+  "ropeColor" : [125, 100, 70, 255],
+
+  "reelInDistance" : 3.5,
+  "reelOutLength" : 50,
+  "breakLength" : 60,
+
+  "minSwingDistance" : 1.5,
+
+  "reelSpeed" : 15,
+  "controlForce" : 1000,
+
+  "groundLagTime" : 0.2
+}

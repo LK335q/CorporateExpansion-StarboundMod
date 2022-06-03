@@ -1,0 +1,30 @@
+{
+  "itemName" : "crptexp-gmstickgrenade",
+  "price" : 50,
+  "rarity" : "Uncommon",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmstickgrenade.png",
+  "image" : "crptexp-gmstickgrenadeheld.png",
+  "shortdescription" : "M3 \"Potato Masher\" ",
+  "description" : "Detonates on impact. Handle with care!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.0,
+
+  "projectileType" : "crptexp-gmstickgrenade",
+  "projectileConfig" : {
+    "speed" : 40,
+    "power" : 25,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

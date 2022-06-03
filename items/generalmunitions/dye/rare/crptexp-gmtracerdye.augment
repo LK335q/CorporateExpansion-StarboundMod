@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-gmtracerdye",
+  "price" : 25,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmtracerdye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Red Tracer Dye",
+
+  "dyeDirectives" : { "ffca8a" : "fefffffe" , "e0975c" : "ff8066fe" , "a85636" : "ff0000fe" , "6f2919" : "a00014fe",
+					  "ffca8afe" : "fefffffe" , "e0975cfe" : "ff8066fe" , "a85636fe" : "ff0000fe" , "6f2919fe" : "a00014fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

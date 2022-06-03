@@ -1,0 +1,180 @@
+{
+  "itemName" : "crptexp-gmgrenadelauncher3",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+
+  "description" : "",
+  "shortdescription" : "CGL-67",
+
+  "tooltipKind" : "gun",
+  "category" : "grenadeLauncher",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "ranged", "grenadelauncher", "generalmunitions" ],
+  "level" : 5,
+
+  "cursor" : "/cursors/generalmunitions/crptexp-gmgrenadelauncherreticle.cursor",
+
+  "inventoryIcon" : "crptexp-gmgrenadelauncher3.png:default.1",
+
+  "animation" : "crptexp-gmgrenadelauncher3.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-gmgrenadelauncher3.png",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "ammoType" : {
+          "default" : "1",
+          "states" : {
+            "1" : {
+              "frames" : 1
+            },
+            "2" : {
+              "frames" : 1
+            }
+          }
+        }
+      },
+      "parts" : {
+        "middleFullbright" : {
+          "properties" : {
+            "image" : null
+          },
+          "partStates" : {
+            "ammoType" : {
+              "1" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              },
+              "2" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/gun/reload/grenade_reload_clip1.ogg" ],
+	    "fire" : ["/sfx/gun/grenade1.ogg"]
+	}
+  },
+
+  "baseOffset" : [0.9, 0.2],
+  "muzzleOffset" : [2.0, 0.2],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.7,
+    "baseDps" : 8.5,
+    "energyUsage" : 31.5,
+    "inaccuracy" : 0.0,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-gmgrenade",
+    "projectileParameters" : { },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.3,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+
+      },
+      "cooldown" : {
+        "duration" : 0.4,
+        "armRotation" : -20,
+	    	"weaponRotation" : 30,
+		    "weaponOffset" : [-0.2, 0],
+        "twoHanded" : true,
+
+		    "weaponAngularVelocity": -100,
+		    "armAngularVelocity": 100,
+
+		    "animationStates" : {
+          "body" : "reload"
+		    },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Load Frag Grenades",
+    "scripts" : ["/items/active/weapons/other/adaptablecrossbow/adaptableammo.lua"],
+    "class" : "AdaptableAmmo",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        // Standard
+        "projectileType" : "crptexp-gmgrenade",
+        "baseDps" : 8.5,
+        "energyUsage" : 31.5
+      },
+      {
+        // Fragmentation Grenades
+        "projectileType" : "crptexp-gmfraggungrenade",
+         "baseDps" : 2.5,
+         "energyUsage" : 40
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

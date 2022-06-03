@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "paper", "count" : 20 }
+  ],
+  "output" : { "item" : "crptexp-gmtinyboxes", "count" : 1 },
+  "groups" : [ "crptexp-gmworkbench", "storage", "all" ]
+}

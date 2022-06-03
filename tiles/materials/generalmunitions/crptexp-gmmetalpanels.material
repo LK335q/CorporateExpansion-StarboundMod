@@ -1,0 +1,30 @@
+{
+  "materialName" : "crptexp-gmmetalpanels",
+  "particleColor" : [77, 77, 77, 255],
+  "itemDrop" : "crptexp-gmmetalpanels",
+
+  "description" : "Thin sheets of metal covered in rivets.",
+  "shortdescription" : "Riveted Panels",
+
+  "glitchDescription" : "Curious. How might the strength of this panelling compare to my own chassis?",
+  "floranDescription" : "Floran likess metal clang sound!",
+  "novakidDescription" : "Some heavy duty metal panels here.",
+
+  "nexusdroidDescription" : "Exterior metal plating.",
+
+  "footstepSound" : "/sfx/blocks/footstep_girder.ogg",
+  "health" : 8,
+  "category" : "materials",
+
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "crptexp-gmmetalpanels.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : true,
+    "occludesBelow" : true,
+    "zLevel" : 1110
+  },
+
+  "materialId" : 2065
+}

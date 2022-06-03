@@ -1,0 +1,12 @@
+{
+  "itemName" : "crptexp-admincoin",
+  "rarity" : "Essential",
+  "category" : "craftingMaterial",
+  "tooltipFields" : { "rarityLabel" : "^#fff099;Debug Item^white;" },
+  "itemTags" : [ "reagent" ],
+  "price" : 0,
+  "inventoryIcon" : "crptexp-admincoin.png",
+
+  "description" : "Used for crafting in admin mode. ^red;This item should NOT be normally obtainable.^white;",
+  "shortdescription" : "^#fff099;Admin Coin^white;"
+}

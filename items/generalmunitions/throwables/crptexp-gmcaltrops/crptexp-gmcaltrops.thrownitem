@@ -1,0 +1,36 @@
+{
+  "itemName" : "crptexp-gmcaltrops",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmcaltrops.png",
+  "image" : "crptexp-gmcaltropsheld.png",
+  "shortdescription" : "M2 Caltrops",
+  "description" : "Throwable spike traps. Ouch!",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.0,
+
+  "projectileType" : "crptexp-gmcaltropsspawner",
+  "projectileConfig" : {
+    "speed" : 20,
+    "power" : 5,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      },
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/generalmunitions/crptexp-gmthrow_caltrops.ogg" ]
+      }
+    ]
+  }
+}

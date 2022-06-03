@@ -1,0 +1,89 @@
+==============================================================================================
+                                    RESERVED: 2061-2099
+==============================================================================================
+
+================================
+     General Munitions Co.
+================================
+
+  2061 - crptexp-gmconcrete
+
+  2062 - crptexp-gmcorrugatedtube
+
+  2063 - crptexp-gmhull
+
+  2064 - crptexp-gmmetalframe
+
+  2065 - crptexp-gmmetalpanels
+
+  2066 - crptexp-gmmetalplatform
+
+  2067 - crptexp-gmmetalstairs
+
+  2068 - crptexp-gmmetalsupport
+
+  2069 - crptexp-gmwoodplanks
+
+  2070 - crptexp-gmwoodplatform
+
+  2071 - crptexp-gmwoodtrim
+
+================================
+              WIP
+================================
+
+  2072 - WIP
+
+  2073 - WIP
+
+  2074 - WIP
+
+  2075 - WIP
+
+  2076 - WIP
+
+  2077 - WIP
+
+  2078 - WIP
+
+  2079 - WIP
+
+  2080 - WIP
+
+  2081 - WIP
+
+  2082 - WIP
+
+  2083 - WIP
+
+  2084 - WIP
+
+  2085 - WIP
+
+  2086 - WIP
+
+  2087 - WIP
+
+  2088 - WIP
+
+  2089 - WIP
+
+  2090 - WIP
+
+  2091 - WIP
+
+  2092 - WIP
+
+  2093 - WIP
+
+  2094 - WIP
+
+  2095 - WIP
+
+  2096 - WIP
+
+  2097 - WIP
+
+  2098 - WIP
+
+  2099 - WIP

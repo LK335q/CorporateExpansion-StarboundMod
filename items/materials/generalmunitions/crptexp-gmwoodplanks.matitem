@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmwoodplanks",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "crptexp-gmwoodplanks.png",
+
+  "shortdescription" : "Varnished Wood",
+  "description" : "Glossy wooden planks.",
+
+  "glitchDescription" : "Fascinated. Such a pleasant glossy finish.",
+  "floranDescription" : "Sshiny plant bones.",
+  "novakidDescription" : "Why, I can see my own reflection in here!",
+
+  "nexusdroidDescription" : "Simple plant-based construction treated for aesthetic purposes.",
+
+  "materialId" : 2069
+}

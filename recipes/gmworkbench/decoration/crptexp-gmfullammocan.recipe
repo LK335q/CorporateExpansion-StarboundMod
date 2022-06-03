@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmammocan", "count" : 1 },
+    { "item" : "crptexp-gmbulletshell", "count" : 10 }
+  ],
+  "output" : { "item" : "crptexp-gmfullammocan", "count" : 1 },
+  "groups" : [ "crptexp-gmworkbench", "decoration", "all" ]
+}

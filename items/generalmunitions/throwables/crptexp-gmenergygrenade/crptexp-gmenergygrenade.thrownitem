@@ -1,0 +1,30 @@
+{
+  "itemName" : "crptexp-gmenergygrenade",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmenergygrenade.png",
+  "image" : "crptexp-gmenergygrenadeheld.png",
+  "shortdescription" : "M2 Energy Grenade",
+  "description" : "A hand grenade.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 1.0,
+
+  "projectileType" : "crptexp-gmenergygrenade",
+  "projectileConfig" : {
+    "speed" : 30,
+    "power" : 25,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

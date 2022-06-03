@@ -1,0 +1,142 @@
+{
+  "projectileName" : "crptexp-gmjumpminelaunched",
+  "physics" : "laser",
+  "bounces" : -1,
+  "timeToLive" : 0.15,
+  "image" : "crptexp-gmjumpminelaunched.png",
+  "animationCycle" : 1.0,
+  "frameNumber" : 1,
+  "damageType" : "NoDamage",
+  "piercing" : true,
+  
+  "actionOnCollide" : [
+    {
+      "action" : "sound",
+      "options" : [ 
+        "/sfx/melee/fist_hit_metal1.ogg",
+		"/sfx/melee/fist_hit_metal2.ogg",
+		"/sfx/melee/fist_hit_metal3.ogg",
+		"/sfx/melee/fist_hit_metal4.ogg",
+		"/sfx/melee/fist_hit_metal5.ogg",
+		"/sfx/melee/fist_hit_metal6.ogg"
+      ]
+    }
+  ],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/generalmunitions/explosions/crptexp-gmexplosionsmall/crptexp-gmexplosionsmall.config"
+    },
+	{
+      "action" : "sound",
+      "options" : [
+        "/sfx/projectiles/bullet_ricochet6.ogg",
+        "/sfx/projectiles/bullet_ricochet7.ogg",
+        "/sfx/projectiles/bullet_ricochet12.ogg",
+        "/sfx/projectiles/bullet_ricochet13.ogg"
+      ]
+    },
+	{
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 90
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 95
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 85
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 100
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 80
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 105
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 75
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 270
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 275
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 265
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 280
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 260
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 285
+    },
+    {
+      "action" : "projectile",
+      "type" : "crptexp-gmsteelball",
+      "fuzzAngle" : 5,
+      "inheritDamageFactor" : 0.625,
+      "angleAdjust" : 255
+    }
+  ],
+  "power" : 60,
+  "speed" : 15,
+  "damageKind" : "default",
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+}
