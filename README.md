@@ -1,5 +1,7 @@
 # Corporate Expansion: General Munitions Co.
 
+![extra-1](https://user-images.githubusercontent.com/66710266/171963245-c506e61c-6fb8-4d62-9f76-25f54e5962a9.png)
+
 This mod adds the galactic arms dealing corporation known as GENERAL MUNITIONS CO.
 
 A former private military company, General Munitions Co. specializes in surplus ammunition and armaments, sold to whoever is buying. Be it Miniknog rebels, insurgents, smaller PMC's, or anyone else looking to acquire ordnance in bulk.
