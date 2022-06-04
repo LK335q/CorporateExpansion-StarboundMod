@@ -1,6 +1,6 @@
 {
   "itemName" : "crptexp-gmgrenadelauncher",
-  "price" : 960,
+  "price" : 460,
   "maxStack" : 1,
   "rarity" : "Common",
 
@@ -11,7 +11,8 @@
   "category" : "grenadeLauncher",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "grenadelauncher", "generalmunitions" ],
-  "level" : 5,
+  "level" : 1,
+  "fixedLevel" : false,
 
   "cursor" : "/cursors/generalmunitions/crptexp-gmgrenadelauncherreticle.cursor",
 

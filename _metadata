@@ -1,35 +1,35 @@
 {
-
-	"name" : "Corporate_Expansion",
-	"friendlyName" : "Corporate Expansion: General Munitions Co.",
-	"author" : "LK335q",
-	"version" : "1.0",
-	"description" : "This mod adds the galactic arms dealing corporation known as GENERAL MUNITIONS CO.
+  "author" : "LK335q",
+  "description" : "This mod adds the galactic arms dealing corporation known as GENERAL MUNITIONS CO.
 
 A former private military company, General Munitions Co. specializes in surplus ammunition and armaments, sold to whoever is buying. Be it Miniknog rebels, insurgents, smaller PMC's, or anyone else looking to acquire ordnance in bulk.
 
 Find and speak to a GMC Armorer in one of their many military bases located throughout the galaxy to purchase one of the 50+ weapons included in their arsenal! Or if you aren't much of a gun nut and are more of the builder type, speak to a GMC Supplier to purchase crafting supplies and make military-grade furniture at a Barracks Workbench!
 
-SUPPORTED MODS
+[h1]SUPPORTED MODS[/h1]
 Corporate Expansion has built-in support for these mods, no patch required!
 
-- Futara's Dragon Pixel Full Bright Shader - Dyes and more will use fullbright if you have this mod installed. Try using General Munitions dyes on Project Knightfall armor!
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2422986190]Futara's Dragon Pixel Full Bright Shader[/url] - Dyes and more will use fullbright if you have this mod installed. Try using General Munitions dyes on Project Knightfall armor!
 
-CREDITS
+[h1]CREDITS[/h1]
 Thanks to:
 
 - Freesound.org for custom sound effects.
 
 - Chucklefish for base game assets.
 
-TOOLS/SOFTWARE
+[h1]TOOLS/SOFTWARE[/h1]
 For developing this mod I used:
 
 - Atom for text editing (I highly recommend the Starbound modding suite!).
 
 - Aseprite for spritework.
 
-- Audacity for sound editing.
-"
-
+- Audacity for sound editing.",
+  "friendlyName" : "Corporate Expansion: General Munitions Co.",
+  "link" : "steam://url/CommunityFilePage/2816512872",
+  "name" : "Corporate_Expansion",
+  "steamContentId" : "2816512872",
+  "tags" : "Crafting and Building|Miscellaneous|NPCs and Creatures|Weapons|Dungeons|Furniture and Objects|In-Game Tools|Armor and Clothes",
+  "version" : "1.0"
 }
