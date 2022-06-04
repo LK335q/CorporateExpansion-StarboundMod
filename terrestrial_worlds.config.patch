@@ -9,6 +9,6 @@
   { "op":"add", "path": "/planetTypes/tundra/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
   { "op":"add", "path": "/planetTypes/midnight/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
   { "op":"add", "path": "/planetTypes/volcanic/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
-  { "op":"add", "path": "/planetTypes/scorchedcity/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] }
+  { "op":"add", "path": "/planetTypes/scorchedcity/layers/surface/dungeons/-", "value": [ 4.0, "crptexp-gmbase" ] }
 
 ]
