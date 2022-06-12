@@ -1,7 +1,7 @@
 {
   "itemName" : "crptexp-gmbulletshell",
   "rarity" : "Common",
-  "category" : "junk",
+  "category" : "craftingMaterial",
   "itemTags" : [ "reagent" ],
   "price" : 2,
   "inventoryIcon" : "crptexp-gmbulletshell.png",

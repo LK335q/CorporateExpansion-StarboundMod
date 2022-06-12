@@ -8,6 +8,8 @@
   //             FURNITURE
   // ================================
 
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmcounter"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmfridge"}},
   {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmbed"}},
   {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmbunk"}},
   {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmammoboxes"}},

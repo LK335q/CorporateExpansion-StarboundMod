@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmmetal", "count" : 3 },
+    { "item" : "cryonicextract", "count" : 1 },
+    { "item" : "battery", "count" : 1 }
+  ],
+  "output" : { "item" : "crptexp-gmfridge", "count" : 1 },
+  "groups" : [ "crptexp-gmworkbench", "storage", "all" ]
+}
