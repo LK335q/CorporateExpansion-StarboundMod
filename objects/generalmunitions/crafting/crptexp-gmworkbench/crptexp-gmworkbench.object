@@ -23,8 +23,6 @@
   "price" : 40,
   "printable" : false,
 
-  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
-
   "inventoryIcon" : "icon.png",
 
   "description" : "Can be used to produce materials and objects needed to build a military base.",

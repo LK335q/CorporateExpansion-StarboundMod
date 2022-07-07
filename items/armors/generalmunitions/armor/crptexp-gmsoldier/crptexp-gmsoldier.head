@@ -5,7 +5,7 @@
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "category" : "headarmour",
-  "description" : "A sturdy infantry helmet. Despite its common name, the M2 model does fairly well at protecting against small arms fire.",
+  "description" : "A sturdy infantry helmet. Despite its common name, it does fairly well at protecting against small arms fire.",
   "shortdescription" : "M2 \"Brain Bucket\"",
   "tooltipKind" : "armor",
 

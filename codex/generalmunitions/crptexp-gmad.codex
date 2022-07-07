@@ -1,0 +1,25 @@
+
+{
+  "id" : "crptexp-gmad",
+  "title" : "BUY GENERAL MUNITIONS!",
+  "description" : "An ad for General Munitions Co. weaponry.",
+
+  "icon" : "crptexp-gmcoverflyer.png",
+  "contentPages" : [
+"ATTENTION! Mother Earth is rolling in her grave at this very moment! Why?! Because she has to watch pathetic dirtbags crawl around this galaxy with nothing but their dead grandfather's peashooter to defend themselves!
+
+CENTURIES OF WAR WEREN'T FOUGHT IN MANKIND'S CRADLE FOR NOTHING! You spit on Earth's legacy by being unable to defend your sorry self! Now you may ask, \"Sarge, how do I get my hands on something I can afford? Quality weapons cost a fortune these days!\".",
+"WHO GAVE YOU PERMISSION TO SPEAK, PRIVATE?! You buy GENERAL MUNITIONS CO. weapons!
+
+Stamped steel receivers, glorious wooden furniture, all assembled by hand to bring you the most reliable firearm you will ever get your hands on, ready to eat through our crisp brass like a meal at a fine restaurant!",
+
+"WHAT ARE YOU WAITING FOR?! Hard times make strong men, and these are hard times if we've ever seen it! Make yourself a strong man by putting a proper weapon in your capable hands!
+
+BUY GENERAL MUNITIONS!"
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

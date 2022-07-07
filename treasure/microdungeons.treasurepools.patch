@@ -67,7 +67,7 @@
       "pool" : [
         {"weight" : 0.30, "pool" : "money"},
         {"weight" : 0.70, "pool" : "basicTreasure"},
-        {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"}
+        {"weight" : 0.70, "pool" : "crptexp-gmcodexloot"}
       ],
       "poolRounds" : [
         [0.25, 0],
@@ -109,6 +109,18 @@
         [0.50, 1],
         [0.50, 2]
       ],
+      "allowDuplication" : false
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmcodexloot",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "crptexp-gmad-codex" },
+        {"weight" : 0.1, "item" : "crptexp-newsarticle1-codex" }
+      ],
+      "poolRounds" : 1,
       "allowDuplication" : false
     }]]
   },
