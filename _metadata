@@ -1,19 +1,12 @@
 {
-  "author": "LK335q",
-  "description": "This mod adds the galactic arms dealing corporation known as GENERAL MUNITIONS CO.\n\nA former private military company, General Munitions Co. specializes in surplus ammunition and armaments, sold to whoever is buying. Be it Miniknog rebels, insurgents, smaller PMC's, or anyone else looking to acquire ordnance in bulk.\n\nFind and speak to a GMC Armorer in one of their military bases located throughout the galaxy to purchase some of the 50+ weapons included in their arsenal! Or if you aren't much of a gun nut and are more of the builder type, speak to a GMC Supplier to purchase crafting supplies and make military-grade furniture at a Barracks Workbench!\n\n[h1]ADDONS[/h1]\n- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2816950097]Corporate Expansion Addon: More Planet Info Patch[/url]\n\n[h1]SUPPORTED MODS[/h1]\nCorporate Expansion has built-in support for these mods, no patch required!\n\n- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2422986190]Futara's Dragon Pixel Full Bright Shader[/url] - Dyes and more will use fullbright if you have this mod installed. Try using General Munitions dyes on Project Knightfall armor!\n\n[h1]CREDITS[/h1]\nThanks to:\n\n- Freesound.org for custom sound effects.\n\n- Chucklefish for base game assets.\n\n[h1]TOOLS/SOFTWARE[/h1]\nFor developing this mod I used:\n\n- Atom for text editing (I highly recommend the Starbound modding suite!).\n\n- Aseprite for spritework.\n\n- Audacity for sound editing.",
-  "friendlyName": "Corporate Expansion: General Munitions Co.",
-  "includes": [
-    "Arcana",
-    "FrackinUniverse",
-    "Maple32",
-    "MorePlanetInfo",
-    "precursorracekrakoth",
-    "SpawnableItemPack"
-  ],
-  "link": "steam://url/CommunityFilePage/2816512872",
-  "name": "Corporate_Expansion",
-  "priority": 1,
-  "steamContentId": "2816512872",
-  "tags": "Crafting and Building|Miscellaneous|NPCs and Creatures|Weapons|Dungeons|Furniture and Objects|In-Game Tools|Armor and Clothes",
-  "version": "1.1: Full Throttle Update"
+  "author" : "LK335q",
+  "description" : "[img]https://i.imgur.com/xOAttdp.png[/img]\n\nCorporate Expansion is a growing Starbound mod that aims to build upon the base game with loads of new content, including a new galactic corporation known as...\n\n\n[img]https://i.imgur.com/tx69mmf.png[/img]\n\nGeneral Munitions Co. specializes in surplus ammunition and armaments, sold to whoever is buying. Be it Miniknog rebels, insurgents, smaller PMC's, or anyone else looking to acquire ordnance in bulk. Their military-industrial complex spans across a large portion of this arm of the galaxy, and the GMC has no shortage of willing buyers.\n\n\n[img]https://i.imgur.com/tuBioHM.png[/img]\n\nFind a General Munitions Co. Military Base, a GMC Supply Ship, or acquire a GMC merchant as a tenant in your colony to find Heavy Metal Plates and Wood Varnish, essential crafting components for most GMC products.\n\nCraft a [b]Stamping Press[/b] at an Inventor's Table; Here you will be able to craft most GMC products after learning their blueprints, which may be purchased from GMC Suppliers or looted in their military bases. \n\nCraft a [b]Barracks Workbench[/b] at an Inventor's Table to get your hands on some military-grade furniture as well! \n\n[img]https://i.imgur.com/rFSE038.png[/img]\n\n[img]https://i.imgur.com/TsrR3Vc.png[/img]\n\n[img]https://i.imgur.com/S2rBbc7.png[/img]\n\n\n[img]https://i.imgur.com/Lnx1Qdb.png[/img]\n\nAll the below listed mods are fully supported by Corporate Expansion, no patch required!\n\n\n[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2422986190&searchtext=futara]Futara's Dragon Pixel Full Bright Shader[/url] - Dyes, projectiles, and more will use fullbright.\n\n[url=https://steamcommunity.com/sharedfiles/filedetails/?id=733665104&searchtext=spawnable+item+pack]Spawnable Item Pack[/url] - Corporate Expansion has full support for Spawnable Item Pack, and all of its items can be found within the SIP interface.\n\n[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1117007107&searchtext=more+planet+info]More Planet Info[/url] - General Munitions Co. military bases will appear in the navigation UI.\n\n[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2359135864&searchtext=arcana]Arcana[/url] - General Munitions Co. military bases spawn on Arcana planets.\n\n[url=https://steamcommunity.com/sharedfiles/filedetails/?id=729480149&searchtext=rackin+universe]Frackin' Universe[/url] - General Munitions Co. military bases spawn on Frackin' Universe planets.\n\n[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2568667104&searchtext=maple32]Maple32[/url] - General Munitions Co. military bases spawn on Maple32 planets.\n\n[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2604255131&searchtext=krakoth]K'Rakoths, the Lords of the Cosmos[/url] - General Munitions Co. military bases spawn on K'Rakoths planets.\n\n\n[img]https://i.imgur.com/HwoH77C.png[/img]\n\n[url=https://discord.gg/EBthVrVJBc][img]https://i.imgur.com/yPBhfK0.png[/img][/url]\n\n[url=https://github.com/LK335q/CorporateExpansion-StarboundMod][img]https://i.imgur.com/zCljj5Z.png[/img][/url]\n\n[url=https://community.playstarbound.com/resources/corporate-expansion.6194/][img]https://i.imgur.com/X8GljfM.png[/img][/url]",
+  "friendlyName" : "Corporate Expansion",
+  "includes" : ["Arcana", "FrackinUniverse", "Maple32", "MorePlanetInfo", "precursorracekrakoth", "SpawnableItemPack"],
+  "link" : "steam://url/CommunityFilePage/2816512872",
+  "name" : "Corporate_Expansion",
+  "priority" : 1,
+  "steamContentId" : "2816512872",
+  "tags" : "Crafting and Building|Miscellaneous|NPCs and Creatures|Weapons|Dungeons|Ships|Furniture and Objects|In-Game Tools|Armor and Clothes",
+  "version" : "1.1: Full Throttle Update"
 }
