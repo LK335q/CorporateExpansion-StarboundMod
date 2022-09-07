@@ -7,7 +7,7 @@
   "description" : "A simple combat axe.",
   "shortdescription" : "M2 Battle Axe",
 
-  "tooltipKind" : "sword",
+  "tooltipKind" : "crptexp-gmmelee",
   "category" : "axe",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "melee", "axe", "generalmunitions" ],

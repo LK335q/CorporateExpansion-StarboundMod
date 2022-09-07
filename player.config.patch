@@ -8,6 +8,69 @@
   //             FURNITURE
   // ================================
 
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmtoolbox"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmstampingpress"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmworkbench"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmammoboxes2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmammoboxes3"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay3"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay4"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay5"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay6"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay7"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay8"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay9"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay10"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay11"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay12"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay13"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplay14"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdisplayempty"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmfence"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmgastank"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmgastank2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmgastank3"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmladder"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmladder2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetaldrum"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetaldrum2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetaldrum3"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetaldrum4"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetaldrum5"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetaldrum6"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetaldrum7"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetaltube"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmug"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmpallet"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmpallet2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmpictureframe"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmservicepanel"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmtruck"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmtruck2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmvent"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmvent2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmheavymetaldoor"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmshipchair"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmlightred"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmlightorange"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmlightgreen"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmlightbulbred"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmlightbulborange"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmlightbulbgreen"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmlightbulb"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmlight"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmceilingfan"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmexplosivebarrel"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmexplosivebarrel2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmconsole2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmfusebox"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmradio"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmradio2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmradio3"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmserver"}},
+
   {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmcounter"}},
   {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmfridge"}},
   {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmbed"}},
@@ -63,6 +126,48 @@
   {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmmetalsupport"}},
   {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmwoodplanks"}},
   {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmwoodplatform"}},
-  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmwoodtrim"}}
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmwoodtrim"}},
+
+  // ================================
+  //             WEAPONS
+  // ================================
+
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmassaultrifle7"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmpistol3"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmshotgun2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmsniper2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmgrenadelauncher"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmhandcannon2"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmnailgun"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmtrenchshovel"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmcrowbar"}},
+
+  // ================================
+  //             THROWABLES
+  // ================================
+
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmdynamite"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmflare"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmcaltrops"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmcleaver"}},
+
+  // ================================
+  //             TOOLS
+  // ================================
+
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmflaregun"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmgrapplinghook"}},
+
+  // ================================
+  //             ARMOR
+  // ================================
+
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gminfantrychest"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gminfantrylegs"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmsoldierhead"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmradioback"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmheadset"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmaviators"}},
+  {"op": "add", "path": "/defaultBlueprints/tier1/-", "value": {"item": "crptexp-gmarmsdealerhead"}}
 
 ]

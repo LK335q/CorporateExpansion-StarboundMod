@@ -119,12 +119,20 @@
     "muzzleFlash" : {
       "transformationGroups" : ["muzzle"],
       "offsetRegion" : [0, 0, 0, 0],
-      "particles" : [ ]
+      "particles" : [
+        { "particle" : "crptexp-gmenergymuzzle1", "offset" : [0.0, 0.0] },
+        { "particle" : "crptexp-gmenergymuzzle2", "offset" : [0.0, 0.0] },
+        { "particle" : "crptexp-gmenergymuzzle2", "offset" : [0.0, 0.0] }
+       ]
     },
 	"altMuzzleFlash" : {
       "transformationGroups" : ["muzzle"],
       "offsetRegion" : [0, 0, 0, 0],
-      "particles" : [ ]
+      "particles" : [
+        { "particle" : "crptexp-gmenergymuzzle1", "offset" : [0.0, 0.0] },
+        { "particle" : "crptexp-gmenergymuzzle2", "offset" : [0.0, 0.0] },
+        { "particle" : "crptexp-gmenergymuzzle2", "offset" : [0.0, 0.0] }
+       ]
     }
   },
 

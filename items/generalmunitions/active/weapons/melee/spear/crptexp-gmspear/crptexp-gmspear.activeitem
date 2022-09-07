@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "A spear made for keeping enemies at bay.",
-  "shortdescription" : "M3 Spear",
+  "shortdescription" : "M2 Spear",
 
-  "tooltipKind" : "sword",
+  "tooltipKind" : "crptexp-gmmelee",
   "category" : "spear",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "melee", "spear", "generalmunitions" ],

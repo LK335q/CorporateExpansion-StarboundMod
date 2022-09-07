@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 1 },
+    { "item" : "crptexp-gmcloth", "count" : 10 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "crptexp-gmdrillsergeanthead", "count" : 1 },
+  "groups" : [ "crptexp-gmstampingpress", "armours", "all" ]
+}

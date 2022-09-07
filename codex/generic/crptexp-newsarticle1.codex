@@ -1,0 +1,34 @@
+
+{
+  "id" : "crptexp-newsarticle1",
+  "title" : "The Daily Pixel: Issue 59275-B",
+  "description" : "An economics newspaper article. It's covered in coffee stains.",
+
+  "icon" : "crptexp-newspapercover1.png",
+  "contentPages" : [
+"ORGANIZATIONS SCRAMBLE TO ORION ARM; MEGACORPORATE TITAN NEXUS ANNOUNCES MIGRATION
+
+Amidst the fall of the Terrene Protectorate, groups across the galaxy are migrating in an attempt to fill the power vacuum left behind.",
+
+"Various organizations have recruited refugees, expanding their influence to a great degree.
+
+General Munitions Co. has significantly amped up its firearms production and is now offering their surplus arms to civilian buyers.",
+
+"Nexus Corporation's board of directors has recently announced plans for a migration of over 80% of Nexus's corporate assets to the Orion Arm.
+
+Dozens of satellite corporations are expected to follow suit; Among them, Armax Securities and Echelon are most noteworthy.",
+
+"The only two large enough to have corporate militaries of their own, Armax and Echelon are expected to mobilize much sooner than Nexus to begin claiming territory for themselves.
+
+This kind of migration is unheard of. Though it will be slow, the arrival of such a monolithic corporation will stir this arm of the galaxy.",
+
+"To put it shortly, the possibility of an armed conflict between Nexus and its soon-to-be competitors is very real.
+
+To investors, business owners, politicians, civilians, all alike - we advise taking caution moving forward."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

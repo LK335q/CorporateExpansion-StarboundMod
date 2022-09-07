@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "LBP-15",
+  "shortdescription" : "M2 LBP-15",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "machinePistol",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "machinepistol", "generalmunitions" ],
@@ -28,7 +28,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/mp1.ogg"]
+      "fire" : ["/sfx/gun/generalmunitions/crptexp-gmmachinepistol1.ogg"]
     },
     "lights" : {
       "muzzleFlash" : {

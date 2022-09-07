@@ -8,8 +8,8 @@
     "questGenerator" : { "pools" : [], "enableParticipation" : false },
 
     "merchant" : {
-      "waitTime" : 10,
-      "storeRadius" : -1,
+      "waitTime" : 40,
+      "storeRadius" : 16,
       "categories" : {
         "override" : [ "crptexp-gmarmsdealer_t0", "crptexp-gmarmsdealer_t3", "crptexp-gmarmsdealer_t4", "crptexp-gmarmsdealer_t5" ]
       },

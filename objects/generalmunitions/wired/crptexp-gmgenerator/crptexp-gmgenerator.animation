@@ -11,7 +11,7 @@
           },
           "on" : {
             "frames" : 6,
-            "cycle" : 1.0,
+            "cycle" : 0.8,
             "mode" : "loop",
             "properties" : {
               "persistentSound" : "/sfx/objects/generalmunitions/crptexp-gmgeneratorloop.ogg",

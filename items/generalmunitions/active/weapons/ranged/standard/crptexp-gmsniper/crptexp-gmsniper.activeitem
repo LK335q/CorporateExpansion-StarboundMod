@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "SSW.D-63",
+  "shortdescription" : "M2 SSW.D-63",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "sniperRifle",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "sniperrifle", "generalmunitions" ],

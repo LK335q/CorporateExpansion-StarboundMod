@@ -5,14 +5,14 @@
   "rarity" : "Legendary",
 
   "description" : "",
-  "shortdescription" : "RG.PIW-120",
+  "shortdescription" : "M4 RG.PIW-120",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "shotgun",
   "tooltipFields" : { "subtitle" : "Raygun" },
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "shotgun", "raygun", "generalmunitions" ],
-  "level" : 2,
+  "level" : 6,
   "fixedLevel" : false,
 
   "cursor" : "/cursors/generalmunitions/crptexp-gmshotgunreticle.cursor",

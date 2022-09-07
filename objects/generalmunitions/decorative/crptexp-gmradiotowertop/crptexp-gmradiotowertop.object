@@ -6,6 +6,8 @@
   "category" : "decorative",
   "price" : 20,
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "A radio tower for picking up inter-planetary communications.",
   "shortdescription" : "Radio Tower Top",
   "race" : "generic",

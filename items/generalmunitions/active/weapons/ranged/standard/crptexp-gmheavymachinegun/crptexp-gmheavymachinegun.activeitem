@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "WCB.HMG-12",
+  "shortdescription" : "M2 WCB.HMG-12",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "heavyMachineGun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "heavymachinegun", "generalmunitions" ],
@@ -107,8 +107,8 @@
         "allowRotate" : true,
         "allowFlip" : true,
 
-		"frontArmFrame" : "swim.2",
-		"backArmFrame": "rotation"
+		    "frontArmFrame" : "swim.2",
+		    "backArmFrame": "rotation"
 
       },
       "fire" : {
@@ -124,8 +124,8 @@
         "allowRotate" : false,
         "allowFlip" : false,
 
-		"frontArmFrame" : "swim.2",
-		"backArmFrame": "rotation"
+		    "frontArmFrame" : "swim.2",
+		    "backArmFrame": "rotation"
 
       },
       "cooldown" : {
@@ -137,8 +137,8 @@
         "allowRotate" : false,
         "allowFlip" : false,
 
-		"frontArmFrame" : "swim.2",
-		"backArmFrame": "rotation"
+		    "frontArmFrame" : "swim.2",
+		    "backArmFrame": "rotation"
       }
     }
   },

@@ -5,19 +5,21 @@
   "category" : "throwableItem",
   "inventoryIcon" : "crptexp-gmjumpmine.png",
   "image" : "crptexp-gmjumpmineheld.png",
-  "shortdescription" : "M4 \"Jumping Jane\" Mine",
+  "shortdescription" : "M2 Jumping Jane Mine",
   "description" : "Launches into the air and detonates, shooting steel balls in both directions.",
+
+  "tooltipKind" : "crptexp-gmthrownitem",
 
   "ammoUsage" : 1,
 
-  "edgeTrigger" : true,
+  "edgeTrigger" : false,
   "windupTime" : 0.0,
   "cooldown" : 1.8,
 
   "projectileType" : "crptexp-gmjumpmine",
   "projectileConfig" : {
     "speed" : 5,
-    "power" : 25,
+    "power" : 8,
     "periodicActions" : [
       {
         "time" : 0,

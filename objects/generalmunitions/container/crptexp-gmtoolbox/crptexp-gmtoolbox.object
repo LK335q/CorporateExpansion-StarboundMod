@@ -1,0 +1,46 @@
+{
+  "objectName" : "crptexp-gmtoolbox",
+  "colonyTags" : [ "storage", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "crptexp-gmcontainer",
+
+  "description" : "Does not come included with tools.",
+  "shortdescription" : "Barracks Tool Cabinet",
+
+  "race" : "generic",
+  "category" : "storage",
+  "price" : 60,
+
+  "apexDescription" : "An organized tool cabinet.",
+  "avianDescription" : "A bright red tool cabinet.",
+  "floranDescription" : "Cabinet can hold many thingss.",
+  "glitchDescription" : "Excited. I can store my tools in here!",
+  "humanDescription" : "This would look nice in a tool shed.",
+  "hylotlDescription" : "Cabinets for storing tools.",
+  "novakidDescription" : "Fit for storin' a bunch of tools.",
+
+  "nexusdroidDescription" : "Storage unit designed for construction tools.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmtoolbox.png:<color>.<key>",
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/bunkercabinet_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bunkercabinet_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+
+}

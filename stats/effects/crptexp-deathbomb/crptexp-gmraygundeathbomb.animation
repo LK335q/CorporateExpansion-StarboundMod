@@ -1,0 +1,33 @@
+{
+  "particleEmitters" : {
+    "sparks" : {
+      "enabled" : true,
+      "emissionRate" : 5.0,
+      "burstCount" : 5,
+      "particles" : [
+        {
+          "particle" : {
+            "type" : "animated",
+            "animation" : "/animations/generalmunitions/smoke/crptexp-gmraygunsmoke/crptexp-gmraygunsmoke.animation",
+            "size" : 1.0,
+            "fullbright" : true,
+            "collidesForeground" : false,
+            "approach" : [4.5, 4.5],
+            "finalVelocity" : [0.0, 1.0],
+            "light" : [0, 15, 10],
+            "timeToLive" : 0.7,
+            "destructionTime" : 0.2,
+            "destructionAction" : "shrink",
+            "variance" : {
+              "position" : [1.0, 1.0],
+              "initialVelocity" : [5, 5],
+              "timeToLive" : 0.1,
+              "size" : 0.2,
+              "rotation" : 180
+            }
+          }
+        }
+      ]
+    }
+  }
+}

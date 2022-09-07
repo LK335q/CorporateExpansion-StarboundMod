@@ -1,0 +1,50 @@
+{
+  "type" : "crptexp-gmofficer",
+  "baseType" : "villageguard",
+
+  "identity" : {
+    "personalityIdle" : "idle.2",
+    "personalityArmIdle" : "idle.2",
+    "personalityHeadOffset" : [0, 0],
+    "personalityArmOffset" : [0, 0]
+  },
+
+  "levelVariance" : [0, 0],
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    "dialog" : {
+      "hail" : "/dialog/crptexp-gmguard.config:hail",
+      "converse" : "/dialog/crptexp-gmofficer.config:converse"
+    }
+},
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmofficerhead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gmofficerchest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gmofficerlegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [ "crptexp-gmofficersword" ]
+          }
+        ] ]
+    ]
+  }
+}

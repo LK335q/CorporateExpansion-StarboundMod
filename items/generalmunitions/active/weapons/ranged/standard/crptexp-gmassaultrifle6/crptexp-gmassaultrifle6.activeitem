@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "KRA-49",
+  "shortdescription" : "M2 KRA-49",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "assaultrifle", "generalmunitions" ],

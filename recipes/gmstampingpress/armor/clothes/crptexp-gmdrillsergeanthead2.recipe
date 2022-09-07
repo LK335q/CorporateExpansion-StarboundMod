@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmdrillsergeanthead", "count" : 1 },
+    { "item" : "crptexp-gmaviators", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "crptexp-gmdrillsergeanthead2", "count" : 1 },
+  "groups" : [ "crptexp-gmstampingpress", "armours", "all" ]
+}

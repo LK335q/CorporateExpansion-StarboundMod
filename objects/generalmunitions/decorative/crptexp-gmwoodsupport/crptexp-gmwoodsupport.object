@@ -9,6 +9,8 @@
   "shortdescription" : "Varnished Wood Support",
   "race" : "generic",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "apexDescription" : "A wooden support. Looks worse for wear.",
   "avianDescription" : "A wooden support.",
   "floranDescription" : "Wood made into sssupport.",

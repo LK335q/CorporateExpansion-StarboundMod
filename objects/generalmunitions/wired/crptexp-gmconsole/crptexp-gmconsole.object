@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "A solid metal control console. It has lots of coloured lights that indicate... something.",
   "shortdescription" : "Control Console",
 

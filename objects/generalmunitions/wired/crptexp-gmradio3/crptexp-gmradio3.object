@@ -1,0 +1,70 @@
+{
+  "objectName" : "crptexp-gmradio3",
+  "colonyTags" : [ "generalmunitions", "electronic" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "Come in. Over.",
+  "shortdescription" : "Walkie Talkie",
+
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 70,
+  "lightColor" : [0, 75, 0],
+
+  "apexDescription" : "Rebels use radios like these frequently.",
+  "avianDescription" : "A method of long-distance communication.",
+  "floranDescription" : "Box makess funny sounds.",
+  "glitchDescription" : "Thoughtful. What if the Glitch possessed the ability to communicate this way?",
+  "humanDescription" : "An old-fashioned military radio.",
+  "hylotlDescription" : "I suppose a radio like this gets the job done.",
+  "novakidDescription" : "Neat ol' radio.",
+
+  "nexusdroidDescription" : "Outmoded communications device. Signal encryption strength: weak.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "crptexp-gmradio3.png:<color>.on",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "crptexp-gmradio3.png:<color>.on",
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "animation" : "crptexp-gmradio3.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "bg" : "crptexp-gmradio3.png",
+    "fg" : "crptexp-gmradio3lit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

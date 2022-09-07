@@ -1,8 +1,10 @@
 {
   "objectName" : "crptexp-gmconcretebarrier",
-  "colonyTags" : [ "commerce", "combat", "generalmunitions" ],
+  "colonyTags" : [ "combat", "generalmunitions" ],
   "printable" : false,
   "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
 
   "description" : "A heavy concrete barrier.",
   "shortdescription" : "Concrete Barrier",

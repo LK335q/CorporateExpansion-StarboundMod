@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "ARM.C-59",
+  "shortdescription" : "M2 ARM.C-59",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "assaultrifle", "generalmunitions" ],

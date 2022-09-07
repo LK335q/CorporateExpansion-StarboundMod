@@ -5,12 +5,14 @@
   "category" : "throwableItem",
   "inventoryIcon" : "crptexp-gmfraggrenade.png",
   "image" : "crptexp-gmfraggrenadeheld.png",
-  "shortdescription" : "M2 Fragmentation Grenade",
-  "description" : "Launches sharp metal fragments in all directions upon detonating.",
+  "shortdescription" : "M2 Frag Grenade",
+  "description" : "A fragmentation grenade that launches sharp metal fragments in all directions upon detonating.",
+
+  "tooltipKind" : "crptexp-gmthrownitem",
 
   "ammoUsage" : 1,
 
-  "edgeTrigger" : true,
+  "edgeTrigger" : false,
   "windupTime" : 0.0,
   "cooldown" : 1.4,
 

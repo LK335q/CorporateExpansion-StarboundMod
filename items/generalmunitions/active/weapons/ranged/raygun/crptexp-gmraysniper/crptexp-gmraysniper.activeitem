@@ -5,14 +5,14 @@
   "rarity" : "Legendary",
 
   "description" : "",
-  "shortdescription" : "RG.PHZR-770",
+  "shortdescription" : "M4 RG.PHZR-770",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "sniperRifle",
   "tooltipFields" : { "subtitle" : "Raygun" },
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "sniperrifle", "raygun", "generalmunitions" ],
-  "level" : 2,
+  "level" : 6,
   "fixedLevel" : false,
 
   "cursor" : "/cursors/generalmunitions/crptexp-gmsniperreticle.cursor",

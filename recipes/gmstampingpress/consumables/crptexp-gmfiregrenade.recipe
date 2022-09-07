@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmmetal", "count" : 1 },
+    { "item" : "volatilepowder", "count" : 1 },
+    { "item" : "liquidoil", "count" : 2 }
+  ],
+  "output" : { "item" : "crptexp-gmfiregrenade", "count" : 3 },
+  "groups" : [ "crptexp-gmstampingpress", "consumables", "all" ]
+}

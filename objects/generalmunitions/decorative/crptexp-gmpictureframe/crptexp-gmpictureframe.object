@@ -1,0 +1,40 @@
+{
+  "objectName" : "crptexp-gmpictureframe",
+  "colonyTags" : [ "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A small picture frame.",
+  "shortdescription" : "Picture Frame",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "This appears to be a framed anatomy image.",
+  "avianDescription" : "A framed painting of spiritual symbols.",
+  "floranDescription" : "Thiss is a picture of a big slain beast!",
+  "glitchDescription" : "Pleased. It's a photograph of a large castle.",
+  "humanDescription" : "It's a picture of someone. They seem to be happy.",
+  "hylotlDescription" : "A lovely composition of vivid imagery.",
+  "novakidDescription" : "Looks like a picture of a wide open landscape.",
+
+  "nexusdroidDescription" : "Empty display unit for a physical photograph.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmpictureframe.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

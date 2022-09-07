@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "PL-98",
+  "shortdescription" : "M2 PL-98",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "pistol", "generalmunitions" ],

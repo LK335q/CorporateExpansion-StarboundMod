@@ -1,0 +1,72 @@
+{
+  "objectName" : "crptexp-gmceilingfan",
+  "colonyTags" : [ "generalmunitions", "light" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "An industrial ceiling fan.",
+  "shortdescription" : "Ceiling Fan",
+
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 70,
+  "lightColor" : [191, 137, 21],
+
+  "apexDescription" : "A display screen.",
+  "avianDescription" : "The gust of wind from this fan feels as though I am flying through the sky.",
+  "floranDescription" : "Fan blades spin fasst, could chop meatss maybe?",
+  "glitchDescription" : "Mesmerized. I could watch these fan blades spin for hours.",
+  "humanDescription" : "This metal ceiling fan looks depressing.",
+  "hylotlDescription" : "I would rather cool off by taking a cold bath.",
+  "novakidDescription" : "A simple lookin' fan.",
+
+  "nexusdroidDescription" : "Device designed to aid in heat dissipation via perspiration.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "crptexp-gmceilingfan.png:<color>.on",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    },
+    {
+      "image" : "crptexp-gmceilingfan.png:<color>.on",
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-16, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+
+  "animation" : "crptexp-gmceilingfan.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/generalmunitions/crptexp-gmpullcord.ogg" ],
+      "off" : [ "/sfx/objects/generalmunitions/crptexp-gmpullcord.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "bg" : "crptexp-gmceilingfan.png",
+    "fg" : "crptexp-gmceilingfanlit.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

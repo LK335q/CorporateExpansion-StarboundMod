@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
-  "tooltipKind" : "container",
+  "tooltipKind" : "crptexp-gmcontainer",
 
   "description" : "A basic metal desk. The top is covered in scratches and dents.",
   "shortdescription" : "Barracks Desk",

@@ -1,0 +1,171 @@
+{
+  "type" : "crptexp-gmdrillsergeant",
+  "baseType" : "villageguard",
+
+  "levelVariance" : [0, 0],
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    "dialog" : {
+      "hail" : "/dialog/crptexp-gmguard.config:hail",
+      "converse" : "/dialog/crptexp-gmdrillsergeant.config:converse"
+    }
+},
+
+  "items" : {
+    "human" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmdrillsergeanthead", "parameters" : { "colorIndex" : [0] } },
+              { "name" : "crptexp-gmdrillsergeanthead2", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmraypistol",
+              "crptexp-gmenergymachinepistol",
+              "crptexp-gmenergyhandcannon"
+            ]
+          }
+      ]]
+    ],
+    "floran" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmdrillsergeanthead", "parameters" : { "colorIndex" : [0] } },
+              { "name" : "crptexp-gmdrillsergeanthead2", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmraypistol",
+              "crptexp-gmenergymachinepistol",
+              "crptexp-gmenergyhandcannon"
+            ]
+          }
+      ]]
+    ],
+    "hylotl" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmdrillsergeanthead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmraypistol",
+              "crptexp-gmenergymachinepistol",
+              "crptexp-gmenergyhandcannon"
+            ]
+          }
+      ]]
+    ],
+    "apex" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmdrillsergeanthead", "parameters" : { "colorIndex" : [0] } },
+              { "name" : "crptexp-gmdrillsergeanthead2", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmraypistol",
+              "crptexp-gmenergymachinepistol",
+              "crptexp-gmenergyhandcannon"
+            ]
+          }
+      ]]
+    ],
+    "avian" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmdrillsergeanthead", "parameters" : { "colorIndex" : [0] } },
+              { "name" : "crptexp-gmdrillsergeanthead2", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmraypistol",
+              "crptexp-gmenergymachinepistol",
+              "crptexp-gmenergyhandcannon"
+            ]
+          }
+      ]]
+    ],
+    "glitch" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmdrillsergeanthead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmraypistol",
+              "crptexp-gmenergymachinepistol",
+              "crptexp-gmenergyhandcannon"
+            ]
+          }
+      ]]
+    ],
+    "novakid" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmdrillsergeanthead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmraypistol",
+              "crptexp-gmenergymachinepistol",
+              "crptexp-gmenergyhandcannon"
+            ]
+          }
+      ]]
+    ]
+  }
+}

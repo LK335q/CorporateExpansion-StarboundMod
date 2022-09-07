@@ -1,0 +1,32 @@
+{
+  "itemName" : "crptexp-gmenergycleaver",
+  "price" : 50,
+  "rarity" : "Rare",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmenergycleaver.png",
+  "image" : "crptexp-gmenergycleaverheld.png",
+  "shortdescription" : "M3 Energy Cleaver",
+  "description" : "An energy cleaver for chopping heavy duty meats.",
+
+  "tooltipKind" : "crptexp-gmthrownitem",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : false,
+  "windupTime" : 0.0,
+  "cooldown" : 0.8,
+
+  "projectileType" : "crptexp-gmenergycleaver",
+  "projectileConfig" : {
+    "speed" : 60,
+    "power" : 20,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/melee/charge_full_swing2.ogg" ]
+      }
+    ]
+  }
+}

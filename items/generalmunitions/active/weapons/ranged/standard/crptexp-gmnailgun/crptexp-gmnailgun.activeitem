@@ -5,9 +5,9 @@
   "rarity" : "Common",
 
   "description" : "Normally used for construction of battlements, the GMC nailgun also works as a decent weapon.",
-  "shortdescription" : "GMC Nailgun",
+  "shortdescription" : "M1 Nailgun",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "machinePistol",
   "tooltipFields" : { "subtitle" : "Nail Gun" },
   "twoHanded" : false,

@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Uncommon",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "The inventory of a General Munitions Co. armorer.",
   "shortdescription" : "GMC Armory Collection",
 

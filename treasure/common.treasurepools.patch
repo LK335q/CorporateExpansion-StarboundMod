@@ -5,6 +5,218 @@
   // ==============================================================================================
 
   // ================================
+  // Adding GMC Weapons to Vanilla Pools
+  // ================================
+
+  {
+    "op" : "add",
+      "path" : "/weapon/0/1/pool/-",
+      "value" :
+        {"weight" : 0.25, "pool" : "crptexp-gmcommonweapon"}
+  },
+  {
+    "op" : "add",
+      "path" : "/weapon/0/1/pool/-",
+      "value" :
+        {"weight" : 0.15, "pool" : "crptexp-gmuncommonweapon"}
+  },
+  {
+    "op" : "add",
+      "path" : "/weapon/0/1/pool/-",
+      "value" :
+        {"weight" : 0.06, "pool" : "crptexp-gmrareweapon"}
+  },
+  {
+    "op" : "add",
+      "path" : "/weapon/0/1/pool/-",
+      "value" :
+        {"weight" : 0.02, "pool" : "crptexp-gmlegendaryweapon"}
+  },
+
+  {
+    "op" : "add",
+      "path" : "/goodWeapon/0/1/pool/-",
+      "value" :
+        {"weight" : 0.30, "pool" : "crptexp-gmcommonweapon"}
+  },
+  {
+    "op" : "add",
+      "path" : "/goodWeapon/0/1/pool/-",
+      "value" :
+        {"weight" : 0.20, "pool" : "crptexp-gmuncommonweapon"}
+  },
+  {
+    "op" : "add",
+      "path" : "/goodWeapon/0/1/pool/-",
+      "value" :
+        {"weight" : 0.10, "pool" : "crptexp-gmrareweapon"}
+  },
+  {
+    "op" : "add",
+      "path" : "/goodWeapon/0/1/pool/-",
+      "value" :
+        {"weight" : 0.05, "pool" : "crptexp-gmlegendaryweapon"}
+  },
+
+  // ================================
+  //       GMC Weapon Pools
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmcommonweapon",
+    "value": [[0, {
+      "pool" : [
+        // RANGED WEAPONS
+        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle7"},
+        {"weight" : 0.1, "item" : "crptexp-gmpistol3"},
+        {"weight" : 0.1, "item" : "crptexp-gmshotgun2"},
+        {"weight" : 0.1, "item" : "crptexp-gmsniper2"},
+        {"weight" : 0.1, "item" : "crptexp-gmgrenadelauncher"},
+        {"weight" : 0.1, "item" : "crptexp-gmhandcannon2"},
+        {"weight" : 0.1, "item" : "crptexp-gmnailgun"},
+        // MELEE WEAPONS
+        {"weight" : 0.1, "item" : "crptexp-gmtrenchshovel"},
+        {"weight" : 0.1, "item" : "crptexp-gmcrowbar"}
+      ]
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmuncommonweapon",
+    "value": [[0, {
+      "pool" : [
+        // RANGED WEAPONS
+        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle"},
+        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle2"},
+        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle3"},
+        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle4"},
+        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle5"},
+        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle6"},
+        {"weight" : 0.1, "item" : "crptexp-gmpistol"},
+        {"weight" : 0.1, "item" : "crptexp-gmpistol2"},
+        {"weight" : 0.1, "item" : "crptexp-gmshotgun"},
+        {"weight" : 0.1, "item" : "crptexp-gmshotgun3"},
+        {"weight" : 0.1, "item" : "crptexp-gmsniper"},
+        {"weight" : 0.1, "item" : "crptexp-gmsniper3"},
+        {"weight" : 0.1, "item" : "crptexp-gmgrenadelauncher2"},
+        {"weight" : 0.1, "item" : "crptexp-gmgrenadelauncher3"},
+        {"weight" : 0.1, "item" : "crptexp-gmmachinepistol"},
+        {"weight" : 0.1, "item" : "crptexp-gmmachinepistol2"},
+        {"weight" : 0.1, "item" : "crptexp-gmmachinepistol3"},
+        {"weight" : 0.1, "item" : "crptexp-gmmachinepistol4"},
+        {"weight" : 0.1, "item" : "crptexp-gmlightmachinegun"},
+        {"weight" : 0.1, "item" : "crptexp-gmlightmachinegun2"},
+        {"weight" : 0.1, "item" : "crptexp-gmlightmachinegun3"},
+        {"weight" : 0.1, "item" : "crptexp-gmlightmachinegun4"},
+        {"weight" : 0.1, "item" : "crptexp-gmsubmachinegun"},
+        {"weight" : 0.1, "item" : "crptexp-gmsubmachinegun2"},
+        {"weight" : 0.1, "item" : "crptexp-gmsubmachinegun3"},
+        {"weight" : 0.1, "item" : "crptexp-gmsubmachinegun4"},
+        {"weight" : 0.1, "item" : "crptexp-gmheavymachinegun"},
+        {"weight" : 0.1, "item" : "crptexp-gmheavymachinegun2"},
+        {"weight" : 0.1, "item" : "crptexp-gmheavymachinegun3"},
+        {"weight" : 0.1, "item" : "crptexp-gmhandcannon"},
+        {"weight" : 0.1, "item" : "crptexp-gmhandcannon3"},
+        {"weight" : 0.1, "item" : "crptexp-gmhandcannon4"},
+        {"weight" : 0.1, "item" : "crptexp-gmshotgunauto"},
+        {"weight" : 0.1, "item" : "crptexp-gmflamethrower"},
+        // MELEE WEAPONS
+        {"weight" : 0.1, "item" : "crptexp-gmdagger"},
+        {"weight" : 0.1, "item" : "crptexp-gmmachete"},
+        {"weight" : 0.1, "item" : "crptexp-gmshiv"},
+        {"weight" : 0.1, "item" : "crptexp-gmbroadsword"},
+        {"weight" : 0.1, "item" : "crptexp-gmshortsword"},
+        {"weight" : 0.1, "item" : "crptexp-gmspear"},
+        {"weight" : 0.1, "item" : "crptexp-gmaxe"},
+        {"weight" : 0.1, "item" : "crptexp-gmbroadsword2"},
+        {"weight" : 0.1, "item" : "crptexp-gmshortsword2"},
+        {"weight" : 0.1, "item" : "crptexp-gmmace"}
+      ]
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmrareweapon",
+    "value": [[0, {
+      "pool" : [
+        // RANGED WEAPONS
+        {"weight" : 0.1, "item" : "crptexp-gmenergyassaultrifle"},
+        {"weight" : 0.1, "item" : "crptexp-gmenergylightmachinegun"},
+        {"weight" : 0.1, "item" : "crptexp-gmenergyshotgun"},
+        {"weight" : 0.1, "item" : "crptexp-gmenergysniper"},
+        {"weight" : 0.1, "item" : "crptexp-gmenergysubmachinegun"},
+        // MELEE WEAPONS
+        {"weight" : 0.1, "item" : "crptexp-gmenergybroadsword"},
+        {"weight" : 0.1, "item" : "crptexp-gmenergyshortsword"}
+      ]
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmlegendaryweapon",
+    "value": [[0, {
+      "pool" : [
+        // RANGED WEAPONS
+        {"weight" : 0.1, "item" : "crptexp-gmraypistol"},
+        {"weight" : 0.1, "item" : "crptexp-gmrayrifle"},
+        {"weight" : 0.1, "item" : "crptexp-gmraysniper"},
+        {"weight" : 0.1, "item" : "crptexp-gmrayshotgun"}
+      ]
+    }]]
+  },
+
+  // ================================
+  //       GMC Dye Pool
+  // ================================
+
+  {
+    "op": "add",
+    "path": "/crptexp-gmdye",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : ["crptexp-gmgunmetaldye", 5]},
+        {"weight" : 0.5, "item" : ["crptexp-gmgreendye", 5]},
+        {"weight" : 0.5, "item" : ["crptexp-gmreddye", 5]},
+        {"weight" : 0.3, "item" : ["crptexp-gmbrassdye", 5]},
+        {"weight" : 0.3, "item" : ["crptexp-gmpurpledye", 5]},
+        {"weight" : 0.3, "item" : ["crptexp-gmsteeldye", 5]},
+        {"weight" : 0.3, "item" : ["crptexp-gmwooddye", 5]},
+        {"weight" : 0.3, "item" : ["crptexp-gmwornwooddye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmrustymetaldye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmbluedye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmagedgunmetaldye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmblueddye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmdustydye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmmahoganydye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmmapledye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmmesquitedye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmpinewooddye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmrecycleddye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmrustdye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmsootydye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmstampeddye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmlightwooddye", 5]},
+        {"weight" : 0.1, "item" : ["crptexp-gmcosmolinedye", 5]},
+        {"weight" : 0.05, "item" : ["crptexp-gmenergydye", 5]},
+        {"weight" : 0.05, "item" : ["crptexp-gmfiredye", 5]},
+        {"weight" : 0.05, "item" : ["crptexp-gmgolddye", 5]},
+        {"weight" : 0.05, "item" : ["crptexp-gmgreentracerdye", 5]},
+        {"weight" : 0.05, "item" : ["crptexp-gmmuzzledye", 5]},
+        {"weight" : 0.05, "item" : ["crptexp-gmraygundye", 5]},
+        {"weight" : 0.05, "item" : ["crptexp-gmtracerdye", 5]},
+        {"weight" : 0.05, "item" : ["crptexp-gmyellowtracerdye", 5]},
+        {"weight" : 0.05, "item" : ["crptexp-gmyellowlightdye", 5]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : false
+    }]]
+  },
+
+  // ================================
   //       Green MRE Pool
   // ================================
 

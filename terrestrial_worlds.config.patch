@@ -1,14 +1,88 @@
 [
 
-  { "op":"add", "path": "/planetTypes/forest/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
-  { "op":"add", "path": "/planetTypes/desert/layers/surface/dungeons/-", "value": [ 4.0, "crptexp-gmbase" ] },
-  { "op":"add", "path": "/planetTypes/savannah/layers/surface/dungeons/-", "value": [ 4.0, "crptexp-gmbase" ] },
-  { "op":"add", "path": "/planetTypes/snow/layers/surface/dungeons/-", "value": [ 4.0, "crptexp-gmbase" ] },
-  { "op":"add", "path": "/planetTypes/jungle/layers/surface/dungeons/-", "value": [ 4.0, "crptexp-gmbase" ] },
-  { "op":"add", "path": "/planetTypes/alien/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
-  { "op":"add", "path": "/planetTypes/tundra/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
-  { "op":"add", "path": "/planetTypes/midnight/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
-  { "op":"add", "path": "/planetTypes/volcanic/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
-  { "op":"add", "path": "/planetTypes/scorchedcity/layers/surface/dungeons/-", "value": [ 4.0, "crptexp-gmbase" ] }
+  [
+    // Vanilla Planets
+
+    { "op":"add", "path": "/planetTypes/forest/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/desert/layers/surface/dungeons/-", "value": [ 4.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/savannah/layers/surface/dungeons/-", "value": [ 2.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/snow/layers/surface/dungeons/-", "value": [ 2.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/jungle/layers/surface/dungeons/-", "value": [ 4.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/alien/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/tundra/layers/surface/dungeons/-", "value": [ 4.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/midnight/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/volcanic/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/scorchedcity/layers/surface/dungeons/-", "value": [ 4.0, "crptexp-gmbase" ] }
+  ],
+
+  [
+    // Arcana Planets
+
+    { "op" : "test", "path": "/planetTypes/arcana_arcaneForest" },
+
+    { "op":"add", "path": "/planetTypes/arcana_arcaneDesert/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_arcaneTundra/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_blistering/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_windswept/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_goldenForest/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_illuminated/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_desolate/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_sanguine/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_ferocious/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_ardentTaiga/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_stahlernBadlands/layers/surface/dungeons/-", "value": [ 2.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_automated/layers/surface/dungeons/-", "value": [ 2.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_viridescent/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_solarized/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arcana_bambooForest/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] }
+  ],
+
+  [
+    // Maple32 Planets
+
+    { "op" : "test", "path": "/planetTypes/shatter" },
+
+    { "op":"add", "path": "/planetTypes/m32industrialforest/layers/surface/dungeons/-", "value": [ 2.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/m32steppe/layers/surface/dungeons/-", "value": [ 2.0, "crptexp-gmbase" ] }
+  ],
+
+  [
+    // Frackin Universe Planets
+
+    { "op" : "test", "path": "/planetTypes/atropus" },
+
+    { "op":"add", "path": "/planetTypes/ffunknown/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/shadow/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/superdense/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arboreal/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arboreal2/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/arborealdark/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/bloodstone/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/bog/layers/surface/dungeons/-", "value": [ 2.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/crystalmoon/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/chromatic/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/desertwastes/layers/surface/dungeons/-", "value": [ 2.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/desertwastesdark/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/frozenvolcanic/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/snowdark/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/tundradark/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/fungus/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/irradiated/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/mountainous/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/protoworld/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/protoworlddark/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/slimeworld/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/thickjungle/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/urbanwasteland/layers/surface/dungeons/-", "value": [ 2.0, "crptexp-gmbase" ] },
+    { "op":"add", "path": "/planetTypes/urbanwasteland2/layers/surface/dungeons/-", "value": [ 2.0, "crptexp-gmbase" ] }
+  ],
+
+  [
+    // KRakoths Planets
+
+    { "op" : "test", "path": "/planetTypes/atprk_boilingocean" },
+
+    { "op":"add", "path": "/planetTypes/atprk_ashworld/layers/surface/dungeons/-", "value": [ 1.0, "crptexp-gmbase" ] }
+  ]
 
 ]

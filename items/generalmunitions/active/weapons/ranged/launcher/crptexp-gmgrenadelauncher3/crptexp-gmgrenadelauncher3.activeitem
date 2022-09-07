@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "CGL-67",
+  "shortdescription" : "M2 CGL-67",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "grenadeLauncher",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "grenadelauncher", "generalmunitions" ],
@@ -63,7 +63,7 @@
       }
     },
     "sounds" : {
-      "switchAmmo" : [ "/sfx/gun/reload/grenade_reload_clip1.ogg" ],
+      "switchAmmo" : [ "/sfx/gun/generalmunitions/reload/crptexp-gmammomaglarge.ogg" ],
 	    "fire" : ["/sfx/gun/grenade1.ogg"]
 	}
   },

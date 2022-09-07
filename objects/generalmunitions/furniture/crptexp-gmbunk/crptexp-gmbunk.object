@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "A basic stackable bunk bed.",
   "shortdescription" : "Barracks Bunk",
 

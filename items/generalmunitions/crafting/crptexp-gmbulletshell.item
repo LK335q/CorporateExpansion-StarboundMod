@@ -6,6 +6,8 @@
   "price" : 2,
   "inventoryIcon" : "crptexp-gmbulletshell.png",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "description" : "An empty brass shell. Not much can be done with this.",
   "shortdescription" : "Bullet Shell"
 }

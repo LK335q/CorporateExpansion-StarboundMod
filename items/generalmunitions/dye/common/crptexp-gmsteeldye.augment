@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Steel Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "c7c7c7" , "e0975c" : "808080" , "a85636" : "4d4d4d" , "6f2919" : "2f2f33",
 					  "ffca8afe" : "c7c7c7fe" , "e0975cfe" : "808080fe" , "a85636fe" : "4d4d4dfe" , "6f2919fe" : "2f2f33fe" },
 

@@ -3,10 +3,13 @@
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "crptexp-gmcorrugatedtube.png",
+  "inventoryIcon" : "crptexp-gmcorrugatedtubeicon.png",
+  "largeImage" : "/items/materials/generalmunitions/crptexp-gmcorrugatedtube.png",
 
   "shortdescription" : "Corrugated Tubing",
   "description" : "Heavy industrial pipes for transferring fluids and/or gases.",
+
+  "tooltipKind" : "crptexp-gmtile",
 
   "glitchDescription" : "Uninterested. Plain metal tubing.",
   "floranDescription" : "Floran yellss into pipes, make voice louder!",

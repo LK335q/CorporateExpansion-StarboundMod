@@ -1,0 +1,83 @@
+{
+  "type" : "crptexp-gmradiosoldier",
+  "baseType" : "villageguard",
+
+  "levelVariance" : [0, 0],
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+    "dialog" : {
+      "hail" : "/dialog/crptexp-gmguard.config:hail",
+      "converse" : "/dialog/crptexp-gmsoldier.config:converse"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmheadset", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "back" : [
+              { "name" : "crptexp-gmradioback", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmdagger",
+              "crptexp-gmdagger",
+              "crptexp-gmtrenchshovel",
+              "crptexp-gmtrenchshovel",
+              "crptexp-gmmachete",
+              "crptexp-gmmachete",
+              "crptexp-gmaxe",
+              "crptexp-gmmace",
+              "crptexp-gmshortsword",
+              "crptexp-gmshortsword2"
+            ]
+          },
+          {
+            "head" : [
+              { "name" : "crptexp-gmheadset", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "back" : [
+              { "name" : "crptexp-gmradioback", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmpistol",
+              "crptexp-gmpistol2",
+              "crptexp-gmmachinepistol",
+              "crptexp-gmmachinepistol2",
+              "crptexp-gmmachinepistol3",
+              "crptexp-gmmachinepistol4",
+              "crptexp-gmsubmachinegun",
+              "crptexp-gmsubmachinegun2",
+              "crptexp-gmsubmachinegun3",
+              "crptexp-gmsubmachinegun4",
+              "crptexp-gmhandcannon",
+              "crptexp-gmhandcannon3",
+              "crptexp-gmhandcannon4"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

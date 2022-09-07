@@ -5,13 +5,13 @@
   "rarity" : "Rare",
 
   "description" : "",
-  "shortdescription" : "DE.PW-20",
+  "shortdescription" : "M3 DE.PW-20",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "submachineGun",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "submachinegun", "generalmunitions" ],
-  "level" : 2,
+  "level" : 5,
   "fixedLevel" : false,
 
   "cursor" : "/cursors/reticle5.cursor",

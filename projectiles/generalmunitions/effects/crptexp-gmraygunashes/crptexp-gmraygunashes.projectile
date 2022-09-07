@@ -48,6 +48,35 @@
   		    "timeToLive" : 0.1
         }
       }
+  	},
+    {
+  	  "time" : 0.2,
+        "repeat" : true,
+        "action" : "particle",
+        "rotate" : true,
+        "specification" : {
+        "type" : "animated",
+        "animation" : "/animations/generalmunitions/smoke/crptexp-gmraygunsmoke/crptexp-gmraygunsmoke.animation",
+        "size" : 0.5,
+        "fullbright" : true,
+        "collidesForeground" : false,
+  		  "light" : [0, 20, 10],
+        "initialVelocity" : [-3.0, 0.0],
+  		  "approach" : [-3.0, 0.5],
+  	  	"finalVelocity" : [0.0, 0.0],
+        "timeToLive" : 0.7,
+        "destructionTime" : 0.2,
+        "destructionAction" : "shrink",
+        "layer" : "back",
+        "position" : [0.0, 0.0],
+  		  "variance" : {
+  		    "initialVelocity" : [1.0, 0.5],
+          "position" : [0.2, 1.0],
+  		    "size" : 0.2,
+          "rotation" : 180,
+  		    "timeToLive" : 0.1
+        }
+      }
   	}
   ]
 }

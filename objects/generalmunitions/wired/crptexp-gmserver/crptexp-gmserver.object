@@ -1,0 +1,72 @@
+{
+  "objectName" : "crptexp-gmserver",
+  "colonyTags" : [ "generalmunitions", "electronic" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A metal server rack.",
+  "shortdescription" : "Industrial Server",
+
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 70,
+  "lightColor" : [0, 50, 0],
+
+  "apexDescription" : "A server cabinet.",
+  "avianDescription" : "An unremarkable server cabinet.",
+  "floranDescription" : "Beepy machines do not interessst this Floran.",
+  "glitchDescription" : "Curious. A server cabinet. What information could it contain?",
+  "humanDescription" : "A server.",
+  "hylotlDescription" : "A server cluster.",
+  "novakidDescription" : "A machine containin' information.",
+
+  "nexusdroidDescription" : "Basic server rack with inferior processing power.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "crptexp-gmserver.png:<color>.on",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    },
+    {
+      "image" : "crptexp-gmserver.png:<color>.on",
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+    }
+  ],
+
+  "animation" : "crptexp-gmserver.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/generalmunitions/crptexp-gmcomputerstart.ogg" ],
+      "off" : [ "/sfx/objects/generalmunitions/crptexp-gmcomputerstop.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "bg" : "crptexp-gmserver.png",
+    "fg" : "crptexp-gmserverlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "inputNodes" : [ [0, 0] ]
+}

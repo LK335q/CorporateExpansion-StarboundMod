@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "MD.50-18",
+  "shortdescription" : "M2 MD.50-18",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "heavyMachineGun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "heavymachinegun", "generalmunitions" ],

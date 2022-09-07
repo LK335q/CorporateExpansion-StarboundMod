@@ -5,9 +5,9 @@
   "rarity" : "Common",
 
   "description" : "",
-  "shortdescription" : "LRS-66",
+  "shortdescription" : "M1 LRS-66",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "handCannon",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "handcannon", "generalmunitions" ],
@@ -81,7 +81,7 @@
 
       },
       "cooldown" : {
-        "duration" : 0.2,
+        "duration" : 0.4,
         "armRotation" : 10,
         "weaponRotation" : 10,
         "twoHanded" : false,

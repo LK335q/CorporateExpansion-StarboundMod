@@ -1,0 +1,40 @@
+{
+  "itemName" : "crptexp-gmweaponblueprint2",
+  "level" : 1,
+  "price" : 150,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A blueprint for an advanced General Munitions Co. weapon.",
+  "shortdescription" : "M3 Weapon Blueprints",
+  "tooltipKind" : "crptexp-gmtool",
+  "category" : "Blueprint",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "crptexp-gmweaponblueprint2.png",
+  "image" : "crptexp-gmweaponblueprint2.png",
+
+  "animation" : "/items/active/randomblueprint/randomblueprint.animation",
+
+  "scripts" : ["/items/active/randomblueprint/randomblueprint.lua"],
+
+  "swingTime" : 0.15,
+
+  "allowDuplicateChance" : 0.1,
+  "recipes" : [
+    [
+      "crptexp-gmenergyassaultrifle",
+      "crptexp-gmenergylightmachinegun",
+      "crptexp-gmenergyshotgun",
+      "crptexp-gmenergysniper",
+      "crptexp-gmenergysubmachinegun"
+    ],
+    [
+      "crptexp-gmenergybroadsword",
+      "crptexp-gmenergyshortsword"
+    ],
+    [
+      "crptexp-gmenergygrenade",
+      "crptexp-gmenergycleaver"
+    ]
+  ]
+}

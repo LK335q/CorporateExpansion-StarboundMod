@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "VRG-69",
+  "shortdescription" : "M2 VRG-69",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "machinePistol",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "machinepistol", "generalmunitions" ],

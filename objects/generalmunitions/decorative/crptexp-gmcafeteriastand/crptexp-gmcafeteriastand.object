@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Uncommon",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "This heated stand contains an assortment of barely edible slop.",
   "shortdescription" : "Cafeteria Stand",
 

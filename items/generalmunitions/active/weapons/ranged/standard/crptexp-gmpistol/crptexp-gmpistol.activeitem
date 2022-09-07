@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "GB-11",
+  "shortdescription" : "M2 GB-11",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "pistol", "generalmunitions" ],

@@ -1,0 +1,40 @@
+{
+  "objectName" : "crptexp-gmvent",
+  "colonyTags" : [ "combat", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A basic air vent.",
+  "shortdescription" : "Industrial Vent",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "A vent.",
+  "avianDescription" : "A vent to recycle air.",
+  "floranDescription" : "Floran can feel a ssslight breeze coming through here.",
+  "glitchDescription" : "Observant. The air recycling process isn't fully functional.",
+  "humanDescription" : "An uninspiring vent.",
+  "hylotlDescription" : "A vent with a fan.",
+  "novakidDescription" : "It's a vent. Still, the air feels stuffy in here.",
+
+  "nexusdroidDescription" : "Air vent used by local air filtration system.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmvent.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

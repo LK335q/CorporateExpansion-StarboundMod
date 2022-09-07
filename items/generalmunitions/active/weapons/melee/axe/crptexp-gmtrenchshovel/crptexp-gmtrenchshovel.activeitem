@@ -4,10 +4,10 @@
   "maxStack" : 1,
   "rarity" : "Common",
 
-  "description" : "Not actually very effective for digging. Very good for smacking people with.",
-  "shortdescription" : "M6 Trench Shovel",
+  "description" : "",
+  "shortdescription" : "M1 Trench Shovel",
 
-  "tooltipKind" : "sword",
+  "tooltipKind" : "crptexp-gmmelee",
   "category" : "axe",
   "tooltipFields" : { "subtitle" : "Shovel" },
   "twoHanded" : false,
@@ -41,7 +41,7 @@
     "fireTime" : 0.35,
     "baseDps" : 6.5,
     "damageConfig" : {
-      "damageSourceKind" : "fryingpan",
+      "damageSourceKind" : "foldingchair",
       "knockbackMode" : "aim",
       "knockback" : 10,
       "timeoutGroup" : "primary"

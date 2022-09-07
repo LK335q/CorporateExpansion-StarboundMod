@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "BZS-42",
+  "shortdescription" : "M2 BZS-42",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "lightMachineGun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "lightmachinegun", "generalmunitions" ],
@@ -66,9 +66,9 @@
     "sounds" : {
       "switchAmmo" : [ "/sfx/gun/reload/machinepistol_reload_clip2.ogg" ],
       "fire" : {
-        "pitchMultiplier" : 0.85,
+        "pitchMultiplier" : 1.25,
         "volume" : 1.0,
-        "pool" : ["/sfx/gun/ar2.ogg"]
+        "pool" : [ "/sfx/gun/generalmunitions/crptexp-gmassaultrifle4.ogg" ]
       }
     },
     "lights" : {

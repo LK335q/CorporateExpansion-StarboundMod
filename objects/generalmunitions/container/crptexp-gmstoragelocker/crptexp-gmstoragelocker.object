@@ -6,7 +6,7 @@
   "price" : 180,
   "printable" : false,
   "objectType" : "container",
-  "tooltipKind" : "container",
+  "tooltipKind" : "crptexp-gmcontainer",
 
   "description" : "A nice, spacious, wall-mounted storage solution.",
   "shortdescription" : "GMC Storage Locker",

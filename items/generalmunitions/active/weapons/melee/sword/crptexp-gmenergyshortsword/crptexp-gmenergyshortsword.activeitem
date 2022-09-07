@@ -1,0 +1,47 @@
+{
+  "itemName" : "crptexp-gmenergyshortsword",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "description" : "",
+  "shortdescription" : "M3 Energy Shortsword",
+
+  "tooltipKind" : "crptexp-gmmelee",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : [ "weapon", "melee", "shortsword", "generalmunitions" ],
+  "level" : 5,
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "crptexp-gmenergyshortsword.animation",
+  "animationParts" : {
+    "handle" : "handle.png",
+    "handleFullbright" : "handlefullbright.png",
+    "blade" : "blade.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "physicalTravelSlash" : [ "/sfx/melee/travelingslash_electric3.ogg" ],
+      "fire" : [ "/sfx/melee/charge_full_swing2.ogg" ],
+      "fire2" : [ "/sfx/melee/charge_full_swing2.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 2.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.625,
+    "baseDps" : 7.5
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

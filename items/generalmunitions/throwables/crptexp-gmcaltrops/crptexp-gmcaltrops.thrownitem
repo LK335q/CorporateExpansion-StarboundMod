@@ -5,12 +5,14 @@
   "category" : "throwableItem",
   "inventoryIcon" : "crptexp-gmcaltrops.png",
   "image" : "crptexp-gmcaltropsheld.png",
-  "shortdescription" : "M2 Caltrops",
+  "shortdescription" : "M1 Caltrops",
   "description" : "Throwable spike traps. Ouch!",
+
+  "tooltipKind" : "crptexp-gmthrownitem",
 
   "ammoUsage" : 1,
 
-  "edgeTrigger" : true,
+  "edgeTrigger" : false,
   "windupTime" : 0.0,
   "cooldown" : 1.0,
 

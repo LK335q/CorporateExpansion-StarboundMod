@@ -9,12 +9,343 @@
 
     "gravity" : 80,
     "maxRadius" : 1000000,
-    "maxParts" : 13,
+    "maxParts" : 50,
     "extendSurfaceFreeSpace" : 100,
     "protected" : false
   },
 
   "parts" : [
+    {
+      "name" : "crptexp-gmbasebunkerentrance",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerentrance.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkerstairs",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerstairs.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkerdoor",
+      "rules" : [
+        [ "maxSpawnCount", [12] ],
+        [ "doNotConnectToPart", [ "crptexp-gmbasebunkerdoor" ] ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerdoor.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkerrange",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerrange.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkerrange2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerrange2.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkerarmory",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerarmory.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkerarmory2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerarmory2.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkercafeteria",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkercafeteria.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkercafeteria2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkercafeteria2.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkerprison",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerprison.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkerprison2",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerprison2.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkercomms",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkercomms.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkerbarracks",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerbarracks.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasebunkerstorage",
+      "rules" : [
+        [ "maxSpawnCount", [1] ],
+        [ "doNotConnectToPart",
+          [
+            "crptexp-gmbasebunkerrange",
+            "crptexp-gmbasebunkerrange2",
+            "crptexp-gmbasebunkerstairs",
+            "crptexp-gmbasebunkerarmory",
+            "crptexp-gmbasebunkerarmory2",
+            "crptexp-gmbasebunkercafeteria",
+            "crptexp-gmbasebunkercafeteria2",
+            "crptexp-gmbasebunkerprison",
+            "crptexp-gmbasebunkerprison2",
+            "crptexp-gmbasebunkerentrance",
+            "crptexp-gmbasebunkerbarracks",
+            "crptexp-gmbasebunkercomms",
+            "crptexp-gmbasebunkerstorage"
+          ]
+        ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasebunkerstorage.json" ]
+    },
+
     {
       "name" : "crptexp-gmbaseempty1",
       "rules" : [
@@ -24,15 +355,34 @@
       ],
       "def" : [ "tmx", "crptexp-gmbaseempty1.json" ]
     },
+
+    {
+      "name" : "crptexp-gmbasesergeantoffice",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasesergeantoffice.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasecafeteria",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasecafeteria.json" ]
+    },
+
     {
       "name" : "crptexp-gmbasebarracks1",
       "rules" : [
-        [ "maxSpawnCount", [3] ],
-        [ "doNotConnectToPart", [ "crptexp-gmbasebarracks1" ] ]
+        [ "maxSpawnCount", [3] ]
 
       ],
       "def" : [ "tmx", "crptexp-gmbasebarracks1.json" ]
     },
+
     {
       "name" : "crptexp-gmbaseshed",
       "rules" : [
@@ -41,6 +391,27 @@
       ],
       "def" : [ "tmx", "crptexp-gmbaseshed.json" ]
     },
+
+    {
+      "name" : "crptexp-gmbasearmory",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "crptexp-gmbasearmory" ] ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasearmory.json" ]
+    },
+
+    {
+      "name" : "crptexp-gmbasetruckstop",
+      "rules" : [
+        [ "maxSpawnCount", [2] ],
+        [ "doNotConnectToPart", [ "crptexp-gmbasetruckstop" ] ]
+
+      ],
+      "def" : [ "tmx", "crptexp-gmbasetruckstop.json" ]
+    },
+
     {
       "name" : "crptexp-gmbasewarehouse1",
       "rules" : [
@@ -49,6 +420,7 @@
       ],
       "def" : [ "tmx", "crptexp-gmbasewarehouse1.json" ]
     },
+
     {
       "name" : "crptexp-gmbaseendleft",
       "rules" : [

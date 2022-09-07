@@ -3,10 +3,13 @@
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "crptexp-gmhull.png",
+  "inventoryIcon" : "crptexp-gmhullicon.png",
+  "largeImage" : "/items/materials/generalmunitions/crptexp-gmhull.png",
 
   "shortdescription" : "Riveted Hull Panel",
   "description" : "Heavy riveted sheets of metal, commonly used for hull plating on large structures.",
+
+  "tooltipKind" : "crptexp-gmtile",
 
   "glitchDescription" : "Confident. This hull looks strong enough to withstand substantial wear and tear.",
   "floranDescription" : "Metal hull, feelss cold.",

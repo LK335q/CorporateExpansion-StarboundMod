@@ -5,7 +5,7 @@
     "rules" : [
     ],
 
-    "anchor" : [ "crptexp-gmbattlements1", "crptexp-gmbattlements2", "crptexp-gmbattlements3", "crptexp-gmmisc1" ],
+    "anchor" : [ "crptexp-gmbattlements1", "crptexp-gmbattlements2", "crptexp-gmbattlements3", "crptexp-gmmisc1", "crptexp-gmmisc2", "crptexp-gmmisc3" ],
 
     "gravity" : 80,
     "maxRadius" : 1000000,
@@ -41,6 +41,20 @@
         [ "maxSpawnCount", [1] ]
       ],
       "def" : [ "tmx", "crptexp-gmmisc1.json" ]
+    },
+    {
+      "name" : "crptexp-gmmisc2",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "crptexp-gmmisc2.json" ]
+    },
+    {
+      "name" : "crptexp-gmmisc3",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "crptexp-gmmisc3.json" ]
     }
   ]
 }

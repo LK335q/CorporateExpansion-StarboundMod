@@ -5,19 +5,21 @@
   "category" : "throwableItem",
   "inventoryIcon" : "crptexp-gmenergygrenade.png",
   "image" : "crptexp-gmenergygrenadeheld.png",
-  "shortdescription" : "M2 Energy Grenade",
+  "shortdescription" : "M3 Energy Grenade",
   "description" : "A hand grenade.",
+
+  "tooltipKind" : "crptexp-gmthrownitem",
 
   "ammoUsage" : 1,
 
-  "edgeTrigger" : true,
+  "edgeTrigger" : false,
   "windupTime" : 0.0,
   "cooldown" : 1.0,
 
   "projectileType" : "crptexp-gmenergygrenade",
   "projectileConfig" : {
     "speed" : 30,
-    "power" : 25,
+    "power" : 45,
     "periodicActions" : [
       {
         "time" : 0,

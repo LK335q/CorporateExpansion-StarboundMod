@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Bleached Wood Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "bea288" , "e0975c" : "987e74" , "a85636" : "54434b" , "6f2919" : "2e2332",
 					  "ffca8afe" : "bea288fe" , "e0975cfe" : "987e74fe" , "a85636fe" : "54434bfe" , "6f2919fe" : "2e2332fe" },
 

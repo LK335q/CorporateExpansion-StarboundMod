@@ -1,0 +1,95 @@
+{
+  "itemName" : "crptexp-gmenergybroadsword",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "description" : "",
+  "shortdescription" : "M3 Energy Broadsword",
+
+  "tooltipKind" : "crptexp-gmmelee",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "melee", "broadsword", "generalmunitions" ],
+  "level" : 5,
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "crptexp-gmenergybroadsword.animation",
+  "animationParts" : {
+    "handle" : "handle.png",
+    "handleFullbright" : "handlefullbright.png",
+    "blade" : "blade.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "physicalTravelSlash" : [ "/sfx/melee/travelingslash_electric3.ogg" ],
+      "fire" : [ "/sfx/melee/charge_full_swing2.ogg" ],
+      "fire2" : [ "/sfx/melee/charge_full_swing2.ogg" ],
+      "fire3" : [ "/sfx/melee/charge_full_swing2.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/energymeleeweapon.lua"],
+
+  "activeTime" : 3.0,
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.83,
+    "baseDps" : 11.5,
+
+    "stances" : {
+      "windup1" : {
+        "duration" : 0.15
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Flying Slash",
+    "scripts" : ["/items/active/weapons/melee/abilities/broadsword/travelingslash/travelingslash.lua"],
+    "class" : "TravelingSlash",
+
+    "projectileOffset" : [0,0],
+    "elementalConfig" : {
+      "physical" : { "projectileType" : "crptexp-gmenergytravelingswoosh" },
+      "fire" : {},
+      "ice" : {},
+      "poison" : {},
+      "electric" : {}
+    },
+
+    "baseDamage" : 7,
+    "energyUsage" : 120,
+    "cooldownTime" : 1.5,
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.25,
+        "armRotation" : 70,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

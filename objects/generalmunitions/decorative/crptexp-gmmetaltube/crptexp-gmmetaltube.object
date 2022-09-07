@@ -1,0 +1,40 @@
+{
+  "objectName" : "crptexp-gmmetaltube",
+  "colonyTags" : [ "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A solid, machined metal tube.",
+  "shortdescription" : "Metal Cylinder",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "A large metal tube. Likely going to be used in the construction of a ship.",
+  "avianDescription" : "This tube must be incredibly heavy.",
+  "floranDescription" : "Big tube for Floran to hide in!",
+  "glitchDescription" : "Neutral. A large metal cylinder.",
+  "humanDescription" : "A big metal tube.",
+  "hylotlDescription" : "A rather uninteresting tube of metal.",
+  "novakidDescription" : "Big ol' tube.",
+
+  "nexusdroidDescription" : "Large industrial metal tube used for construction.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmmetaltube.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

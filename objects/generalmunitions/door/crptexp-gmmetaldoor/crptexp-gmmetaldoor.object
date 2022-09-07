@@ -10,6 +10,8 @@
   "shortdescription" : "Barracks Door",
   "race" : "generic",
 
+  "tooltipKind" : "crptexp-gmdoor",
+
   "apexDescription" : "This door is relatively secure.",
   "avianDescription" : "Fairly sturdy for a basic door.",
   "floranDescription" : "Floran hide behind door. Jump out. Ssstab!",
@@ -22,7 +24,6 @@
 
   "inventoryIcon" : "icon.png",
 
-  "tooltipKind" : "door",
   "largeImage" : "crptexp-gmmetaldoor.png:right",
 
   "orientations" : [

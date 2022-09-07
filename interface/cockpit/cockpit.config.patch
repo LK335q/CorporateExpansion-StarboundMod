@@ -1,0 +1,9 @@
+[
+  // MPI compatability
+  { "op" : "test", "path": "/displayDungeons" },
+
+  { "op": "add", "path": "/displayDungeons/crptexp-gmbase", "value":
+	  {"description" : "Radio transmissions have been recieved from a General Munitions Co. military base on the surface.", "icon" : "/interface/cockpit/dungeons/crptexp-gmbase.png" }
+	}
+
+]

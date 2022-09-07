@@ -3,10 +3,13 @@
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "crptexp-gmmetalpanels.png",
+  "inventoryIcon" : "crptexp-gmmetalpanelsicon.png",
+  "largeImage" : "/items/materials/generalmunitions/crptexp-gmmetalpanels.png",
 
   "shortdescription" : "Riveted Panels",
   "description" : "Thin sheets of metal covered in rivets.",
+
+  "tooltipKind" : "crptexp-gmtile",
 
   "glitchDescription" : "Curious. How might the strength of this panelling compare to my own chassis?",
   "floranDescription" : "Floran likess metal clang sound!",

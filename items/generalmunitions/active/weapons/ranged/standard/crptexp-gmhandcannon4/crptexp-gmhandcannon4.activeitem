@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "LHM-79",
+  "shortdescription" : "M2 LHM-79",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "handCannon",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "handcannon", "generalmunitions" ],
@@ -28,7 +28,7 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/pulserifle1.ogg"]
+      "fire" : ["/sfx/gun/generalmunitions/crptexp-gmhandcannon1.ogg"]
     },
     "lights" : {
       "muzzleFlash" : {

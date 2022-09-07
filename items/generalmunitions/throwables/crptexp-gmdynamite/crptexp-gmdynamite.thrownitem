@@ -5,12 +5,16 @@
   "category" : "throwableItem",
   "inventoryIcon" : "crptexp-gmdynamite.png",
   "image" : "crptexp-gmdynamiteheld.png",
-  "shortdescription" : "M2 Dynamite",
+  "shortdescription" : "M1 Dynamite",
   "description" : "A powerful explosive capable of clearing out chunks of terrain. Be sure to step back!",
+
+  "learnBlueprintsOnPickup" : [ "crptexp-gmdynamitebundle" ],
+
+  "tooltipKind" : "crptexp-gmtool",
 
   "ammoUsage" : 1,
 
-  "edgeTrigger" : true,
+  "edgeTrigger" : false,
   "windupTime" : 0.0,
   "cooldown" : 0.6,
 

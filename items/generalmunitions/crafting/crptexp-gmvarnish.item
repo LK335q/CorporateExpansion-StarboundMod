@@ -6,6 +6,8 @@
   "price" : 50,
   "inventoryIcon" : "crptexp-gmvarnish.png",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "description" : "A bottle of wood varnish. Used to craft various wooden blocks and furniture.",
   "shortdescription" : "Wood Varnish"
 }

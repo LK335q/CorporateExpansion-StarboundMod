@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "IMG-27",
+  "shortdescription" : "M2 IMG-27",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "lightMachineGun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "lightmachinegun", "generalmunitions" ],

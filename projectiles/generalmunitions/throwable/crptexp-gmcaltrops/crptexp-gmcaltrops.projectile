@@ -6,7 +6,7 @@
   "image" : "crptexp-gmcaltrops.png",
   "animationCycle" : 1.0,
   "frameNumber" : 1,
-  "piercing" : true,
+  "piercing" : false,
 
   "actionOnCollide" : [
     {

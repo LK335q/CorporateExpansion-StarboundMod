@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "PB-96",
+  "shortdescription" : "M2 PB-96",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "submachineGun",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "submachinegun", "generalmunitions" ],

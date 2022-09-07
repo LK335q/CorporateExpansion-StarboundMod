@@ -1,0 +1,31 @@
+{
+  "itemName" : "crptexp-gmweaponblueprint3",
+  "level" : 1,
+  "price" : 150,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A blueprint for a high-tech General Munitions Co. weapon.",
+  "shortdescription" : "M4 Weapon Blueprints",
+  "tooltipKind" : "crptexp-gmtool",
+  "category" : "Blueprint",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "crptexp-gmweaponblueprint3.png",
+  "image" : "crptexp-gmweaponblueprint3.png",
+
+  "animation" : "/items/active/randomblueprint/randomblueprint.animation",
+
+  "scripts" : ["/items/active/randomblueprint/randomblueprint.lua"],
+
+  "swingTime" : 0.15,
+
+  "allowDuplicateChance" : 0.1,
+  "recipes" : [
+    [
+      "crptexp-gmraypistol",
+      "crptexp-gmrayrifle",
+      "crptexp-gmraysniper",
+      "crptexp-gmrayshotgun"
+    ]
+  ]
+}

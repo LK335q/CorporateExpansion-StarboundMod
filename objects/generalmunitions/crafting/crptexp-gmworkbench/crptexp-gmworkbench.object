@@ -7,7 +7,7 @@
 
   "interactAction" : "OpenCraftingInterface",
   "interactData" : {
-    "config" : "/interface/windowconfig/craftingfurniture.config",
+    "config" : "/interface/windowconfig/crptexp-gmworkbench.config",
     "filter" : [ "crptexp-gmworkbench" ],
     "paneLayoutOverride" : {
       "windowtitle" : {
@@ -22,8 +22,6 @@
 
   "price" : 40,
   "printable" : false,
-
-  "scripts" : [ "/objects/crafting/upgradeablecraftingobjects/upgradeablecraftingobject.lua" ],
 
   "inventoryIcon" : "icon.png",
 

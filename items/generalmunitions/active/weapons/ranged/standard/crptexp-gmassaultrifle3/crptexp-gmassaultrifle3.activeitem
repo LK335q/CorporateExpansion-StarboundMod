@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "BR-54",
+  "shortdescription" : "M2 BR-54",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "assaultrifle", "generalmunitions" ],

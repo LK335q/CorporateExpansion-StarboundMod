@@ -4,17 +4,18 @@
   "rarity" : "Uncommon",
 
   "builder" : "/items/buildscripts/crptexp-buildelementalitem.lua",
-  "tooltipKind" : "crptexp-elementalbase",
   "category" : "throwableItem",
   "inventoryIcon" : "crptexp-gmgasgrenade.png",
   "image" : "crptexp-gmgasgrenadeheld.png",
 
-  "shortdescription" : "M3 Gas Grenade",
+  "shortdescription" : "M2 Gas Grenade",
   "description" : "Releases clouds of toxic gas after being thrown. Don't breathe it in!",
+
+  "tooltipKind" : "crptexp-gmthrownitem",
 
   "ammoUsage" : 1,
 
-  "edgeTrigger" : true,
+  "edgeTrigger" : false,
   "windupTime" : 0.0,
   "cooldown" : 1.0,
 

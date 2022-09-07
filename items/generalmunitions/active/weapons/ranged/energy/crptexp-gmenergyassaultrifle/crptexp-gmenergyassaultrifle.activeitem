@@ -5,13 +5,13 @@
   "rarity" : "Rare",
 
   "description" : "",
-  "shortdescription" : "DE.CPR-16",
+  "shortdescription" : "M3 DE.CPR-16",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "assaultrifle", "generalmunitions" ],
-  "level" : 2,
+  "level" : 5,
   "fixedLevel" : false,
 
   "cursor" : "/cursors/reticle2.cursor",

@@ -6,6 +6,8 @@
   "category" : "decorative",
   "price" : 20,
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "Part of a radio tower for picking up inter-planetary communications.",
   "shortdescription" : "Radio Tower Segment",
   "race" : "generic",

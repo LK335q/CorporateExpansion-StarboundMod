@@ -11,15 +11,15 @@
   "flippable" : true,
   "fullbright" : true,
   "hydrophobic" : true,
-  "lightColor" : [19, 0, 5],
+  "lightColor" : [7, 13, 7],
   "actionOnReap" : [
-    
+
   ],
   "statusEffects" : [ ],
-  
+
   "onlyHitTerrain" : true,
   "damageType" : "NoDamage",
-  
+
   "power" : 7.5,
   "speed" : 15,
   "knockback" : 0

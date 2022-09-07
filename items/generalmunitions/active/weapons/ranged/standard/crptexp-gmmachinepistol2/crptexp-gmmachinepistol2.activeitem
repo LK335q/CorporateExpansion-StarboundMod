@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "LMP.C-70",
+  "shortdescription" : "M2 LMP.C-70",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "machinePistol",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "machinepistol", "generalmunitions" ],
@@ -28,7 +28,11 @@
   },
   "animationCustom" : {
     "sounds" : {
-      "fire" : ["/sfx/gun/generalmunitions/crptexp-gmmachinepistol1.ogg"]
+      "fire" : {
+        "pitchMultiplier" : 1.0,
+        "volume" : 1.0,
+        "pool" : ["/sfx/gun/generalmunitions/crptexp-gmpistol1.ogg"]
+      }
     },
     "lights" : {
       "muzzleFlash" : {

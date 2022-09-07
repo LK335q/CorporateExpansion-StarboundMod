@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "A pile of boxes full of ammo.",
   "shortdescription" : "Ammo Boxes",
 

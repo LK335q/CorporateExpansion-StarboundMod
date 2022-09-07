@@ -6,6 +6,8 @@
   "price" : 50,
   "inventoryIcon" : "crptexp-gmmetal.png",
 
-  "description" : "This heavy industrial alloy can be used to build various blocks and furniture.",
+  "tooltipKind" : "crptexp-gmbase",
+
+  "description" : "A heavy industrial alloy manufactured in large plates that are meant to be formed at a Stamping Press.",
   "shortdescription" : "Heavy Metal Plate"
 }

@@ -1,0 +1,72 @@
+{
+  "objectName" : "crptexp-gmfusebox",
+  "colonyTags" : [ "generalmunitions", "electronic" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A simple fuse box.",
+  "shortdescription" : "Fuse Box",
+
+  "race" : "generic",
+  "category" : "wire",
+  "price" : 70,
+  "lightColor" : [0, 75, 0],
+
+  "apexDescription" : "A service panel.",
+  "avianDescription" : "A service panel with a warning sign.",
+  "floranDescription" : "Sservice panel.",
+  "glitchDescription" : "Apprehensive. This service panel has a dire warning on it.",
+  "humanDescription" : "That warning sign seems vaguely serious.",
+  "hylotlDescription" : "A simple service panel.",
+  "novakidDescription" : "Just some kinda service panel.",
+
+  "nexusdroidDescription" : "Electrical service panel for ease of maintenance.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "image" : "crptexp-gmfusebox.png:<color>.on",
+      "flipImages" : true,
+      "direction" : "left",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    },
+    {
+      "image" : "crptexp-gmfusebox.png:<color>.on",
+      "direction" : "right",
+      "lightPosition" : [0, 1],
+
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+
+  "scripts" : [
+    "/objects/wired/switch/switch.lua"
+  ],
+  "scriptDelta" : 5,
+
+  "animation" : "crptexp-gmfusebox.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/tinywallswitch.ogg" ],
+      "off" : [ "/sfx/objects/tinywallswitch.ogg" ]
+    }
+  },
+
+  "animationParts" : {
+    "bg" : "crptexp-gmfusebox.png",
+    "fg" : "crptexp-gmfuseboxlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "outputNodes" : [ [0, 0] ]
+}

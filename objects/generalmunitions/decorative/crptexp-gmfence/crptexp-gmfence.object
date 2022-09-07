@@ -1,0 +1,40 @@
+{
+  "objectName" : "crptexp-gmfence",
+  "colonyTags" : [ "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A tall chainlink fence with barbed wire at the top.",
+  "shortdescription" : "Military Fence",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "A chain-link fence.",
+  "avianDescription" : "A fence. Cruel mockery for the grounded.",
+  "floranDescription" : "Floran is sssure Floran could jump this fence! But Floran won't try.",
+  "glitchDescription" : "Neutral. A chain-link fence.",
+  "humanDescription" : "A strong chain-link fence.",
+  "hylotlDescription" : "If this fence was under the ocean, I could just swim over it. Then again, why would it be?",
+  "novakidDescription" : "A metal fence.",
+
+  "nexusdroidDescription" : "Flimsy barrier for area denial.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmfence.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

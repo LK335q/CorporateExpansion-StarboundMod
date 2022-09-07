@@ -7,7 +7,7 @@
   "description" : "A simple, effective sword.",
   "shortdescription" : "M2 Broadsword",
 
-  "tooltipKind" : "sword",
+  "tooltipKind" : "crptexp-gmmelee",
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "melee", "broadsword", "generalmunitions" ],

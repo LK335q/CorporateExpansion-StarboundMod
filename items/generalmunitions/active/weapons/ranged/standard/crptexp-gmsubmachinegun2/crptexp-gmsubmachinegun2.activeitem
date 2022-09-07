@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "ASB-60",
+  "shortdescription" : "M2 ASB-60",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "submachineGun",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "submachinegun", "generalmunitions" ],

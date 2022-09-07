@@ -5,13 +5,13 @@
   "rarity" : "Rare",
 
   "description" : "",
-  "shortdescription" : "DE.SCG-44",
+  "shortdescription" : "M3 DE.SCG-44",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "handCannon",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "handcannon", "generalmunitions" ],
-  "level" : 2,
+  "level" : 5,
   "fixedLevel" : false,
 
   "cursor" : "/cursors/reticle0.cursor",

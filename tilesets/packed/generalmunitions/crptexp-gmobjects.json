@@ -6,7 +6,7 @@
 
     },
  "spacing":0,
- "tilecount":53,
+ "tilecount":106,
  "tileheight":136,
  "tileproperties":
     {
@@ -38,6 +38,66 @@
          "imagePositionX":"-16",
          "imagePositionY":"0",
          "object":"crptexp-gmconsole",
+         "tilesetDirection":"right"
+        },
+     "100":
+        {
+         "\/\/description":"A large truck.",
+         "\/\/name":"crptexp-gmtruck2",
+         "\/\/shortdescription":"Cargo Truck",
+         "imagePositionX":"-72",
+         "imagePositionY":"0",
+         "object":"crptexp-gmtruck2",
+         "tilesetDirection":"right"
+        },
+     "101":
+        {
+         "\/\/description":"A basic air vent.",
+         "\/\/name":"crptexp-gmvent",
+         "\/\/shortdescription":"Industrial Vent",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmvent",
+         "tilesetDirection":"right"
+        },
+     "102":
+        {
+         "\/\/description":"A basic air vent.",
+         "\/\/name":"crptexp-gmvent2",
+         "\/\/shortdescription":"Small Industrial Vent",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmvent2",
+         "tilesetDirection":"right"
+        },
+     "103":
+        {
+         "\/\/description":"I wonder how quickly that would cook a burger.",
+         "\/\/name":"crptexp-gmsmallboosterflame",
+         "\/\/shortdescription":"Damaging Small Booster Flame",
+         "imagePositionX":"-16",
+         "imagePositionY":"-24",
+         "object":"crptexp-gmsmallboosterflame",
+         "tilesetDirection":"right"
+        },
+     "104":
+        {
+         "\/\/description":"I wonder how quickly that would cook a burger.",
+         "\/\/name":"crptexp-gmboosterflame",
+         "\/\/shortdescription":"Damaging Booster Flame",
+         "imagePositionX":"-40",
+         "imagePositionY":"-32",
+         "object":"crptexp-gmboosterflame",
+         "tilesetDirection":"right"
+        },
+     "105":
+        {
+         "\/\/description":"I wonder how quickly that would cook a burger.",
+         "\/\/name":"crptexp-gmbigboosterflame",
+         "\/\/shortdescription":"Damaging Booster Flame",
+         "imagePositionX":"-32",
+         "imagePositionY":"-32",
+         "object":"crptexp-gmbigboosterflame",
          "tilesetDirection":"right"
         },
      "11":
@@ -500,6 +560,76 @@
          "object":"crptexp-gmworkbench",
          "tilesetDirection":"right"
         },
+     "53":
+        {
+         "\/\/description":"A pile of boxes full of ammo.",
+         "\/\/name":"crptexp-gmammoboxes2",
+         "\/\/shortdescription":"Shotgun Ammo Boxes",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmammoboxes2",
+         "tilesetDirection":"right"
+        },
+     "54":
+        {
+         "\/\/description":"A pile of boxes full of ammo.",
+         "\/\/name":"crptexp-gmammoboxes3",
+         "\/\/shortdescription":"Energy Ammo Boxes",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmammoboxes3",
+         "tilesetDirection":"right"
+        },
+     "55":
+        {
+         "\/\/description":"An industrial ceiling fan.",
+         "\/\/name":"crptexp-gmceilingfan",
+         "\/\/shortdescription":"Ceiling Fan",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmceilingfan",
+         "tilesetDirection":"right"
+        },
+     "56":
+        {
+         "\/\/description":"\"A solid metal control console. It has lots of coloured lights that indicate... something.",
+         "\/\/name":"crptexp-gmconsole2",
+         "\/\/shortdescription":"Diagnostics Console",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmconsole2",
+         "tilesetDirection":"right"
+        },
+     "57":
+        {
+         "\/\/description":"A decorative mount for displaying weapons.",
+         "\/\/name":"crptexp-gmdisplay4",
+         "\/\/shortDescription":"M2 LMP.C-70 Display",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmdisplay4",
+         "tilesetDirection":"right"
+        },
+     "58":
+        {
+         "\/\/description":"A decorative mount for displaying weapons.",
+         "\/\/name":"crptexp-gmdisplay10",
+         "\/\/shortdescription":"M2 SSW.D-63 Display",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmdisplay10",
+         "tilesetDirection":"right"
+        },
+     "59":
+        {
+         "\/\/description":"A decorative mount for displaying weapons.",
+         "\/\/name":"crptexp-gmdisplay12",
+         "\/\/shortdescription":"M2 Broadsword Display",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmdisplay12",
+         "tilesetDirection":"right"
+        },
      "6":
         {
          "\/\/description":"A basic stackable bunk bed.",
@@ -508,6 +638,106 @@
          "imagePositionX":"-24",
          "imagePositionY":"0",
          "object":"crptexp-gmbunk",
+         "tilesetDirection":"right"
+        },
+     "60":
+        {
+         "\/\/description":"A decorative mount for displaying weapons.",
+         "\/\/name":"crptexp-gmdisplayempty",
+         "\/\/shortdescription":"Pegboard",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmdisplayempty",
+         "tilesetDirection":"right"
+        },
+     "61":
+        {
+         "\/\/description":"An explosive wooden barrel. It looks dangerous.",
+         "\/\/name":"crptexp-gmexplosivebarrel",
+         "\/\/shortdescription":"Explosive Barrel",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmexplosivebarrel",
+         "tilesetDirection":"right"
+        },
+     "62":
+        {
+         "\/\/description":"An explosive metal barrel. It looks dangerous.",
+         "\/\/name":"crptexp-gmexplosivebarrel2",
+         "\/\/shortdescription":"Volatile Barrel",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmexplosivebarrel2",
+         "tilesetDirection":"right"
+        },
+     "63":
+        {
+         "\/\/description":"A tall chainlink fence with barbed wire at the top.",
+         "\/\/name":"crptexp-gmfence",
+         "\/\/shortdescription":"Military Fence",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmfence",
+         "tilesetDirection":"right"
+        },
+     "64":
+        {
+         "\/\/description":"A simple fuse box.",
+         "\/\/name":"crptexp-gmfusebox",
+         "\/\/shortdescription":"Fuse Box",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmfusebox",
+         "tilesetDirection":"right"
+        },
+     "65":
+        {
+         "\/\/description":"Propane accessories not included.",
+         "\/\/name":"crptexp-gmgastank",
+         "\/\/shortdescription":"Propane Tank",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmgastank",
+         "tilesetDirection":"right"
+        },
+     "66":
+        {
+         "\/\/description":"A large gas tank.",
+         "\/\/name":"crptexp-gmgastank2",
+         "\/\/shortdescription":"Gas Tank",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmgastank2",
+         "tilesetDirection":"right"
+        },
+     "67":
+        {
+         "\/\/description":"A large gas tank.",
+         "\/\/name":"crptexp-gmgastank3",
+         "\/\/shortdescription":"Pressurized Tank",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmgastank3",
+         "tilesetDirection":"right"
+        },
+     "68":
+        {
+         "\/\/description":"A heavy metal door.",
+         "\/\/name":"crptexp-gmheavymetaldoor",
+         "\/\/shortdescription":"Bunker Door",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmheavymetaldoor",
+         "tilesetDirection":"right"
+        },
+     "69":
+        {
+         "\/\/description":"A stepladder.",
+         "\/\/name":"crptexp-gmladder",
+         "\/\/shortdescription":"Barracks Stepladder",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmladder",
          "tilesetDirection":"right"
         },
      "7":
@@ -520,6 +750,106 @@
          "object":"crptexp-gmcafeteriastand",
          "tilesetDirection":"right"
         },
+     "70":
+        {
+         "\/\/description":"A stepladder.",
+         "\/\/name":"crptexp-gmladder2",
+         "\/\/shortdescription":"Tall Barracks Stepladder",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmladder2",
+         "tilesetDirection":"right"
+        },
+     "71":
+        {
+         "\/\/description":"A bare lightbulb hanging from the ceiling.",
+         "\/\/name":"crptexp-gmlight",
+         "\/\/shortdescription":"Bunker Light",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmlight",
+         "tilesetDirection":"right"
+        },
+     "72":
+        {
+         "\/\/description":"A bare lightbulb hanging from the ceiling.",
+         "\/\/name":"crptexp-gmlightbulb",
+         "\/\/shortdescription":"Barracks Light",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"crptexp-gmlightbulb",
+         "tilesetDirection":"right"
+        },
+     "73":
+        {
+         "\/\/description":"A bare lightbulb hanging from the ceiling.",
+         "\/\/name":"crptexp-gmlightbulbgreen",
+         "\/\/shortdescription":"Green Barracks Light",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"crptexp-gmlightbulbgreen",
+         "tilesetDirection":"right"
+        },
+     "74":
+        {
+         "\/\/description":"A bare lightbulb hanging from the ceiling.",
+         "\/\/name":"crptexp-gmlightbulborange",
+         "\/\/shortdescription":"Orange Barracks Light",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"crptexp-gmlightbulborange",
+         "tilesetDirection":"right"
+        },
+     "75":
+        {
+         "\/\/description":"A bare lightbulb hanging from the ceiling.",
+         "\/\/name":"crptexp-gmlightbulbred",
+         "\/\/shortdescription":"Red Barracks Light",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"crptexp-gmlightbulbred",
+         "tilesetDirection":"right"
+        },
+     "76":
+        {
+         "\/\/description":"A bare lightbulb hanging from the ceiling.",
+         "\/\/name":"crptexp-gmlightgreen",
+         "\/\/shortdescription":"Green Bunker Light",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmlightgreen",
+         "tilesetDirection":"right"
+        },
+     "77":
+        {
+         "\/\/description":"A bare lightbulb hanging from the ceiling.",
+         "\/\/name":"crptexp-gmlightorange",
+         "\/\/shortdescription":"Orange Bunker Light",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmlightorange",
+         "tilesetDirection":"right"
+        },
+     "78":
+        {
+         "\/\/description":"A bare lightbulb hanging from the ceiling.",
+         "\/\/name":"crptexp-gmlightred",
+         "\/\/shortdescription":"Red Bunker Light",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmlightred",
+         "tilesetDirection":"right"
+        },
+     "79":
+        {
+         "\/\/description":"A large metal barrel.",
+         "\/\/name":"crptexp-gmmetaldrum",
+         "\/\/shortdescription":"Metal Drum",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmetaldrum",
+         "tilesetDirection":"right"
+        },
      "8":
         {
          "\/\/description":"The Captain sits here to fly the ship. Good for custom ships.",
@@ -530,6 +860,106 @@
          "object":"crptexp-gmcaptainschair",
          "tilesetDirection":"right"
         },
+     "80":
+        {
+         "\/\/description":"A large metal barrel.",
+         "\/\/name":"crptexp-gmmetaldrum2",
+         "\/\/shortdescription":"Rusty Metal Drum",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmetaldrum2",
+         "tilesetDirection":"right"
+        },
+     "81":
+        {
+         "\/\/description":"A large metal barrel.",
+         "\/\/name":"crptexp-gmmetaldrum3",
+         "\/\/shortdescription":"Red Metal Drum",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmetaldrum3",
+         "tilesetDirection":"right"
+        },
+     "82":
+        {
+         "\/\/description":"A large metal barrel.",
+         "\/\/name":"crptexp-gmmetaldrum4",
+         "\/\/shortdescription":"Yellow Metal Drum",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmetaldrum4",
+         "tilesetDirection":"right"
+        },
+     "83":
+        {
+         "\/\/description":"A large metal barrel.",
+         "\/\/name":"crptexp-gmmetaldrum5",
+         "\/\/shortdescription":"Blue Metal Drum",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmetaldrum5",
+         "tilesetDirection":"right"
+        },
+     "84":
+        {
+         "\/\/description":"A large metal barrel.",
+         "\/\/name":"crptexp-gmmetaldrum6",
+         "\/\/shortdescription":"Oil Drum",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmetaldrum6",
+         "tilesetDirection":"right"
+        },
+     "85":
+        {
+         "\/\/description":"A large metal barrel.",
+         "\/\/name":"crptexp-gmmetaldrum7",
+         "\/\/shortdescription":"Waste Drum",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmetaldrum7",
+         "tilesetDirection":"right"
+        },
+     "86":
+        {
+         "\/\/description":"A solid, machined metal tube.",
+         "\/\/name":"crptexp-gmmetaltube",
+         "\/\/shortdescription":"Metal Cylinder",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmetaltube",
+         "tilesetDirection":"right"
+        },
+     "87":
+        {
+         "\/\/description":"A barebones metal mug. The inside is stained from heavy use.",
+         "\/\/name":"crptexp-gmmug",
+         "\/\/shortdescription":"Tin Mug",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"crptexp-gmmug",
+         "tilesetDirection":"right"
+        },
+     "88":
+        {
+         "\/\/description":"A wooden board.",
+         "\/\/name":"crptexp-gmpallet",
+         "\/\/shortdescription":"Wood Pallet",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmpallet",
+         "tilesetDirection":"right"
+        },
+     "89":
+        {
+         "\/\/description":"A wooden board.",
+         "\/\/name":"crptexp-gmpallet2",
+         "\/\/shortdescription":"Large Wood Pallet",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmpallet2",
+         "tilesetDirection":"right"
+        },
      "9":
         {
          "\/\/description":"A heavy concrete barrier.",
@@ -538,6 +968,106 @@
          "imagePositionX":"-8",
          "imagePositionY":"0",
          "object":"crptexp-gmconcretebarrier",
+         "tilesetDirection":"right"
+        },
+     "90":
+        {
+         "\/\/description":"A small picture frame.",
+         "\/\/name":"crptexp-gmpictureframe",
+         "\/\/shortdescription":"Picture Frame",
+         "imagePositionX":"0",
+         "imagePositionY":"0",
+         "object":"crptexp-gmpictureframe",
+         "tilesetDirection":"right"
+        },
+     "91":
+        {
+         "\/\/description":"A bulky radio.",
+         "\/\/name":"crptexp-gmradio",
+         "\/\/shortdescription":"Barracks Radio",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmradio",
+         "tilesetDirection":"right"
+        },
+     "92":
+        {
+         "\/\/description":"A small radio device.",
+         "\/\/name":"crptexp-gmradio2",
+         "\/\/shortdescription":"Portable Radio",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmradio2",
+         "tilesetDirection":"right"
+        },
+     "93":
+        {
+         "\/\/description":"Come in. Over.",
+         "\/\/name":"crptexp-gmradio3",
+         "\/\/shortdescription":"Walkie Talkie",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmradio3",
+         "tilesetDirection":"right"
+        },
+     "94":
+        {
+         "\/\/description":"A metal server rack.",
+         "\/\/name":"crptexp-gmserver",
+         "\/\/shortdescription":"Industrial Server",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmserver",
+         "tilesetDirection":"right"
+        },
+     "95":
+        {
+         "\/\/description":"A service panel.",
+         "\/\/name":"crptexp-gmservicepanel",
+         "\/\/shortdescription":"Electrical Panel",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmservicepanel",
+         "tilesetDirection":"right"
+        },
+     "96":
+        {
+         "\/\/description":"A comfortable-looking chair.",
+         "\/\/name":"crptexp-gmshipchair",
+         "\/\/shortdescription":"Ship Chair",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmshipchair",
+         "tilesetDirection":"right"
+        },
+     "97":
+        {
+         "\/\/description":"A heavy industrial stamping press for manufacturing General Munitions Co. weapons and equipment.",
+         "\/\/name":"crptexp-gmstampingpress",
+         "\/\/shortdescription":"Stamping Press",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"crptexp-gmstampingpress",
+         "tilesetDirection":"right"
+        },
+     "98":
+        {
+         "\/\/description":"Does not come included with tools.",
+         "\/\/name":"crptexp-gmtoolbox",
+         "\/\/shortdescription":"Barracks Tool Cabinet",
+         "imagePositionX":"-8",
+         "imagePositionY":"0",
+         "object":"crptexp-gmtoolbox",
+         "tilesetDirection":"right"
+        },
+     "99":
+        {
+         "\/\/description":"A large truck.",
+         "\/\/name":"crptexp-gmtruck",
+         "\/\/shortdescription":"Transport Truck",
+         "imagePositionX":"-72",
+         "imagePositionY":"0",
+         "object":"crptexp-gmtruck",
          "tilesetDirection":"right"
         }
     },
@@ -554,6 +1084,30 @@
      "10":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmconsole.png"
+        },
+     "100":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmtruck2.png"
+        },
+     "101":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmvent.png"
+        },
+     "102":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmvent2.png"
+        },
+     "103":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmsmallboosterflame.png"
+        },
+     "104":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmboosterflame.png"
+        },
+     "105":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmbigboosterflame.png"
         },
      "11":
         {
@@ -739,22 +1293,210 @@
         {
          "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmworkbench.png"
         },
+     "53":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmammoboxes2.png"
+        },
+     "54":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmammoboxes3.png"
+        },
+     "55":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmceilingfan.png"
+        },
+     "56":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmconsole2.png"
+        },
+     "57":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmdisplay4.png"
+        },
+     "58":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmdisplay10.png"
+        },
+     "59":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmdisplay12.png"
+        },
      "6":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmbunk.png"
+        },
+     "60":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmdisplayempty.png"
+        },
+     "61":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmexplosivebarrel.png"
+        },
+     "62":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmexplosivebarrel2.png"
+        },
+     "63":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmfence.png"
+        },
+     "64":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmfusebox.png"
+        },
+     "65":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmgastank.png"
+        },
+     "66":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmgastank2.png"
+        },
+     "67":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmgastank3.png"
+        },
+     "68":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmheavymetaldoor.png"
+        },
+     "69":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmladder.png"
         },
      "7":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmcafeteriastand.png"
         },
+     "70":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmladder2.png"
+        },
+     "71":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmlight.png"
+        },
+     "72":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmlightbulb.png"
+        },
+     "73":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmlightbulbgreen.png"
+        },
+     "74":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmlightbulborange.png"
+        },
+     "75":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmlightbulbred.png"
+        },
+     "76":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmlightgreen.png"
+        },
+     "77":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmlightorange.png"
+        },
+     "78":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmlightred.png"
+        },
+     "79":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmetaldrum.png"
+        },
      "8":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmcaptainschair.png"
         },
+     "80":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmetaldrum2.png"
+        },
+     "81":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmetaldrum3.png"
+        },
+     "82":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmetaldrum4.png"
+        },
+     "83":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmetaldrum5.png"
+        },
+     "84":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmetaldrum6.png"
+        },
+     "85":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmetaldrum7.png"
+        },
+     "86":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmetaltube.png"
+        },
+     "87":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmmug.png"
+        },
+     "88":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmpallet.png"
+        },
+     "89":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmpallet2.png"
+        },
      "9":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmconcretebarrier.png"
+        },
+     "90":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmpictureframe.png"
+        },
+     "91":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmradio.png"
+        },
+     "92":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmradio2.png"
+        },
+     "93":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmradio3.png"
+        },
+     "94":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmserver.png"
+        },
+     "95":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmservicepanel.png"
+        },
+     "96":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmshipchair.png"
+        },
+     "97":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmstampingpress.png"
+        },
+     "98":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmtoolbox.png"
+        },
+     "99":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/objects\/crptexp-gmtruck.png"
         }
     },
- "tilewidth":64
+ "tilewidth":144
 }

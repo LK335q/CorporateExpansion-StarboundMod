@@ -13,5 +13,7 @@
 
   "scripts" : [
     "crptexp-deathbomb.lua"
-  ]
+  ],
+
+  "animationConfig" : "crptexp-gmraygundeathbomb.animation"
 }

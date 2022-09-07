@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
-  "tooltipKind" : "container",
+  "tooltipKind" : "crptexp-gmcontainer",
 
   "description" : "A basic filing cabinet.",
   "shortdescription" : "Barracks Filing Cabinet",

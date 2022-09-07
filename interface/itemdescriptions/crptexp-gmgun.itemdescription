@@ -1,0 +1,126 @@
+{
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [105, 37],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [118, 37],
+    "hAnchor" : "left",
+    "value" : "tree"
+  },
+  "speedTitleLabel" : {
+    "type" : "label",
+    "position" : [16, 74],
+    "hAnchor" : "left",
+    "value" : "Rate of Fire:"
+  },
+  "speedLabel" : {
+    "type" : "label",
+    "position" : [134, 74],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "damagePerShotTitleLabel" : {
+    "type" : "label",
+    "position" : [16, 83],
+    "hAnchor" : "left",
+    "value" : "Damage Per Shot:"
+  },
+  "damagePerShotLabel" : {
+    "type" : "label",
+    "position" : [134, 83],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "energyPerShotTitleLabel" : {
+    "type" : "label",
+    "position" : [16, 65],
+    "hAnchor" : "left",
+    "value" : "Energy Per Shot:"
+  },
+  "energyPerShotLabel" : {
+    "type" : "label",
+    "position" : [134, 65],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "altAbilityTitleLabel" : {
+    "type" : "label",
+    "position" : [16, 56],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "altAbilityLabel" : {
+    "type" : "label",
+    "position" : [133, 56],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "levelTitleLabel" : {
+    "type" : "label",
+    "position" : [123, 150],
+    "hAnchor" : "right",
+    "value" : "Level:"
+  },
+  "levelLabel" : {
+    "type" : "label",
+    "position" : [133, 150],
+    "hAnchor" : "right"
+  },
+  "handednessLabel" : {
+    "type" : "label",
+    "position" : [38, 150],
+    "hAnchor" : "mid",
+    "centered" : true,
+    "wrapWidth" : 122
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [15, 37],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [120, 105],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [75, 120],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [60, 60],
+    "minSize" : [60, 60]
+  },
+  "title" : {
+    "type" : "label",
+    "position" : [35, 179],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "subTitle" : {
+    "type" : "label",
+    "position" : [35, 169],
+    "hAnchor" : "left",
+    "color" : [185, 181, 178],
+    "value" : ""
+  },
+  "titleIcon" : {
+    "type" : "itemslot",
+    "position" : [9, 167],
+    "callback" : "null",
+    "iconMode" : true,
+    "backingImage" : "/interface/inventory/portrait.png",
+    "showRarity" : false,
+    "showBackingImageWhenFull" : true
+  }
+
+}

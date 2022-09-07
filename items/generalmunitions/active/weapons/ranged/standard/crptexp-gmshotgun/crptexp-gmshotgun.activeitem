@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "TGS-63",
+  "shortdescription" : "M2 TGS-63",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "shotgun", "generalmunitions" ],

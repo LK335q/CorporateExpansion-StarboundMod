@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Blued Steel Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "7c818a" , "e0975c" : "4a5057" , "a85636" : "252c33" , "6f2919" : "181c24",
 					  "ffca8afe" : "7c818afe" , "e0975cfe" : "4a5057fe" , "a85636fe" : "252c33fe" , "6f2919fe" : "181c24fe" },
 

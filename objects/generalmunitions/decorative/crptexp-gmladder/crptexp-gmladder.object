@@ -1,0 +1,40 @@
+{
+  "objectName" : "crptexp-gmladder",
+  "colonyTags" : [ "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A stepladder.",
+  "shortdescription" : "Barracks Stepladder",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "A stepladder. For when you need to be slightly higher.",
+  "avianDescription" : "A rather unremarkable stepladder.",
+  "floranDescription" : "Tinyyy ladder.",
+  "glitchDescription" : "Curious. It's a rather short ladder.",
+  "humanDescription" : "One small step for man..",
+  "hylotlDescription" : "A stepladder. Not much else to say about it.",
+  "novakidDescription" : "A stepladder! Sometimes ya need a little boost.",
+
+  "nexusdroidDescription" : "Solid metal stepladder.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmladder.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

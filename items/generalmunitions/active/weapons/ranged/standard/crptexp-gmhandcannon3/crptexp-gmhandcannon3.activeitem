@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "WBKR-92",
+  "shortdescription" : "M2 WBKR-92",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "handCannon",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "handcannon", "generalmunitions" ],

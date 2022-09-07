@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 20 },
+    { "item" : "diamond", "count" : 1 },
+    { "item" : "climbingrope", "count" : 1 },
+    { "item" : "crptexp-gmmetal", "count" : 2 },
+    { "item" : "crptexp-gmwoodplanks", "count" : 1 }
+  ],
+  "output" : { "item" : "crptexp-gmgrapplinghook", "count" : 1 },
+  "groups" : [ "crptexp-gmstampingpress", "tools" ]
+}

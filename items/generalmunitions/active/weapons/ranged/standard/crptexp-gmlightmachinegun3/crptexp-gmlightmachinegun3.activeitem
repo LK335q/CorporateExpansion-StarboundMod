@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "CBMG-30",
+  "shortdescription" : "M2 CBMG-30",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "lightMachineGun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "lightmachinegun", "generalmunitions" ],

@@ -6,7 +6,7 @@
 
     },
  "spacing":0,
- "tilecount":15,
+ "tilecount":26,
  "tileheight":8,
  "tileproperties":
     {
@@ -42,9 +42,64 @@
          "colorVariant":"3",
          "material":"crptexp-gmmetalplatform"
         },
+     "15":
+        {
+         "colorVariant":"5",
+         "material":"crptexp-gmhull"
+        },
+     "16":
+        {
+         "colorVariant":"8",
+         "material":"crptexp-gmhull"
+        },
+     "17":
+        {
+         "colorVariant":"5",
+         "material":"crptexp-gmmetalframe"
+        },
+     "18":
+        {
+         "colorVariant":"8",
+         "material":"crptexp-gmmetalframe"
+        },
+     "19":
+        {
+         "colorVariant":"5",
+         "material":"crptexp-gmmetalpanels"
+        },
      "2":
         {
          "material":"crptexp-gmhull"
+        },
+     "20":
+        {
+         "colorVariant":"8",
+         "material":"crptexp-gmmetalpanels"
+        },
+     "21":
+        {
+         "colorVariant":"5",
+         "material":"crptexp-gmmetalplatform"
+        },
+     "22":
+        {
+         "colorVariant":"8",
+         "material":"crptexp-gmmetalplatform"
+        },
+     "23":
+        {
+         "colorVariant":"3",
+         "material":"crptexp-gmmetalsupport"
+        },
+     "24":
+        {
+         "colorVariant":"5",
+         "material":"crptexp-gmmetalsupport"
+        },
+     "25":
+        {
+         "colorVariant":"8",
+         "material":"crptexp-gmmetalsupport"
         },
      "3":
         {
@@ -105,9 +160,53 @@
         {
          "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmmetalplatformgreen.png"
         },
+     "15":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmhullorange.png"
+        },
+     "16":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmhullwhite.png"
+        },
+     "17":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmmetalframeorange.png"
+        },
+     "18":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmmetalframewhite.png"
+        },
+     "19":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmmetalpanelsorange.png"
+        },
      "2":
         {
          "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmhull.png"
+        },
+     "20":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmmetalpanelswhite.png"
+        },
+     "21":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmmetalplatformorange.png"
+        },
+     "22":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmmetalplatformwhite.png"
+        },
+     "23":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmmetalsupportgreen.png"
+        },
+     "24":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmmetalsupportorange.png"
+        },
+     "25":
+        {
+         "image":"..\/..\/..\/..\/..\/tiled\/CorporateExpansion\/generalmunitions\/materials\/crptexp-gmmetalsupportwhite.png"
         },
      "3":
         {

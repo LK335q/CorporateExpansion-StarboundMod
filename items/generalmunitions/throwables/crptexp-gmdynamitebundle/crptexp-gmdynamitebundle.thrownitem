@@ -5,12 +5,14 @@
   "category" : "throwableItem",
   "inventoryIcon" : "crptexp-gmdynamitebundle.png",
   "image" : "crptexp-gmdynamitebundleheld.png",
-  "shortdescription" : "M2 Dynamite Bundle",
+  "shortdescription" : "M1 Dynamite Bundle",
   "description" : "A bunch of dynamite sticks bundled together. This can't be safe.",
+
+  "tooltipKind" : "crptexp-gmtool",
 
   "ammoUsage" : 1,
 
-  "edgeTrigger" : true,
+  "edgeTrigger" : false,
   "windupTime" : 0.0,
   "cooldown" : 1.2,
 

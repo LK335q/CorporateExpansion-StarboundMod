@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "A barebones bed. The mattress isn't impressive either.",
   "shortdescription" : "Barracks Bed",
 

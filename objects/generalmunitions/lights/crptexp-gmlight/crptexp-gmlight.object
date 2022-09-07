@@ -1,0 +1,48 @@
+{
+  "objectName" : "crptexp-gmlight",
+  "colonyTags" : [ "generalmunitions", "light" ],
+  "rarity" : "Common",
+  "description" : "A bare lightbulb hanging from the ceiling.",
+  "shortdescription" : "Bunker Light",
+  "race" : "generic",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "apexDescription" : "A light bulb.",
+  "avianDescription" : "Light!",
+  "floranDescription" : "Bright!",
+  "glitchDescription" : "Compassionate. I wish to donate this lightbulb a lampshade.",
+  "humanDescription" : "A depressing fixture.",
+  "hylotlDescription" : "An undecorated light.",
+  "novakidDescription" : "A lone lightbulb.",
+
+  "nexusdroidDescription" : "Incandescent light.",
+
+  "category" : "light",
+  "price" : 60,
+  "lightColor" : [217, 181, 98],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "crptexp-gmlight.png:<color>.<frame>", "fullbright" : true }, { "image" : "crptexp-gmlightlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+  "animation" : "crptexp-gmlight.animation",
+  "animationParts" : {
+    "bg" : "crptexp-gmlight.png",
+    "fg" : "crptexp-gmlightlit.png"
+  },
+  "animationPosition" : [-8, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : false,
+
+  "inputNodes" : [ [0, 0] ]
+}

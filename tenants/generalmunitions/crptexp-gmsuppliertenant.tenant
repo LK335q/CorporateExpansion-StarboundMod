@@ -1,0 +1,27 @@
+{
+  "name": "crptexp-gmsuppliertenant",
+  "priority": 5,
+
+  "colonyTagCriteria": {
+    "light": 1,
+    "door": 1,
+    "generalmunitions": 8,
+    "storage": 8,
+    "commerce": 8
+  },
+
+  "tenants": [
+    {
+      "spawn": "npc",
+      "species": ["human", "apex", "avian", "floran", "glitch", "hylotl", "novakid"],
+      "type": "crptexp-gmsuppliertenant",
+      "overrides": {
+       }
+     }
+   ],
+
+  "rent": {
+    "periodRange": [900.0, 1800.0],
+    "pool": "merchantGift"
+  }
+}

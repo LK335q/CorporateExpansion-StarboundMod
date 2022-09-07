@@ -3,17 +3,17 @@
   "price" : 2500,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "Common",
   "category" : "headarmour",
   "description" : "A sturdy infantry helmet. This one has a spike for bonus intimidation factor.",
   "shortdescription" : "M2 Spiked Helmet",
-  "tooltipKind" : "armor",
+  "tooltipKind" : "crptexp-gmarmor",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",
   "mask" : "mask.png",
 
-  "level" : 3,
+  "level" : 2,
   "leveledStatusEffects" : [
     {
       "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",

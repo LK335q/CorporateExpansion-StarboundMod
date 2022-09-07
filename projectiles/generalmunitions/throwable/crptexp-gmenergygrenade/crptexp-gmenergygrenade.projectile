@@ -27,5 +27,6 @@
   ],
   "power" : 60,
   "damageKind" : "default",
+  "emitters" : [ "crptexp-thrownitemtrail" ],
   "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
 }

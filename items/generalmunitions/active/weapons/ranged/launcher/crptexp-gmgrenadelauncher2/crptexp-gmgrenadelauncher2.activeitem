@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "RGL-44",
+  "shortdescription" : "M2 RGL-44",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "grenadeLauncher",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "grenadelauncher", "generalmunitions" ],

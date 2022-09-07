@@ -1,0 +1,13 @@
+{
+  "itemName" : "crptexp-gmcompound",
+  "rarity" : "Uncommon",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "price" : 50,
+  "inventoryIcon" : "crptexp-gmcompound.png",
+
+  "tooltipKind" : "crptexp-gmbase",
+
+  "description" : "A volatile compound that reacts violently when exposed to electric current.",
+  "shortdescription" : "Erchius Compound"
+}

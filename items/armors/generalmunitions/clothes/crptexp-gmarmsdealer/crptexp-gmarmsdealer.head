@@ -1,13 +1,13 @@
 {
   "itemName" : "crptexp-gmarmsdealerhead",
-  "price" : 5000,
+  "price" : 0,
   "inventoryIcon" : "icons.png:head",
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "Common",
   "category" : "headwear",
-  "description" : "A leather hat issued to General Munitions Co. armorers as part of their uniform.",
-  "shortdescription" : "GMC Armorer's Hat",
-  "tooltipKind" : "armor",
+  "description" : "A simple leather hat.",
+  "shortdescription" : "Leather Cap",
+  "tooltipKind" : "crptexp-gmclothes",
 
   "maleFrames" : "head.png",
   "femaleFrames" : "head.png",

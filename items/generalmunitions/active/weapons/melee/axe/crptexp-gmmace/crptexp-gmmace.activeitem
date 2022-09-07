@@ -7,7 +7,7 @@
   "description" : "A brutal, heavy weapon.",
   "shortdescription" : "M2 Morning Star",
 
-  "tooltipKind" : "sword",
+  "tooltipKind" : "crptexp-gmmelee",
   "category" : "axe",
   "tooltipFields" : { "subtitle" : "Mace" },
   "twoHanded" : false,

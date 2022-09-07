@@ -5,14 +5,14 @@
   "rarity" : "Legendary",
 
   "description" : "",
-  "shortdescription" : "RG.FZR-224",
+  "shortdescription" : "M4 RG.FZR-224",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "assaultRifle",
   "tooltipFields" : { "subtitle" : "Raygun" },
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "assaultrifle", "raygun", "generalmunitions" ],
-  "level" : 2,
+  "level" : 6,
   "fixedLevel" : false,
 
   "cursor" : "/cursors/reticle2.cursor",

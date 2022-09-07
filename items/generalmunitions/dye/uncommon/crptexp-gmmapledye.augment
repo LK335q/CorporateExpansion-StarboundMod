@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Maple Wood Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "a6784c" , "e0975c" : "8a5e37" , "a85636" : "4d3221" , "6f2919" : "2f2019",
 					  "ffca8afe" : "a6784cfe" , "e0975cfe" : "8a5e37fe" , "a85636fe" : "4d3221fe" , "6f2919fe" : "2f2019fe" },
 

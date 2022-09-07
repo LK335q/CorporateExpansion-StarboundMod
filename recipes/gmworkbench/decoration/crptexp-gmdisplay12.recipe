@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmbroadsword", "count" : 1 },
+    { "item" : "crptexp-gmdisplayempty", "count" : 1 }
+  ],
+  "output" : { "item" : "crptexp-gmdisplay12", "count" : 1 },
+  "groups" : [ "crptexp-gmworkbench", "decoration", "all" ]
+}

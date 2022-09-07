@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "FRG.IS-66",
+  "shortdescription" : "M2 FRG.IS-66",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "sniperRifle",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "sniperrifle", "generalmunitions" ],

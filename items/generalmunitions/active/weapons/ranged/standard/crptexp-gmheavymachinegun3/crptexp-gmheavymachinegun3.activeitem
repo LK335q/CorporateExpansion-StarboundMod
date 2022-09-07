@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "FRM-31",
+  "shortdescription" : "M2 FRM-31",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "heavyMachineGun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "heavymachinegun", "generalmunitions" ],

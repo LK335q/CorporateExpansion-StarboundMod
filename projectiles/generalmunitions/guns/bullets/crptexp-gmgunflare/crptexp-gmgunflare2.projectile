@@ -43,7 +43,7 @@
       "file" : "/projectiles/explosions/smoke/smoke.config"
     }
   ],
-  "speed" : 35,
+  "speed" : 25,
   "power" : 0,
   "piercing" : true,
   "damageKind" : "fire",

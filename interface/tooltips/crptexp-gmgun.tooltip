@@ -1,0 +1,109 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/generalmunitions/crptexp-gmgunheader.png",
+    "fileBody" : "/interface/tooltips/generalmunitions/crptexp-gmgunbody.png",
+    "fileFooter" : "/interface/tooltips/generalmunitions/crptexp-gmgunfooter.png"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [100, 44],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [113, 44],
+    "hAnchor" : "left",
+    "value" : "tree"
+  },
+  "altAbilityTitleLabel" : {
+    "type" : "label",
+    "position" : [12, 57],
+    "hAnchor" : "left",
+    "value" : ""
+  },
+  "altAbilityLabel" : {
+    "type" : "label",
+    "position" : [133, 57],
+    "hAnchor" : "right",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "speedTitleLabel" : {
+    "type" : "label",
+    "position" : [12, 75],
+    "hAnchor" : "left",
+    "value" : "Rate of Fire:"
+  },
+  "speedLabel" : {
+    "type" : "label",
+    "position" : [133, 75],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "damagePerShotTitleLabel" : {
+    "type" : "label",
+    "position" : [12, 84],
+    "hAnchor" : "left",
+    "value" : "Damage Per Shot:"
+  },
+  "damagePerShotLabel" : {
+    "type" : "label",
+    "position" : [133, 84],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "energyPerShotTitleLabel" : {
+    "type" : "label",
+    "position" : [12, 66],
+    "hAnchor" : "left",
+    "value" : "Energy Per Shot:"
+  },
+  "energyPerShotLabel" : {
+    "type" : "label",
+    "position" : [133, 66],
+    "hAnchor" : "right",
+    "wrapWidth" : 126
+  },
+  "levelTitleLabel" : {
+    "type" : "label",
+    "position" : [123, 150],
+    "hAnchor" : "right",
+    "value" : "Level:"
+  },
+  "levelLabel" : {
+    "type" : "label",
+    "position" : [133, 150],
+    "hAnchor" : "right"
+  },
+  "handednessLabel" : {
+    "type" : "label",
+    "position" : [12, 150],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [12, 44],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [127, 104],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [73, 121],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [60, 60],
+    "minSize" : [60, 60]
+  }
+}

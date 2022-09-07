@@ -1,0 +1,64 @@
+[
+  // Add GMC weapons to apex rebels
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmassaultrifle6"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmlightmachinegun"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmsniper"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmshotgun"
+  },
+  // Add new variants of rebel NPC's
+  {
+    "op": "add",
+    "path": "/items/override/0/1/-",
+    "value": {
+      "head" : [
+        "",
+        { "name" : "crptexp-gmaviators", "parameters" : { "colorIndex" : [0] } },
+        { "name" : "eyepatchhead", "parameters" : { "colorIndex" : [1] } },
+        { "name" : "berethead", "parameters" : { "colorIndex" : [1] } },
+        { "name" : "apextier5mhead", "parameters" : { "colorIndex" : [1,2] } },
+        { "name" : "apextier5shead", "parameters" : { "colorIndex" : [1,2,3,4,11] } }
+      ],
+      "chest" : [
+        { "name" : "apextier4chest", "parameters" : { "colorIndex" : [0,2,11] } }
+      ],
+      "legs" : [
+        { "name" : "mediclegs", "parameters" : { "colorIndex" : [0,2,11] } },
+        { "name" : "apextier4pants", "parameters" : { "colorIndex" : [0,2,11] } }
+      ],
+      "primary" : [
+        "crptexp-gmassaultrifle",
+        "crptexp-gmassaultrifle2",
+        "crptexp-gmassaultrifle3",
+        "crptexp-gmassaultrifle4",
+        "crptexp-gmassaultrifle5",
+        "crptexp-gmassaultrifle6",
+        "crptexp-gmshotgun",
+        "crptexp-gmshotgun3",
+        "crptexp-gmshotgunauto",
+        "crptexp-gmsniper",
+        "crptexp-gmsniper3",
+        "crptexp-gmlightmachinegun",
+        "crptexp-gmlightmachinegun2",
+        "crptexp-gmlightmachinegun3",
+        "crptexp-gmlightmachinegun4",
+        "crptexp-gmgrenadelauncher2",
+        "crptexp-gmgrenadelauncher3"
+      ]
+    }
+  }
+]

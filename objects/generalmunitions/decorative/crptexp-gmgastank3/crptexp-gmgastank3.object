@@ -1,0 +1,40 @@
+{
+  "objectName" : "crptexp-gmgastank3",
+  "colonyTags" : [ "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A large gas tank.",
+  "shortdescription" : "Pressurized Tank",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "A simple gas tank.",
+  "avianDescription" : "This gas tank is useful for many things.",
+  "floranDescription" : "Tank is full of gass, Floran will be careful.",
+  "glitchDescription" : "Wary. This tank is full of pressurized gas.",
+  "humanDescription" : "A gas tank.",
+  "hylotlDescription" : "This tank is full of pressurized gases.",
+  "novakidDescription" : "A tank o' gas.",
+
+  "nexusdroidDescription" : "Cylindrical metallic containment unit.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmgastank3.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

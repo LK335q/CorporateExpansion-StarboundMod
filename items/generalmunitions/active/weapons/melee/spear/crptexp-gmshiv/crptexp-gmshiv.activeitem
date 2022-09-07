@@ -2,12 +2,12 @@
   "itemName" : "crptexp-gmshiv",
   "price" : 460,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "description" : "A light shiv for carving up enemies.",
   "shortdescription" : "M2 Combat Shiv",
 
-  "tooltipKind" : "sword",
+  "tooltipKind" : "crptexp-gmmelee",
   "category" : "shiv",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "melee", "shiv", "generalmunitions" ],

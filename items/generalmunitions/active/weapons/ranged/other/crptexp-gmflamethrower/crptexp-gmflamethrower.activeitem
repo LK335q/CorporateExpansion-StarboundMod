@@ -1,0 +1,199 @@
+{
+  "itemName" : "crptexp-gmflamethrower",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+
+  "description" : "",
+  "shortdescription" : "M2 GFT-2",
+
+  "tooltipKind" : "crptexp-gmgun",
+  "category" : "flamethrower",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "flamethrower", "generalmunitions"],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "cursor" : "/cursors/generalmunitions/crptexp-gmshotgunreticle.cursor",
+
+  "inventoryIcon" : "crptexp-gmflamethrower.png",
+
+  "animation" : "crptexp-gmflamethrower.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-gmflamethrower.png",
+	"middleFullbright" : "",
+    "barrel" : "",
+    "muzzleFlash" : ""
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "ammoType" : {
+          "default" : "1",
+          "states" : {
+            "1" : {
+              "frames" : 1
+            },
+            "2" : {
+              "frames" : 1
+            }
+          }
+        }
+      },
+      "parts" : {
+        "middleFullbright" : {
+          "properties" : {
+            "image" : null
+          },
+          "partStates" : {
+            "ammoType" : {
+              "1" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              },
+              "2" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/objects/oillantern_on.ogg" ],
+      "fireStart" : {
+         "pitchMultiplier" : 1.25,
+	     "volume" : 1.0,
+	     "pool" : [ "/sfx/gun/flamethrower_start.ogg" ]
+	     },
+      "fireLoop" : [ "/sfx/gun/flamethrower_loop.ogg" ],
+      "fireEnd" : [ "/sfx/gun/flamethrower_stop.ogg" ]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "color" : [0, 0, 0],
+		"position" : [2.0, 0.1]
+      }
+    }
+  },
+
+  "baseOffset" : [1.2, -0.1],
+  "muzzleOffset" : [2.7, 0.56],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "fire",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/abilities/flamethrower/flamethrower.lua"],
+    "class" : "FlamethrowerAttack",
+
+    "baseDps" : 9,
+    "energyUsage" : 30,
+    "fireTime" : 0.035,
+    "inaccuracy" : 0.02,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : [ "crptexp-flamethrower" ],
+    "projectileParameters" : {
+    "speed" : 30
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "cooldown" : {
+        "duration" : 0.02,
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Nozzle Adjust",
+    "scripts" : ["/items/active/weapons/other/adaptablecrossbow/adaptableammo.lua"],
+    "class" : "AdaptableAmmo",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        // Focused
+        "projectileType" : [ "crptexp-flamethrower" ],
+        "projectileParameters" : {
+    	  "speed" : 30
+    	  },
+        "baseDps" : 9,
+        "energyUsage" : 30,
+        "fireTime" : 0.035,
+        "inaccuracy" : 0.02
+      },
+      {
+        // Spray
+        "projectileType" : [ "crptexp-flamethrowerspread", "crptexp-flamethrower", "crptexp-flamethrower", "crptexp-flamethrower" ],
+        "projectileParameters" : {
+    	  "speed" : 20
+    	  },
+        "baseDps" : 9,
+        "energyUsage" : 30,
+        "fireTime" : 0.045,
+        "inaccuracy" : 0.12
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -20,
+        "weaponRotation" : 30,
+        "weaponAngularVelocity" : -75,
+        "armAngularVelocity" : 50,
+        "twoHanded" : true,
+        "duration" : 0.4,
+
+        "frontArmFrame" : "run.1",
+	    	"backArmFrame": "rotation",
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

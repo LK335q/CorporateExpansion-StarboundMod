@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "STS-24",
+  "shortdescription" : "M2 STS-24",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "shotgun", "generalmunitions" ],

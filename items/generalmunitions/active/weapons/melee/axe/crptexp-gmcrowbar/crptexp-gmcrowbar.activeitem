@@ -1,0 +1,97 @@
+{
+  "itemName" : "crptexp-gmcrowbar",
+  "price" : 460,
+  "maxStack" : 1,
+  "rarity" : "Common",
+
+  "description" : "",
+  "shortdescription" : "M1 Crowbar",
+
+  "tooltipKind" : "crptexp-gmmelee",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : [ "weapon", "melee", "axe", "generalmunitions" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "inventoryIcon" : "icon.png",
+
+  "animation" : "crptexp-gmcrowbar.animation",
+  "animationParts" : {
+    "blade" : "blade.png",
+    "handle" : "handle.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/melee/abilities/axe/axecleave.lua"],
+    "class" : "AxeCleave",
+
+    "fireTime" : 0.65,
+    "baseDps" : 6.5,
+    "damageConfig" : {
+      "damageSourceKind" : "fryingpan",
+      "knockbackMode" : "aim",
+      "knockback" : 10,
+      "timeoutGroup" : "primary"
+    },
+    "stances" : {
+      "idle" : {
+        "armRotation" : -90,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0.25, 2.0],
+        "twoHanded" : false,
+
+        "allowFlip" : true,
+        "allowRotate" : true
+      },
+      "windup" : {
+        "duration" : 0.8,
+        "armRotation" : 90,
+        "weaponRotation" : 0,
+        "weaponOffset" : [0.25, 2.5],
+        "twoHanded" : false,
+
+        "allowFlip" : true,
+        "allowRotate" : true,
+
+        "bounceTime" : 0.12,
+        "bounceWeaponAngle" : [
+          [0.75, "linear", 20, 60],
+          [0.875, "sin", 60, 55],
+          [1.0, "cos", 60, 55]
+        ],
+
+        "weaponAngle" : [
+          [1.0, "linear", -20, 20]
+        ],
+
+        "armAngle" : [
+          [1.0, "sin", -90, 50]
+        ]
+      },
+      "fire" : {
+        "duration" : 0.4,
+        "armRotation" : -45,
+        "weaponRotation" : -45,
+        "weaponOffset" : [0.25, 2.75],
+        "twoHanded" : false,
+
+        "allowFlip" : true,
+        "allowRotate" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

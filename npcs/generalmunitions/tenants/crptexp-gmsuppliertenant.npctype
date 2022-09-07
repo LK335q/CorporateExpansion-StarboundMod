@@ -1,0 +1,53 @@
+{
+  "type" : "crptexp-gmsuppliertenant",
+  "baseType" : "merchant",
+
+  "scriptConfig" : {
+    "questGenerator" : { "pools" : [], "enableParticipation" : false },
+
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : -1,
+      "categories" : {
+        "override" : [ "crptexp-gmsupplier" ]
+      },
+      "buyFactorRange" : [ 0.7, 1.5 ],
+      "sellFactorRange" : [ 0.2, 0.2 ],
+      "numItems" : 10,
+      "paneLayoutOverride" : {
+        "windowtitle" : {
+          "title" : "  General Munitions Co. Supplier",
+          "subtitle" : "  Sells raw materials."
+        }
+      }
+    },
+	"dialog" : {
+      "merchant" : {
+        "start" : "/dialog/crptexp-gmsupplier.config:merchantStart",
+        "end" : "/dialog/crptexp-gmsupplier.config:merchantEnd",
+        "follow" : "/dialog/crptexp-gmsupplier.config:follow",
+        "welcome" : "/dialog/crptexp-gmsupplier.config:welcome",
+        "tout" : "/dialog/crptexp-gmsupplier.config:tout"
+      }
+	}
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "back" : [
+              { "name" : "survivalgearback", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [ "crptexp-gmpistol" ]
+          }
+        ] ]
+    ]
+  }
+}

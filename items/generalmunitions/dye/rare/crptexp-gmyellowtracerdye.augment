@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Yellow Tracer Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "fefffffe" , "e0975c" : "fdd14dfe" , "a85636" : "ff9500fe" , "6f2919" : "a04900fe",
 					  "ffca8afe" : "fefffffe" , "e0975cfe" : "fdd14dfe" , "a85636fe" : "ff9500fe" , "6f2919fe" : "a04900fe" },
 

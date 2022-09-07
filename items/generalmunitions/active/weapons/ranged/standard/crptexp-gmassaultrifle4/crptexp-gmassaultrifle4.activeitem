@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "AAR-17",
+  "shortdescription" : "M2 AAR-17",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "assaultRifle",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "assaultrifle", "generalmunitions" ],

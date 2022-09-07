@@ -26,49 +26,49 @@
     {
       "action" : "projectile",
       "type" : "crptexp-flame",
-      "fuzzAngle" : 35,
+      "fuzzAngle" : 180,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 35
     },
     {
       "action" : "projectile",
       "type" : "crptexp-flame",
-      "fuzzAngle" : 35,
+      "fuzzAngle" : 180,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -35
     },
     {
       "action" : "projectile",
       "type" : "crptexp-flame",
-      "fuzzAngle" : 35,
+      "fuzzAngle" : 180,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 1
     },
     {
       "action" : "projectile",
       "type" : "crptexp-flame",
-      "fuzzAngle" : 35,
+      "fuzzAngle" : 180,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -18
     },
     {
       "action" : "projectile",
       "type" : "crptexp-flame",
-      "fuzzAngle" : 35,
+      "fuzzAngle" : 180,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 18
     },
     {
       "action" : "projectile",
       "type" : "crptexp-flame",
-      "fuzzAngle" : 35,
+      "fuzzAngle" : 180,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 55
     },
     {
       "action" : "projectile",
       "type" : "crptexp-flame",
-      "fuzzAngle" : 35,
+      "fuzzAngle" : 180,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -55
     },
@@ -82,19 +82,20 @@
     {
       "action" : "projectile",
       "type" : "crptexp-flame",
-      "fuzzAngle" : 35,
+      "fuzzAngle" : 180,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : -65
     },
     {
       "action" : "projectile",
       "type" : "crptexp-flame",
-      "fuzzAngle" : 35,
+      "fuzzAngle" : 180,
       "inheritDamageFactor" : 0.05,
       "angleAdjust" : 65
     }
   ],
   "power" : 60,
   "damageKind" : "default",
+  "emitters" : [ "crptexp-thrownitemtrail" ],
   "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
 }

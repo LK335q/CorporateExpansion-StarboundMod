@@ -9,7 +9,7 @@
 
   "race" : "generic",
   "objectType" : "container",
-  "tooltipKind" : "container",
+  "tooltipKind" : "crptexp-gmcontainer",
 
   "category" : "storage",
   "price" : 60,

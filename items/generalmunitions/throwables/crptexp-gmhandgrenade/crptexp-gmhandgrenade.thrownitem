@@ -8,9 +8,11 @@
   "shortdescription" : "M2 Hand Grenade",
   "description" : "A simple hand grenade.",
 
+  "tooltipKind" : "crptexp-gmthrownitem",
+
   "ammoUsage" : 1,
 
-  "edgeTrigger" : true,
+  "edgeTrigger" : false,
   "windupTime" : 0.0,
   "cooldown" : 1.2,
 

@@ -1,0 +1,82 @@
+{
+  "itemName" : "crptexp-gmweaponblueprint1",
+  "level" : 1,
+  "price" : 150,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A blueprint for a basic General Munitions Co. weapon.",
+  "shortdescription" : "M2 Weapon Blueprints",
+  "tooltipKind" : "crptexp-gmtool",
+  "category" : "Blueprint",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "crptexp-gmweaponblueprint1.png",
+  "image" : "crptexp-gmweaponblueprint1.png",
+
+  "animation" : "/items/active/randomblueprint/randomblueprint.animation",
+
+  "scripts" : ["/items/active/randomblueprint/randomblueprint.lua"],
+
+  "swingTime" : 0.15,
+
+  "allowDuplicateChance" : 0.1,
+  "recipes" : [
+    [
+      "crptexp-gmassaultrifle",
+      "crptexp-gmassaultrifle2",
+      "crptexp-gmassaultrifle4",
+      "crptexp-gmpistol",
+      "crptexp-gmpistol2",
+      "crptexp-gmshotgun",
+      "crptexp-gmshotgun3",
+      "crptexp-gmsniper",
+      "crptexp-gmsniper3",
+      "crptexp-gmlightmachinegun",
+      "crptexp-gmlightmachinegun2",
+      "crptexp-gmassaultrifle3",
+      "crptexp-gmassaultrifle5",
+      "crptexp-gmassaultrifle6",
+      "crptexp-gmgrenadelauncher2",
+      "crptexp-gmmachinepistol",
+      "crptexp-gmmachinepistol2",
+      "crptexp-gmmachinepistol3",
+      "crptexp-gmmachinepistol4",
+      "crptexp-gmrocketlauncher",
+      "crptexp-gmgrenadelauncher3",
+      "crptexp-gmheavymachinegun",
+      "crptexp-gmheavymachinegun2",
+      "crptexp-gmheavymachinegun3",
+      "crptexp-gmsubmachinegun",
+      "crptexp-gmsubmachinegun2",
+      "crptexp-gmsubmachinegun3",
+      "crptexp-gmsubmachinegun4",
+      "crptexp-gmlightmachinegun3",
+      "crptexp-gmlightmachinegun4",
+      "crptexp-gmhandcannon",
+      "crptexp-gmhandcannon3",
+      "crptexp-gmhandcannon4",
+      "crptexp-gmshotgunauto",
+      "crptexp-gmflamethrower"
+    ],
+    [
+      "crptexp-gmdagger",
+      "crptexp-gmmachete",
+      "crptexp-gmbroadsword",
+      "crptexp-gmshortsword",
+      "crptexp-gmspear",
+      "crptexp-gmaxe",
+      "crptexp-gmbroadsword2",
+      "crptexp-gmshortsword2",
+      "crptexp-gmmace",
+      "crptexp-gmshiv"
+    ],
+    [
+      "crptexp-gmhandgrenade",
+      "crptexp-gmstickgrenade",
+      "crptexp-gmfraggrenade",
+      "crptexp-gmfiregrenade",
+      "crptexp-gmgasgrenade",
+      "crptexp-gmjumpmine"
+    ]
+  ]
+}

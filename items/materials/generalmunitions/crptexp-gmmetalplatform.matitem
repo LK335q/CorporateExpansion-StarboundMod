@@ -3,10 +3,13 @@
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "crptexp-gmmetalplatform.png",
+  "inventoryIcon" : "crptexp-gmmetalplatformicon.png",
+  "largeImage" : "/items/materials/generalmunitions/crptexp-gmmetalplatform.png",
 
   "shortdescription" : "Riveted Platform",
   "description" : "Heavy duty metal platform.",
+
+  "tooltipKind" : "crptexp-gmtile",
 
   "glitchDescription" : "Content. These sturdy platforms are suitable for my needs.",
   "floranDescription" : "Sstable perch for Floran to leap from!",

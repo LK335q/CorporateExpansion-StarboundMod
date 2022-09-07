@@ -3,10 +3,13 @@
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "crptexp-gmmetalsupport.png",
+  "inventoryIcon" : "crptexp-gmmetalsupporticon.png",
+  "largeImage" : "/items/materials/generalmunitions/crptexp-gmmetalsupport.png",
 
   "shortdescription" : "Heavy Support Beam",
   "description" : "Thick support beams for bearing a heavy load.",
+
+  "tooltipKind" : "crptexp-gmtile",
 
   "glitchDescription" : "Reassured. These supports look sturdy enough to hold up any structure.",
   "floranDescription" : "Metal sskeleton for buildingss.",

@@ -2,7 +2,7 @@
   "objectName" : "crptexp-gmtechstation",
   "colonyTags" : [ "generalmunitions" ],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Essential",
   "interactAction" : "OpenAiInterface",
   "category" : "decorative",
   "lightPosition" : [-1, 0],
@@ -10,6 +10,8 @@
   "shortdescription" : "GMC S.A.I.L",
   "race" : "generic",
   "lightColor" : [0, 75, 0],
+
+  "tooltipKind" : "crptexp-gmobject",
 
   "apexDescription" : "I can talk to SAIL through this console.",
   "avianDescription" : "I can use this station to talk to SAIL.",

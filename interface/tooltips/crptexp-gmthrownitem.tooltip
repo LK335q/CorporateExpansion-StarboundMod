@@ -1,0 +1,49 @@
+{
+  "background" : {
+    "type" : "background",
+    "fileHeader" : "/interface/tooltips/generalmunitions/crptexp-gmobjectheader.png",
+    "fileBody" : "/interface/tooltips/generalmunitions/crptexp-gmelementalbasebody.png",
+    "fileFooter" : "/interface/tooltips/generalmunitions/crptexp-gmgunfooter.png"
+  },
+  "moneyIcon" : {
+    "type" : "image",
+    "position" : [100, 44],
+    "file" : "/interface/money.png"
+  },
+  "priceLabel" : {
+    "type" : "label",
+    "position" : [113, 44],
+    "hAnchor" : "left",
+    "value" : "0"
+  },
+  "descriptionLabel" : {
+    "type" : "label",
+    "position" : [12, 98],
+    "hAnchor" : "left",
+    "vAnchor" : "top",
+    "wrapWidth" : 123
+  },
+  "rarityLabel" : {
+    "type" : "label",
+    "position" : [12, 44],
+    "hAnchor" : "left",
+    "centered" : true,
+    "wrapWidth" : 126
+  },
+  "damageKindImage" : {
+    "type" : "image",
+    "position" : [127, 109],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [16, 16],
+    "minSize" : [16, 16]
+  },
+  "objectImage" : {
+    "type" : "image",
+    "position" : [70, 128],
+    "file" : "",
+    "centered" : true,
+    "maxSize" : [70, 45],
+    "minSize" : [70, 40]
+  }
+}

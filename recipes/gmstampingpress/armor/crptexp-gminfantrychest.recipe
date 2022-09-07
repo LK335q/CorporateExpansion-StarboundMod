@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmmetal", "count" : 8 },
+    { "item" : "crptexp-gmcloth", "count" : 3 },
+    { "item" : "tungstenbar", "count" : 2 },
+    { "item" : "leather", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "crptexp-gminfantrychest", "count" : 1 },
+  "groups" : [ "crptexp-gmstampingpress", "armours", "all" ]
+}

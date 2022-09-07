@@ -1,0 +1,69 @@
+{
+  "objectName" : "crptexp-gmstampingpress",
+  "colonyTags" : [ "commerce", "crafting", "generalmunitions" ],
+  "rarity" : "Uncommon",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/crptexp-gmstampingpress.config",
+    "filter" : [ "crptexp-gmstampingpress" ],
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : " Stamping Press",
+        "subtitle" : " ^#b9b5b2;Manufacture surplus ordnance",
+        "icon" : {
+          "file" : "/interface/crafting/craftingfurniture.png"
+        }
+      }
+    }
+  },
+
+  "price" : 40,
+  "printable" : false,
+
+  "inventoryIcon" : "icon.png",
+
+  "description" : "A heavy industrial stamping press for manufacturing General Munitions Co. weapons and equipment.",
+  "shortdescription" : "^orange;Stamping Press^white;",
+
+  "apexDescription" : "An effective solution for producing many weapons in a short amount of time.",
+  "avianDescription" : "I may be able to produce some weapons at this machine.",
+  "floranDescription" : "Machine is very strong, bendss metal like paper.",
+  "glitchDescription" : "Wary. This press exerts immense force to bend sheet metal.",
+  "humanDescription" : "A huge industrial press for forming weapon parts.",
+  "hylotlDescription" : "No craftsmanship is involved in a process such as this.",
+  "novakidDescription" : "I can use this ol' machine here to make some weapons.",
+
+  "nexusdroidDescription" : "Crude machinery designed for inferior firearms manufacture.",
+
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "crptexp-gmstampingpress.png:<color>.<frame>", "fullbright" : true }, { "image" : "crptexp-gmstampingpresslit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "left",
+      "flipImages" : true,
+
+      "frames" : 17,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+
+    {
+      "imageLayers" : [ { "image" : "crptexp-gmstampingpress.png:<color>.<frame>", "fullbright" : true }, { "image" : "crptexp-gmstampingpresslit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, 0],
+
+      "direction" : "right",
+
+      "frames" : 17,
+      "animationCycle" : 1.8,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

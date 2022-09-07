@@ -1,0 +1,13 @@
+{
+  "itemName" : "crptexp-gmcloth",
+  "rarity" : "Common",
+  "category" : "craftingMaterial",
+  "itemTags" : [ "reagent" ],
+  "price" : 10,
+  "inventoryIcon" : "crptexp-gmcloth.png",
+
+  "tooltipKind" : "crptexp-gmbase",
+
+  "description" : "A measure of heavy duty cloth.",
+  "shortdescription" : "Military Grade Fabric"
+}

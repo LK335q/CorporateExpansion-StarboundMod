@@ -7,8 +7,10 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Navy Blue Dye",
 
-  "dyeDirectives" : { "ffca8a" : "7f7f8a" , "e0975c" : "4e4e5c" , "a85636" : "282838" , "6f2919" : "151525",
-					  "ffca8afe" : "7f7f8afe" , "e0975cfe" : "4e4e5cfe" , "a85636fe" : "282838fe" , "6f2919fe" : "151525fe" },
+  "tooltipKind" : "crptexp-gmbase",
+
+  "dyeDirectives" : { "ffca8a" : "637aa3" , "e0975c" : "3a4f67" , "a85636" : "1c2c3c" , "6f2919" : "121a2a",
+					  "ffca8afe" : "637aa3fe" , "e0975cfe" : "3a4f67fe" , "a85636fe" : "1c2c3cfe" , "6f2919fe" : "121a2afe" },
 
   "radioMessagesOnPickup" : [ "pickupdye" ],
 

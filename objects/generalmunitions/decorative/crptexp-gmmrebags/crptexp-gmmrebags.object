@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "A pile of various MRE bags.",
   "shortdescription" : "MRE Bags",
 

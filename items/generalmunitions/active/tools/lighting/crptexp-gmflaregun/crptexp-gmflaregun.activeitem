@@ -2,12 +2,13 @@
   "itemName" : "crptexp-gmflaregun",
   "price" : 960,
   "maxStack" : 1,
-  "rarity" : "Uncommon",
+  "rarity" : "Legendary",
 
   "description" : "Useful as a lighting tool, and can serve as a decent weapon in a pinch.",
   "shortdescription" : "M2 Flare Gun",
 
-  "tooltipKind" : "crptexp-elementalbase",
+  "tooltipKind" : "crptexp-gmelementaltool",
+
   "category" : "lightingTool",
   "twoHanded" : false,
   "itemTags" : [ "tool", "lightingtool", "generalmunitions" ],

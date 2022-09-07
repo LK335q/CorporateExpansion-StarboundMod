@@ -7,7 +7,7 @@
   "description" : "A simple, effective sword.",
   "shortdescription" : "M2 Shortsword",
 
-  "tooltipKind" : "sword",
+  "tooltipKind" : "crptexp-gmmelee",
   "category" : "shortsword",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "melee", "shortsword", "generalmunitions" ],

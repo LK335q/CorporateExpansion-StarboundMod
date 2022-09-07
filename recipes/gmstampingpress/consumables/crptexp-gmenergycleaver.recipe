@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmmetal", "count" : 1 },
+    { "item" : "crptexp-gmcompound", "count" : 1 },
+    { "item" : "smallbattery", "count" : 1 }
+  ],
+  "output" : { "item" : "crptexp-gmenergycleaver", "count" : 3 },
+  "groups" : [ "crptexp-gmstampingpress", "consumables", "all" ]
+}

@@ -5,9 +5,9 @@
   "rarity" : "Common",
 
   "description" : "",
-  "shortdescription" : "BGA-40",
+  "shortdescription" : "M1 BGA-40",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "grenadeLauncher",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "grenadelauncher", "generalmunitions" ],

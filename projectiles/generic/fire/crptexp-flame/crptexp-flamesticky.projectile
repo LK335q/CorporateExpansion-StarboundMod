@@ -6,7 +6,7 @@
   "speed" : 15,
   "image" : "crptexp-flame.png",
   "animationCycle" : 0.8,
-  "lightColor" : [235, 126, 2],
+  "lightColor" : [255, 126, 2],
   "fullbright" : true,
   "frameNumber" : 8,
   "emitters" : [ "crptexp-flames" ],

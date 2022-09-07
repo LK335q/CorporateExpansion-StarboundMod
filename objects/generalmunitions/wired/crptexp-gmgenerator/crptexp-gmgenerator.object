@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "A large combustion generator used to power small facilities.",
   "shortdescription" : "Barracks Generator",
 

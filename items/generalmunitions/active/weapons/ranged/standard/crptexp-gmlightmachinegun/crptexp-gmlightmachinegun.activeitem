@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "LMGD-44",
+  "shortdescription" : "M2 LMGD-44",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "lightMachineGun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "lightmachinegun", "generalmunitions" ],

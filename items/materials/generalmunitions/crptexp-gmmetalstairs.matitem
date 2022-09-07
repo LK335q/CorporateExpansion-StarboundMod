@@ -3,10 +3,13 @@
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "crptexp-gmmetalstairs.png",
+  "inventoryIcon" : "crptexp-gmmetalstairsicon.png",
+  "largeImage" : "/items/materials/generalmunitions/crptexp-gmmetalstairs.png",
 
   "shortdescription" : "Industrial Catwalk",
   "description" : "Not exclusively used by cats, contrary to the name.",
+
+  "tooltipKind" : "crptexp-gmtile",
 
   "glitchDescription" : "Uninterested. A rather simple metal platform.",
   "floranDescription" : "Floran pushess prey off platform, let gravity hunt for Floran!",

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmmetal", "count" : 15 },
+    { "item" : "wire", "count" : 5 }
+  ],
+  "output" : { "item" : "crptexp-gmstampingpress", "count" : 1 },
+  "groups" : [ "inventorstable", "craftingstations", "all" ]
+}

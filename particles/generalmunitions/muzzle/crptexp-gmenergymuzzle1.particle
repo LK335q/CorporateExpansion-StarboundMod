@@ -1,0 +1,25 @@
+{
+  "kind" : "crptexp-gmenergymuzzle1",
+  "definition" : {
+    "type" : "ember",
+        "size" : 1.2,
+        "color" : [255, 92, 77, 255],
+        "collidesForeground" : false,
+        "initialVelocity" : [20.0, 0.0],
+		    "approach" : [8.0, 2.0],
+		    "finalVelocity" : [0.0, 0.0],
+        "timeToLive" : 0.0,
+		    "destructionTime" : 0.1,
+        "destructionAction" : "shrink",
+        "layer" : "back",
+		    "fullbright" : true,
+        "position" : [0.0, 0.0],
+		    "variance" : {
+		      "initialVelocity" : [2.0, 10.0],
+          "position" : [0.0, 0.2],
+		      "size" : 0.2,
+		      "timeToLive" : 0.1,
+		      "rotation" : 180
+      }
+  }
+}

@@ -1,4 +1,6 @@
 function init()
+  animator.setParticleEmitterActive("sparks", true)
+
   if status.resourceMax("health") < config.getParameter("minMaxHealth", 0) then
     effect.expire()
   end
@@ -8,12 +10,14 @@ function update(dt)
 
   if not status.resourcePositive("health") and status.resourceMax("health") >= config.getParameter("minMaxHealth", 0) then
     effect.setParentDirectives(config.getParameter("flashDirectives"))
+    animator.burstParticleEmitter("sparks")
+    animator.setParticleEmitterActive("sparks", false)
     explode()
   end
 end
 
 function uninit()
-  
+
 end
 
 function explode()

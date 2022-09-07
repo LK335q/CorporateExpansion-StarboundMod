@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmmetal", "count" : 6 },
+    { "item" : "crptexp-gmwoodplanks", "count" : 4 },
+    { "item" : "refinedaegisalt", "count" : 2 },
+    { "item" : "smallbattery", "count" : 2 }
+  ],
+  "output" : { "item" : "crptexp-gmenergyassaultrifle", "count" : 1 },
+  "groups" : [ "crptexp-gmstampingpress", "rangedweapons", "all" ]
+}

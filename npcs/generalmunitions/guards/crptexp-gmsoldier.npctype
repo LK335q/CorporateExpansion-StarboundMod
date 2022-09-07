@@ -14,7 +14,8 @@
       "enableParticipation" : false
     },
     "dialog" : {
-      "hail" : "/dialog/crptexp-gmguard.config:hail"
+      "hail" : "/dialog/crptexp-gmguard.config:hail",
+      "converse" : "/dialog/crptexp-gmsoldier.config:converse"
     }
   },
 
@@ -46,11 +47,7 @@
               "crptexp-gmlightmachinegun",
               "crptexp-gmlightmachinegun2",
               "crptexp-gmlightmachinegun3",
-              "crptexp-gmlightmachinegun4",
-              "crptexp-gmenergyassaultrifle",
-              "crptexp-gmenergyshotgun",
-              "crptexp-gmenergysniper",
-              "crptexp-gmenergylightmachinegun"
+              "crptexp-gmlightmachinegun4"
             ],
             "sheathedprimary" : [
               "crptexp-gmdagger",
@@ -93,10 +90,7 @@
               "crptexp-gmsubmachinegun4",
               "crptexp-gmhandcannon",
               "crptexp-gmhandcannon3",
-              "crptexp-gmhandcannon4",
-              "crptexp-gmenergymachinepistol",
-              "crptexp-gmenergysubmachinegun",
-              "crptexp-gmenergyhandcannon"
+              "crptexp-gmhandcannon4"
             ]
           }
         ] ]

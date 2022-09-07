@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Pristine Brass Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "fff099" , "e0975c" : "cca63d" , "a85636" : "734a11" , "6f2919" : "382008",
 					  "ffca8afe" : "fff099fe" , "e0975cfe" : "cca63dfe" , "a85636fe" : "734a11fe" , "6f2919fe" : "382008fe" },
 

@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmcosmolinedye",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmcosmolinedye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Oiled Wood Dye",
+
+  "tooltipKind" : "crptexp-gmbase",
+
+  "dyeDirectives" : { "ffca8a" : "ca6927" , "e0975c" : "a85415" , "a85636" : "6a280a" , "6f2919" : "3b1400",
+					  "ffca8afe" : "ca6927fe" , "e0975cfe" : "a85415fe" , "a85636fe" : "6a280afe" , "6f2919fe" : "3b1400fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

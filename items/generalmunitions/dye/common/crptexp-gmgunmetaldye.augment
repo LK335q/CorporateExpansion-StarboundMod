@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Gunmetal Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "808080" , "e0975c" : "4d4d4d" , "a85636" : "2f2f33" , "6f2919" : "1a1a1f",
 					  "ffca8afe" : "808080fe" , "e0975cfe" : "4d4d4dfe" , "a85636fe" : "2f2f33fe" , "6f2919fe" : "1a1a1ffe" },
 

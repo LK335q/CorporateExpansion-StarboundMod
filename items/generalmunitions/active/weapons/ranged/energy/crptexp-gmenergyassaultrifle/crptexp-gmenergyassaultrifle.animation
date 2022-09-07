@@ -120,9 +120,11 @@
       "transformationGroups" : ["muzzle"],
       "offsetRegion" : [0, 0, 0, 0],
       "particles" : [
-	  { "particle" : "crptexp-gmenergybulletshell",
-		  "offset" : [-2.5, 0.1] }
-	  ]
+        { "particle" : "crptexp-gmenergymuzzle1", "offset" : [0.0, 0.0] },
+        { "particle" : "crptexp-gmenergymuzzle2", "offset" : [0.0, 0.0] },
+        { "particle" : "crptexp-gmenergymuzzle2", "offset" : [0.0, 0.0] },
+	      { "particle" : "crptexp-gmenergybulletshell", "offset" : [-2.5, 0.1] }
+	    ]
     },
 	"altMuzzleFlash" : {
       "transformationGroups" : ["muzzle"],

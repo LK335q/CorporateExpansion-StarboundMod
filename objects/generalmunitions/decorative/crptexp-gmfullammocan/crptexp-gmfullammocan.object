@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "An ammo can stuffed full of ammunition.",
   "shortdescription" : "Stuffed Ammo Can",
 

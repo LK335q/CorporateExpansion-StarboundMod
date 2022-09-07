@@ -1,0 +1,41 @@
+{
+  "objectName" : "crptexp-gmpallet",
+  "colonyTags" : [ "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A wooden board.",
+  "shortdescription" : "Wood Pallet",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "Wooden pallets like these are a common sight in industrial areas.",
+  "avianDescription" : "A wooden pallet.",
+  "floranDescription" : "Wood thing good for sstacking boxes.",
+  "glitchDescription" : "Neutral. A wooden pallet.",
+  "humanDescription" : "Where's the forklift?",
+  "hylotlDescription" : "This wooden pallet is suitable for warehouse storage.",
+  "novakidDescription" : "An ordinary lookin' pallet.",
+
+  "nexusdroidDescription" : "Pallet composed of organic matter designed for storage purposes.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmpallet.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ]
+}

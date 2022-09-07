@@ -9,7 +9,7 @@
   "flippable" : true,
   "fullbright" : true,
   "supportsProcessing" : true,
-  "lightColor" : [120, 0, 0],
+  "lightColor" : [0, 100, 0],
   "actionOnReap" : [
 	  {
       "action" : "config",

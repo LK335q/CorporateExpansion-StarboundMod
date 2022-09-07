@@ -1,0 +1,38 @@
+[
+  // Add GMC weapons to prison gunmen
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmpistol"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmpistol2"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmhandcannon4"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmmachinepistol"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmmachinepistol2"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmmachinepistol3"
+  },
+  {
+    "op": "add",
+    "path": "/items/override/0/1/0/primary/-",
+    "value": "crptexp-gmmachinepistol4"
+  }
+]

@@ -5,9 +5,9 @@
   "rarity" : "Common",
 
   "description" : "",
-  "shortdescription" : "CBR-14",
+  "shortdescription" : "M1 CBR-14",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "sniperRifle",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "sniperrifle", "generalmunitions" ],

@@ -1,0 +1,24 @@
+{
+  "projectileName" : "crptexp-gmenergyexplosionspawner",
+  "image" : "crptexp-gmenergyexplosion.png",
+  "physics" : "crptexp-explosion",
+  "animationCycle" : 0.2,
+  "frameNumber" : 6,
+  "timeToLive" : 0.0,
+  "damageType" : "NoDamage",
+  "damageKind" : "default",
+  "flippable" : true,
+  "piercing" : true,
+  "statusEffects" : [ ],
+
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/generalmunitions/explosions/crptexp-gmenergyexplosion/crptexp-gmenergyexplosion.config"
+    }
+  ],
+
+  "power" : 5.0,
+  "speed" : 0,
+  "knockback" : 0
+}

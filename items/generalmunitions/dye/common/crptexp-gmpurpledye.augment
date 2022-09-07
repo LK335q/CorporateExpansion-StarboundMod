@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Black Ops Purple Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "7d7580" , "e0975c" : "4a3f4d" , "a85636" : "2a1f2e" , "6f2919" : "170e1a",
 					  "ffca8afe" : "7d7580fe" , "e0975cfe" : "4a3f4dfe" , "a85636fe" : "2a1f2efe" , "6f2919fe" : "170e1afe" },
 

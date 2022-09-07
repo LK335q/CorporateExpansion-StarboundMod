@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Army Red Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "d96857" , "e0975c" : "a72e18" , "a85636" : "660f19" , "6f2919" : "3d1118",
 					  "ffca8afe" : "d96857fe" , "e0975cfe" : "a72e18fe" , "a85636fe" : "660f19fe" , "6f2919fe" : "3d1118fe" },
 

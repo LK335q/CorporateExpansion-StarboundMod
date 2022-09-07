@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "FMP-99",
+  "shortdescription" : "M2 FMP-99",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "machinePistol",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "machinepistol", "generalmunitions" ],

@@ -4,11 +4,11 @@
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
-  "tooltipKind" : "container",
+  "tooltipKind" : "crptexp-gmcontainer",
 
   "description" : "A row of military lockers.",
   "shortdescription" : "Barracks Lockers",
-  
+
   "race" : "generic",
   "category" : "storage",
   "price" : 110,

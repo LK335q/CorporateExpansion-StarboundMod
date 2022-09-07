@@ -1,0 +1,54 @@
+{
+  "objectName" : "crptexp-gmlightbulbred",
+  "colonyTags" : [ "generalmunitions", "light" ],
+  "rarity" : "Common",
+  "description" : "A bare lightbulb hanging from the ceiling.",
+  "shortdescription" : "Red Barracks Light",
+  "race" : "generic",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "apexDescription" : "A light bulb.",
+  "avianDescription" : "Light!",
+  "floranDescription" : "Bright!",
+  "glitchDescription" : "Compassionate. I wish to donate this lightbulb a lampshade.",
+  "humanDescription" : "A depressing fixture.",
+  "hylotlDescription" : "An undecorated light.",
+  "novakidDescription" : "A lone lightbulb.",
+
+  "nexusdroidDescription" : "Incandescent light.",
+
+  "category" : "light",
+  "price" : 60,
+  "lightColor" : [180, 23, 20],
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "crptexp-gmlightbulbred.png:<color>.<frame>", "fullbright" : true }, { "image" : "crptexp-gmlightbulbredlit.png:<color>.<frame>" } ],
+      "imagePosition" : [0, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "top" ]
+    }
+  ],
+  "animation" : "crptexp-gmlightbulbred.animation",
+  "animationParts" : {
+    "bg" : "crptexp-gmlightbulbred.png",
+    "fg" : "crptexp-gmlightbulbredlit.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "on" : [ "/sfx/objects/generalmunitions/crptexp-gmpullcord.ogg" ],
+      "off" : [ "/sfx/objects/generalmunitions/crptexp-gmpullcord.ogg" ]
+    }
+  },
+  "animationPosition" : [0, 0],
+
+  "scripts" : [ "/objects/wired/light/light.lua" ],
+  "scriptDelta" : 60,
+
+  "interactive" : true,
+
+  "inputNodes" : [ [0, 0] ]
+}

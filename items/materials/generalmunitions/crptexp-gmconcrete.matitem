@@ -3,10 +3,13 @@
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "crptexp-gmconcrete.png",
+  "inventoryIcon" : "crptexp-gmconcreteicon.png",
+  "largeImage" : "/items/materials/generalmunitions/crptexp-gmconcrete.png",
 
   "shortdescription" : "Smooth Concrete",
   "description" : "Cold, hard, concrete.",
+
+  "tooltipKind" : "crptexp-gmtile",
 
   "glitchdescription" : "Aqainted. Concrete is a commonly used construction material.",
   "florandescription" : "Floran disslike cold concrete.",

@@ -1,0 +1,6 @@
+[
+  { "op" : "add",
+	"path" : "/storeInventory/deeds/-",
+	"value" : "crptexp-gmcolonydeed"
+  }
+]

@@ -3,10 +3,13 @@
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "crptexp-gmwoodplatform.png",
+  "inventoryIcon" : "crptexp-gmwoodplatformicon.png",
+  "largeImage" : "/items/materials/generalmunitions/crptexp-gmwoodplatform.png",
 
   "shortdescription" : "Varnished Platform",
   "description" : "Glossy wooden platforms.",
+
+  "tooltipKind" : "crptexp-gmtile",
 
   "glitchDescription" : "Fascinated. Such a pleasant glossy finish.",
   "floranDescription" : "Sshiny plant bones.",

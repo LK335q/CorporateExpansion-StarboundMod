@@ -6,7 +6,7 @@
   "animationCycle" : 0.2,
   "frameNumber" : 6,
   "speed" : 0,
-  "lightColor" : [160, 30, 30],
+  "lightColor" : [255, 205, 128],
   "pointLight" : true,
   "damagePoly" : [ [-36, 0], [-24, -24], [0, -36], [24, -24], [36, 0], [24, 24], [0, 36], [-24, 24] ],
   "animationLoops" : false,

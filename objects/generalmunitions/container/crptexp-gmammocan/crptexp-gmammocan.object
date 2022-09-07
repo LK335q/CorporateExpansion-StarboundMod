@@ -4,7 +4,7 @@
   "printable" : false,
   "rarity" : "Common",
   "objectType" : "container",
-  "tooltipKind" : "container",
+  "tooltipKind" : "crptexp-gmcontainer",
 
   "description" : "A metal container for storing ammunition.",
   "shortdescription" : "Ammo Can",

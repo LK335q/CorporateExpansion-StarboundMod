@@ -12,7 +12,7 @@
       ]
     },
     "particles" : [
-      [ "crptexp-burningdust", "dust2" ]
+      [ "crptexp-burningdust", "crptexp-firesmoke" ]
     ],
     "sounds" : [
       [ ]

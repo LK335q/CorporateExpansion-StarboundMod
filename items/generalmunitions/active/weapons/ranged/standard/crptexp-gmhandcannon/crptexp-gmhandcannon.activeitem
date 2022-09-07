@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "BF-1.RN",
+  "shortdescription" : "M2 BF-1.RN",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "handCannon",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "handcannon", "generalmunitions" ],

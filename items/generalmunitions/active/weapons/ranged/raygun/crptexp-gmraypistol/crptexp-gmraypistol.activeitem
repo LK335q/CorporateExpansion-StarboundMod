@@ -5,14 +5,14 @@
   "rarity" : "Legendary",
 
   "description" : "",
-  "shortdescription" : "RG.PWPW-200",
+  "shortdescription" : "M4 RG.PWPW-200",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "pistol",
   "tooltipFields" : { "subtitle" : "Raygun" },
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "pistol", "raygun", "generalmunitions" ],
-  "level" : 2,
+  "level" : 6,
   "fixedLevel" : false,
 
   "cursor" : "/cursors/reticle2.cursor",

@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "A solid metal control console. The screen is reading off diagnostic data and technical gibberish.",
   "shortdescription" : "Control Station",
 

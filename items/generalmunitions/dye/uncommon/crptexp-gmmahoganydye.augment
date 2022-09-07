@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Mahogany Wood Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "ad5031" , "e0975c" : "94371b" , "a85636" : "5c1511" , "6f2919" : "330506",
 					  "ffca8afe" : "ad5031fe" , "e0975cfe" : "94371bfe" , "a85636fe" : "5c1511fe" , "6f2919fe" : "330506fe" },
 

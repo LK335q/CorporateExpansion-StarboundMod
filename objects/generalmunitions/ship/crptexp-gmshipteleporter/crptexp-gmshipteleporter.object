@@ -2,10 +2,12 @@
   "objectName" : "crptexp-gmshipteleporter",
   "colonyTags" : ["generalmunitions"],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Essential",
   "description" : "Trusty teleporter, what would we do without you?",
   "shortdescription" : "GMC Ship Teleporter",
   "race" : "generic",
+
+  "tooltipKind" : "crptexp-gmobject",
 
   "apexDescription" : "The ship's teleporter. Teleporting feels like riding a rollercoaster at the speed of light.",
   "avianDescription" : "The teleporter! Teleporting feels like flying.",

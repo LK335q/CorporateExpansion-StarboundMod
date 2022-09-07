@@ -5,9 +5,9 @@
   "rarity" : "Common",
 
   "description" : "",
-  "shortdescription" : "JSS-8",
+  "shortdescription" : "M1 JSS-8",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "shotgun", "generalmunitions" ],

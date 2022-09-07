@@ -28,12 +28,64 @@
   },
   {
     "op": "add",
+    "path": "/crptexp-gmbasicspacetreasure",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.30, "pool" : "money"},
+        {"weight" : 0.70, "pool" : "basicSpaceTreasure"},
+        {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"}
+      ],
+      "poolRounds" : [
+        [0.25, 0],
+        [0.50, 1],
+        [0.25, 2]
+      ],
+      "allowDuplication" : false
+    }]]
+  },
+  {
+    "op": "add",
     "path": "/crptexp-gmarmstreasure",
     "value": [[0, {
       "pool" : [
         {"weight" : 0.30, "pool" : "money"},
+        {"weight" : 0.70, "pool" : "basicTreasure"},
         {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"},
-        {"weight" : 0.30, "pool" : "crptexp-gmweaponsloot_t0"}
+        {"weight" : 0.70, "pool" : "crptexp-gmweaponsloot"},
+        {"weight" : 0.70, "pool" : "crptexp-gmblueprints1"}
+      ],
+      "poolRounds" : [
+        [0.25, 0],
+        [0.50, 1],
+        [0.25, 2]
+      ],
+      "allowDuplication" : false
+    }],
+    [4.9, {
+      "pool" : [
+        {"weight" : 0.30, "pool" : "money"},
+        {"weight" : 0.70, "pool" : "basicTreasure"},
+        {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"},
+        {"weight" : 0.70, "pool" : "crptexp-gmweaponsloot"},
+        {"weight" : 0.30, "pool" : "crptexp-gmblueprints1"},
+        {"weight" : 0.70, "pool" : "crptexp-gmblueprints2"}
+      ],
+      "poolRounds" : [
+        [0.25, 0],
+        [0.50, 1],
+        [0.25, 2]
+      ],
+      "allowDuplication" : false
+    }],
+    [5.9, {
+      "pool" : [
+        {"weight" : 0.30, "pool" : "money"},
+        {"weight" : 0.70, "pool" : "basicTreasure"},
+        {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"},
+        {"weight" : 0.70, "pool" : "crptexp-gmweaponsloot"},
+        {"weight" : 0.30, "pool" : "crptexp-gmblueprints1"},
+        {"weight" : 0.30, "pool" : "crptexp-gmblueprints2"},
+        {"weight" : 0.70, "pool" : "crptexp-gmblueprints3"}
       ],
       "poolRounds" : [
         [0.25, 0],
@@ -49,8 +101,10 @@
     "value": [[0, {
       "pool" : [
         {"weight" : 0.30, "pool" : "money"},
+        {"weight" : 0.70, "pool" : "basicTreasure"},
         {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"},
-        {"weight" : 0.30, "pool" : "crptexp-gmarmorloot"}
+        {"weight" : 0.30, "pool" : "crptexp-gmarmorloot"},
+        {"weight" : 0.30, "pool" : "crptexp-gmdye"}
       ],
       "poolRounds" : [
         [0.25, 0],
@@ -67,7 +121,7 @@
       "pool" : [
         {"weight" : 0.30, "pool" : "money"},
         {"weight" : 0.70, "pool" : "basicTreasure"},
-        {"weight" : 0.70, "pool" : "crptexp-gmjunkloot"}
+        {"weight" : 0.70, "pool" : "crptexp-gmcodexloot"}
       ],
       "poolRounds" : [
         [0.25, 0],
@@ -82,8 +136,25 @@
     "path": "/crptexp-gmarmorloot",
     "value": [[0, {
       "pool" : [
-        {"weight" : 0.5, "item" : "crptexp-gminfantrychest"},
-        {"weight" : 0.5, "item" : "crptexp-gminfantrylegs"}
+        {"weight" : 0.7, "item" : "crptexp-gminfantrychest"},
+        {"weight" : 0.7, "item" : "crptexp-gminfantrylegs"},
+        {"weight" : 0.7, "item" : "crptexp-gmsoldierhead"},
+        {"weight" : 0.3, "item" : "crptexp-gmsoldieralthead"},
+        {"weight" : 0.3, "item" : "crptexp-gmradioback"},
+        {"weight" : 0.3, "item" : "crptexp-gmheadset"},
+        {"weight" : 0.3, "item" : "crptexp-gmaviators"},
+        {"weight" : 0.3, "item" : "crptexp-gmarmsdealerhead"},
+        {"weight" : 0.1, "item" : "crptexp-gmdrillsergeanthead"},
+        {"weight" : 0.1, "item" : "crptexp-gmdrillsergeanthead2"},
+        {"weight" : 0.1, "item" : "crptexp-gmofficerhead"},
+        {"weight" : 0.1, "item" : "crptexp-gmofficerchest"},
+        {"weight" : 0.1, "item" : "crptexp-gmofficerlegs"},
+        // BLUEPRINTS
+        {"weight" : 0.05, "item" : "crptexp-gmsoldieralthead-recipe"},
+        {"weight" : 0.05, "item" : "crptexp-gmdrillsergeanthead-recipe"},
+        {"weight" : 0.05, "item" : "crptexp-gmofficerhead-recipe"},
+        {"weight" : 0.05, "item" : "crptexp-gmofficerchest-recipe"},
+        {"weight" : 0.05, "item" : "crptexp-gmofficerlegs-recipe"}
       ],
       "poolRounds" : [
         [0.50, 1],
@@ -103,7 +174,69 @@
         {"weight" : 0.1, "item" : [ "crptexp-gmmetal", 3]},
         {"weight" : 0.1, "item" : [ "crptexp-gmmetal", 2]},
         {"weight" : 0.1, "item" : [ "crptexp-gmmetal", 1]},
-        {"weight" : 0.1, "item" : [ "crptexp-gmvarnish", 1]}
+        {"weight" : 0.1, "item" : [ "crptexp-gmvarnish", 3]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmvarnish", 2]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmvarnish", 1]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmcloth", 3]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmcloth", 2]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmcloth", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : false
+    }],
+    [4.9, {
+      "pool" : [
+        {"weight" : 0.1, "item" : [ "crptexp-gmbulletshell", 5]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmbulletshell", 3]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmbulletshell", 1]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmmetal", 3]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmmetal", 2]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmmetal", 1]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmvarnish", 3]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmvarnish", 2]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmvarnish", 1]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmcloth", 3]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmcloth", 2]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmcloth", 1]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmcompound", 3]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmcompound", 2]},
+        {"weight" : 0.1, "item" : [ "crptexp-gmcompound", 1]}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : false
+    }]
+  ]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmcodexloot",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.5, "item" : "crptexp-gmad-codex" },
+        {"weight" : 0.4, "item" : "crptexp-newsarticle1-codex" }
+      ],
+      "poolRounds" : [
+        [0.50, 0],
+        [0.50, 1]
+      ],
+      "allowDuplication" : false
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmweaponsloot",
+    "value": [[0, {
+      "pool" : [
+        {"weight" : 0.70, "pool" : "crptexp-gmcommonweapon"},
+        {"weight" : 0.60, "pool" : "crptexp-gmuncommonweapon"},
+        {"weight" : 0.40, "pool" : "crptexp-gmrareweapon"},
+        {"weight" : 0.20, "pool" : "crptexp-gmlegendaryweapon"}
       ],
       "poolRounds" : [
         [0.50, 1],
@@ -114,34 +247,44 @@
   },
   {
     "op": "add",
-    "path": "/crptexp-gmweaponsloot_t0",
-    "value": [[0, {
+    "path": "/crptexp-gmblueprints1",
+    "value": [[1.9, {
       "pool" : [
-        // RANGED WEAPONS
-        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle" },
-        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle2" },
-        {"weight" : 0.1, "item" : "crptexp-gmassaultrifle4" },
-        {"weight" : 0.1, "item" : "crptexp-gmpistol" },
-        {"weight" : 0.1, "item" : "crptexp-gmpistol2" },
-        {"weight" : 0.5, "item" : "crptexp-gmpistol3" },
-        {"weight" : 0.1, "item" : "crptexp-gmshotgun" },
-        {"weight" : 0.5, "item" : "crptexp-gmshotgun2" },
-        {"weight" : 0.1, "item" : "crptexp-gmshotgun3" },
-        {"weight" : 0.1, "item" : "crptexp-gmsniper" },
-        {"weight" : 0.5, "item" : "crptexp-gmsniper2" },
-        {"weight" : 0.1, "item" : "crptexp-gmsniper3" },
-        {"weight" : 0.5, "item" : "crptexp-gmgrenadelauncher" },
-        // MELEE WEAPONS
-        {"weight" : 0.5, "item" : "crptexp-gmdagger" },
-        {"weight" : 0.5, "item" : "crptexp-gmmachete" },
-        {"weight" : 0.5, "item" : "crptexp-gmshiv" },
-        {"weight" : 0.5, "item" : "crptexp-gmtrenchshovel" }
+        {"weight" : 0.70, "item" : "crptexp-gmweaponblueprint1"}
       ],
       "poolRounds" : [
         [0.50, 1],
         [0.50, 2]
       ],
-      "allowDuplication" : false
+      "allowDuplication" : true
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmblueprints2",
+    "value": [[4.9, {
+      "pool" : [
+        {"weight" : 0.70, "item" : "crptexp-gmweaponblueprint2"}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : true
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/crptexp-gmblueprints3",
+    "value": [[5.9, {
+      "pool" : [
+        {"weight" : 0.70, "item" : "crptexp-gmweaponblueprint3"}
+      ],
+      "poolRounds" : [
+        [0.50, 1],
+        [0.50, 2]
+      ],
+      "allowDuplication" : true
     }]]
   }
 

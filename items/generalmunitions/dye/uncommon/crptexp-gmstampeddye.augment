@@ -7,6 +7,8 @@
   "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
   "shortdescription" : "Stamped Metal Dye",
 
+  "tooltipKind" : "crptexp-gmbase",
+
   "dyeDirectives" : { "ffca8a" : "999999" , "e0975c" : "5c5c5c" , "a85636" : "333232" , "6f2919" : "1f1d1d",
 					  "ffca8afe" : "999999fe" , "e0975cfe" : "5c5c5cfe" , "a85636fe" : "333232fe" , "6f2919fe" : "1f1d1dfe" },
 

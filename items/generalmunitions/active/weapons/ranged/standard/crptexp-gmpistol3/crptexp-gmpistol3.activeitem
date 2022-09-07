@@ -5,9 +5,9 @@
   "rarity" : "Common",
 
   "description" : "",
-  "shortdescription" : "LP-46",
+  "shortdescription" : "M1 LP-46",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "pistol",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "pistol", "generalmunitions" ],

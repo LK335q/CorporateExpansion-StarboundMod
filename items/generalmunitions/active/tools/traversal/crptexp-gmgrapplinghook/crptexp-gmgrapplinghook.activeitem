@@ -6,7 +6,9 @@
   "maxStack" : 1,
 
   "description" : "A reliable weighted grappling hook.",
-  "shortdescription" : "M3 Grappling Tool",
+  "shortdescription" : "M2 Grappling Tool",
+
+  "tooltipKind" : "crptexp-gmtool",
 
   "largeImage" : "crptexp-gmgrapplinghook.png",
   "category" : "traversalTool",

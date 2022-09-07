@@ -1,7 +1,6 @@
 {
   "input" : [
-    { "item" : "crptexp-gmmetal", "count" : 6 },
-    { "item" : "crptexp-gmreddye", "count" : 1 }
+    { "item" : "crptexp-gmmetal", "count" : 6 }
   ],
   "output" : { "item" : "crptexp-gmradiotowerpartpainted", "count" : 1 },
   "groups" : [ "crptexp-gmworkbench", "decoration", "all" ]

@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "A robust desktop PC with a green monotone screen.",
   "shortdescription" : "Desktop Computer",
 

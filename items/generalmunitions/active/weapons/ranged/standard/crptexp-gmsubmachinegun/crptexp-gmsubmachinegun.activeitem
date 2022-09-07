@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "SMP-41",
+  "shortdescription" : "M2 SMP-41",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "submachineGun",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "submachinegun", "generalmunitions" ],

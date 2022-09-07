@@ -1,0 +1,40 @@
+{
+  "objectName" : "crptexp-gmdisplayempty",
+  "colonyTags" : [ "combat", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A decorative mount for displaying weapons.",
+  "shortdescription" : "Pegboard",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "An empty display rack.",
+  "avianDescription" : "This is a pegboard for putting weapons on display.",
+  "floranDescription" : "Pegboard full of tiny holess.",
+  "glitchDescription" : "Disappointed. An empty weapon display.",
+  "humanDescription" : "Looks like a simple gun rack.",
+  "hylotlDescription" : "An empty pegboard.",
+  "novakidDescription" : "I could hang a weapon up on this ol' pegboard.",
+
+  "nexusdroidDescription" : "Inferior competitor armament display rack.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmdisplayempty.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

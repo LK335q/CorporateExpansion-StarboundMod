@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmyellowlightdye",
+  "price" : 25,
+  "rarity" : "Rare",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmyellowlightdye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Incandescent Dye",
+
+  "tooltipKind" : "crptexp-gmbase",
+
+  "dyeDirectives" : { "ffca8a" : "fefefffe" , "e0975c" : "f1f1c1fe" , "a85636" : "e6d272fe" , "6f2919" : "bf8915fe",
+					  "ffca8afe" : "fefefffe" , "e0975cfe" : "f1f1c1fe" , "a85636fe" : "e6d272fe" , "6f2919fe" : "bf8915fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

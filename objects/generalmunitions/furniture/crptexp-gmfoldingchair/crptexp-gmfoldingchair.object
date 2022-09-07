@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "An uncomfortable-looking chair.",
   "shortdescription" : "Barracks Chair",
 

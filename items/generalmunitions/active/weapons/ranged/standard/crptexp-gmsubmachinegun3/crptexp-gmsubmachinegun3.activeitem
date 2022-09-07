@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "MWP-40",
+  "shortdescription" : "M2 MWP-40",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "submachineGun",
   "twoHanded" : false,
   "itemTags" : [ "weapon", "ranged", "submachinegun", "generalmunitions" ],

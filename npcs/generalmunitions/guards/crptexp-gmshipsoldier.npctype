@@ -1,0 +1,59 @@
+{
+  "type" : "crptexp-gmshipsoldier",
+  "baseType" : "villageguard",
+
+  "levelVariance" : [0, 0],
+
+  "dropPools" : [],
+
+  "scriptConfig" : {
+    "behaviorConfig" : {
+      "greetingChance" : 0
+    },
+    "questGenerator" : {
+      "enableParticipation" : false
+    },
+    "dialog" : {
+      "hail" : "/dialog/crptexp-gmguard.config:hail",
+      "converse" : "/dialog/crptexp-gmsoldier.config:converse"
+    }
+  },
+
+  "items" : {
+    "override" : [
+      [0, [
+          {
+            "head" : [
+              { "name" : "crptexp-gmsoldierhead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmenergyshortsword"
+            ]
+          },
+          {
+            "head" : [
+              { "name" : "crptexp-gmsoldierhead", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "chest" : [
+              { "name" : "crptexp-gminfantrychest", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "legs" : [
+              { "name" : "crptexp-gminfantrylegs", "parameters" : { "colorIndex" : [0] } }
+            ],
+            "sheathedprimary" : [
+              "crptexp-gmenergyhandcannon",
+              "crptexp-gmenergymachinepistol",
+              "crptexp-gmenergysubmachinegun",
+              "crptexp-gmraypistol"
+            ]
+          }
+        ] ]
+    ]
+  }
+}

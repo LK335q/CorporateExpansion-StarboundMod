@@ -1,0 +1,33 @@
+{
+  "projectileName" : "crptexp-flamethrowerspread",
+  "image" : "crptexp-flamethrower.png",
+  "physics" : "crptexp-flamethrower",
+  "fullbright" : true,
+  "animationCycle" : 1,
+  "animationLoops" : false,
+  "frameNumber" : 12,
+  "emitters" : [ "crptexp-flames" ],
+  "winddownFrames" : 3,
+  "intangibleWinddown" : true,
+  "power" : 50,
+  "speed" : 25,
+  "timeToLive" : 1.0,
+  "bounces" : 4,
+  "piercing" : true,
+  "damagePoly" : [ [-9, 0], [-6, -6], [0, -9], [6, -6], [9, 0], [6, 6], [0, 9], [-6, 6] ],
+  "lightColor" : [255, 126, 2],
+  "damageKind" : "fire",
+  "damageKindImage" : "/interface/statuses/fire.png",
+  "statusEffects" : [
+    "burning"
+  ],
+  "hydrophobic" : true,
+
+  "actionOnCollide" : [
+    {
+      "action" : "projectile",
+      "type" : "crptexp-flamesticky",
+      "inheritDamageFactor" : 0.1
+    }
+  ]
+}

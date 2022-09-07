@@ -9,6 +9,8 @@
   "shortdescription" : "GMC Ship Hatch",
   "race" : "generic",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "apexDescription" : "Hatch designs like this are common on ships.",
   "avianDescription" : "A spaceship hatch.",
   "floranDescription" : "Ssspaceship hatch.",

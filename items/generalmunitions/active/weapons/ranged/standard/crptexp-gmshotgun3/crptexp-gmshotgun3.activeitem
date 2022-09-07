@@ -5,9 +5,9 @@
   "rarity" : "Uncommon",
 
   "description" : "",
-  "shortdescription" : "AVRG-12",
+  "shortdescription" : "M2 AVRG-12",
 
-  "tooltipKind" : "gun",
+  "tooltipKind" : "crptexp-gmgun",
   "category" : "shotgun",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "ranged", "shotgun", "generalmunitions" ],
@@ -68,7 +68,7 @@
 	    "fire" : {
        "pitchMultiplier" : 1.0,
 	     "volume" : 1.0,
-	     "pool" : ["/sfx/gun/shotgun4.ogg"]
+	     "pool" : ["/sfx/gun/generalmunitions/crptexp-gmshotgun2-old.ogg"]
 	  }
     },
     "lights" : {

@@ -5,12 +5,14 @@
   "category" : "throwableItem",
   "inventoryIcon" : "crptexp-gmstickgrenade.png",
   "image" : "crptexp-gmstickgrenadeheld.png",
-  "shortdescription" : "M3 \"Potato Masher\" ",
+  "shortdescription" : "M2 Potato Masher",
   "description" : "Detonates on impact. Handle with care!",
+
+  "tooltipKind" : "crptexp-gmthrownitem",
 
   "ammoUsage" : 1,
 
-  "edgeTrigger" : true,
+  "edgeTrigger" : false,
   "windupTime" : 0.0,
   "cooldown" : 1.0,
 

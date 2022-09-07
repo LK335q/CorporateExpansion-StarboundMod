@@ -1,0 +1,25 @@
+[
+  {
+    "op": "add",
+    "path": "/crptexp-gmsupplyship",
+    "value": {
+	  "warpAction" : "InstanceWorld:crptexp-gmsupplyship",
+	  "threatLevel" : 1,
+	  "skyParameters" : {
+		"seed" : 0,
+		"horizonClouds" : false,
+		"horizonImages" : [ { "left": "/celestial/system/ships/shiphorizonleft.png", "right": "/celestial/system/ships/shiphorizonright.png" } ]
+	  },
+	  "moving" : true,
+	  "speed" : 15.0,
+	  "orbitRange" : [1, 1],
+	  "lifeTime" : [1500, 2100],
+	  "parameters" : {
+		"icon" : "/celestial/system/ships/crptexp-gmsupplyship.png",
+		"displayName" : "General Munitions Cargo Ship",
+		"description" : "A General Munitions Co. cargo ship for transporting supplies. The ship's pilot has invited us aboard to browse their inventory."
+	  }
+	}
+  }
+
+]

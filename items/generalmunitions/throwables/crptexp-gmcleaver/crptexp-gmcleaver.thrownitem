@@ -1,0 +1,32 @@
+{
+  "itemName" : "crptexp-gmcleaver",
+  "price" : 50,
+  "rarity" : "Common",
+  "category" : "throwableItem",
+  "inventoryIcon" : "crptexp-gmcleaver.png",
+  "image" : "crptexp-gmcleaverheld.png",
+  "shortdescription" : "M1 Cleaver",
+  "description" : "A standard issue, military grade meat cleaver.",
+
+  "tooltipKind" : "crptexp-gmthrownitem",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : false,
+  "windupTime" : 0.0,
+  "cooldown" : 0.6,
+
+  "projectileType" : "crptexp-gmcleaver",
+  "projectileConfig" : {
+    "speed" : 60,
+    "power" : 10,
+    "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+  }
+}

@@ -3,10 +3,13 @@
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "crptexp-gmwoodtrim.png",
+  "inventoryIcon" : "crptexp-gmwoodtrimicon.png",
+  "largeImage" : "/items/materials/generalmunitions/crptexp-gmwoodtrim.png",
 
   "shortdescription" : "Varnished Trim",
   "description" : "Glossy wooden trim.",
+
+  "tooltipKind" : "crptexp-gmtile",
 
   "glitchDescription" : "Fascinated. Such a pleasant glossy finish.",
   "floranDescription" : "Sshiny plant bones.",

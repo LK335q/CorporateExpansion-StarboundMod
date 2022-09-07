@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmmetal", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "crptexp-gmheadset", "count" : 1 },
+  "groups" : [ "crptexp-gmstampingpress", "armours", "all" ]
+}

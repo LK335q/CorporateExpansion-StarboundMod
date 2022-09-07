@@ -1,8 +1,0 @@
-{
-  "input" : [
-    { "item" : "crptexp-gmmetal", "count" : 2 },
-    { "item" : "fabric", "count" : 10 }
-  ],
-  "output" : { "item" : "crptexp-gmbunk", "count" : 1 },
-  "groups" : [ "crptexp-gmworkbench", "beds", "all" ]
-}

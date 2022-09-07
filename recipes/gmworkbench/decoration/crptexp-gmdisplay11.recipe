@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "crptexp-gmgrenadelauncher2", "count" : 1 },
+    { "item" : "crptexp-gmdisplayempty", "count" : 1 }
+  ],
+  "output" : { "item" : "crptexp-gmdisplay11", "count" : 1 },
+  "groups" : [ "crptexp-gmworkbench", "decoration", "all" ]
+}

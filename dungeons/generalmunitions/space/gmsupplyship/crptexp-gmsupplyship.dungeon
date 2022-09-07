@@ -1,0 +1,39 @@
+{
+  "metadata" : {
+    "name" : "crptexp-gmsupplyship",
+  "species" : "generic",
+    "rules" : [
+    ],
+    "anchor" : [ "crptexp-gmsupplyship" ],
+    "gravity" : 80,
+    "breathable" : true,
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : true
+},
+
+  "parts" : [
+
+    // SAFE ZONE
+    {
+      "name" : "safe-empty",
+      "rules" : [
+        [ "ignorePartMaximumRule" ]
+      ],
+      "def" : [ "tmx", "/dungeons/space/hazards/safe-empty.json" ],
+      "chance" : 0,
+      "markDungeonId" : false
+    },
+
+    // SUPPLY SHIP
+
+    {
+      "name" : "crptexp-gmsupplyship",
+      "rules" : [
+        [ "doNotCombineWith", [ "crptexp-gmsupplyship" ] ]
+      ],
+      "def" : [ "tmx", "crptexp-gmsupplyship.json" ],
+      "chance" : 1.0
+    }
+  ]
+}

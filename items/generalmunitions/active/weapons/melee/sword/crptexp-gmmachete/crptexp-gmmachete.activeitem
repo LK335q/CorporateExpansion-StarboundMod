@@ -2,12 +2,12 @@
   "itemName" : "crptexp-gmmachete",
   "price" : 460,
   "maxStack" : 1,
-  "rarity" : "Common",
+  "rarity" : "Uncommon",
 
   "description" : "A broad machete. Chop chop.",
-  "shortdescription" : "M3 Machete",
+  "shortdescription" : "M2 Machete",
 
-  "tooltipKind" : "sword",
+  "tooltipKind" : "crptexp-gmmelee",
   "category" : "shortsword",
   "tooltipFields" : { "subtitle" : "Machete" },
   "twoHanded" : false,

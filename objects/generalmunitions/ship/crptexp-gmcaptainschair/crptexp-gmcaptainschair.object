@@ -3,8 +3,10 @@
   "colonyTags" : [ "generalmunitions" ],
   "itemTags" : [ "captainschair" ],
   "printable" : false,
-  "rarity" : "Common",
+  "rarity" : "Essential",
   "objectType" : "loungeable",
+
+  "tooltipKind" : "crptexp-gmobject",
 
   "description" : "The Captain sits here to fly the ship. Good for custom ships.",
   "shortdescription" : "GMC Captain's Chair",

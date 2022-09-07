@@ -3,10 +3,13 @@
   "price" : 0,
   "category" : "block",
   "rarity" : "Common",
-  "inventoryIcon" : "crptexp-gmwoodplanks.png",
+  "inventoryIcon" : "crptexp-gmwoodplanksicon.png",
+  "largeImage" : "/items/materials/generalmunitions/crptexp-gmwoodplanks.png",
 
   "shortdescription" : "Varnished Wood",
   "description" : "Glossy wooden planks.",
+
+  "tooltipKind" : "crptexp-gmtile",
 
   "glitchDescription" : "Fascinated. Such a pleasant glossy finish.",
   "floranDescription" : "Sshiny plant bones.",

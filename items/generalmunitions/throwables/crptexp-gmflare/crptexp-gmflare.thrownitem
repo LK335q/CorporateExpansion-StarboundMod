@@ -4,17 +4,18 @@
   "price" : 5,
 
   "builder" : "/items/buildscripts/crptexp-buildelementalitem.lua",
-  "tooltipKind" : "crptexp-elementalbase",
   "category" : "throwableItem",
   "inventoryIcon" : "crptexp-gmflare.png",
   "image" : "crptexp-gmflareheld.png",
 
-  "shortdescription" : "M2 Flare",
+  "shortdescription" : "M1 Flare",
   "description" : "A bright flare good for lighting up caves and such. Also lights enemies on fire.",
+
+  "tooltipKind" : "crptexp-gmelementaltool",
 
   "ammoUsage" : 1,
 
-  "edgeTrigger" : true,
+  "edgeTrigger" : false,
   "windupTime" : 0.0,
   "cooldown" : 0.5,
 

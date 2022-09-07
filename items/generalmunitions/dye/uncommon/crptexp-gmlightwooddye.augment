@@ -1,0 +1,18 @@
+{
+  "itemName" : "crptexp-gmlightwooddye",
+  "price" : 25,
+  "rarity" : "Uncommon",
+  "category" : "clothingDye",
+  "inventoryIcon" : "crptexp-gmlightwooddye.png",
+  "description" : "This coloured dye can be applied to a piece of armour or clothing with a right-click.",
+  "shortdescription" : "Light Wood Dye",
+
+  "tooltipKind" : "crptexp-gmbase",
+
+  "dyeDirectives" : { "ffca8a" : "e8c572" , "e0975c" : "d2a149" , "a85636" : "7d542d" , "6f2919" : "472d18",
+					  "ffca8afe" : "e8c572fe" , "e0975cfe" : "d2a149fe" , "a85636fe" : "7d542dfe" , "6f2919fe" : "472d18fe" },
+
+  "radioMessagesOnPickup" : [ "pickupdye" ],
+
+  "scripts" : [ "/scripts/augments/dye.lua" ]
+}

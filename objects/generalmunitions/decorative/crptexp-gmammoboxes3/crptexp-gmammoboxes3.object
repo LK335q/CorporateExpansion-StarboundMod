@@ -1,0 +1,40 @@
+{
+  "objectName" : "crptexp-gmammoboxes3",
+  "colonyTags" : [ "commerce", "combat", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A pile of boxes full of ammo.",
+  "shortdescription" : "Energy Ammo Boxes",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "Cardboard boxes full of ammo for small arms.",
+  "avianDescription" : "A bunch of ammo boxes.",
+  "floranDescription" : "Boxes full of shiny bulletss.",
+  "glitchDescription" : "Bickering. I prefer to use a bow or crossbow over a firearm.",
+  "humanDescription" : "That is a lot of ammo.",
+  "hylotlDescription" : "A means for fueling tools of violence.",
+  "novakidDescription" : "Boxes full of bullets.",
+
+  "nexusdroidDescription" : "Small storage units stocked with basic ammunition.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmammoboxes3.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

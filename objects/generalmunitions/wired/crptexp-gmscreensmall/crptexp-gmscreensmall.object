@@ -4,6 +4,8 @@
   "printable" : false,
   "rarity" : "Common",
 
+  "tooltipKind" : "crptexp-gmobject",
+
   "description" : "A monochrome green monitor displaying information.",
   "shortdescription" : "Small Wall Screen",
 
@@ -13,7 +15,7 @@
   "lightColor" : [0, 50, 0],
 
   "apexDescription" : "A display screen.",
-  "avianDescription" : "What does this informantion mean?",
+  "avianDescription" : "What does this information mean?",
   "floranDescription" : "Floran likess screen glow.",
   "glitchDescription" : "Captivated. The green glow of this monitor is mesmerizing.",
   "humanDescription" : "A green monochrome monitor.",

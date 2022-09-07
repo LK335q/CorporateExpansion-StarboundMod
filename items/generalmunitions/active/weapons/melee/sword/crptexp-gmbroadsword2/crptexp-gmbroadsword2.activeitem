@@ -7,7 +7,7 @@
   "description" : "A lightweight, fast-striking blade.",
   "shortdescription" : "M2 Typesword",
 
-  "tooltipKind" : "sword",
+  "tooltipKind" : "crptexp-gmmelee",
   "category" : "broadsword",
   "twoHanded" : true,
   "itemTags" : [ "weapon", "melee", "broadsword", "generalmunitions" ],

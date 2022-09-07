@@ -1,0 +1,21 @@
+{
+  "projectileName" : "crptexp-gmcleaver",
+  "physics" : "grenade",
+  "supportsProcessing" : true,
+  "bounces" : 0,
+  "timeToLive" : 5.0,
+  "image" : "crptexp-gmcleaver.png",
+  "flippable" : true,
+  "animationCycle" : 0.5,
+  "frameNumber" : 8,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/generalmunitions/explosions/crptexp-gmcleaverexplosion/crptexp-gmcleaverexplosion.config"
+    }
+  ],
+  "power" : 60,
+  "damageKind" : "bow",
+  "emitters" : [ "crptexp-thrownitemtrail" ],
+  "damagePoly" : [ [-6, 0], [-4, -4], [0, -6], [4, -4], [6, 0], [4, 4], [0, 6], [-4, 4] ]
+}

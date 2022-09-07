@@ -1,0 +1,40 @@
+{
+  "objectName" : "crptexp-gmdisplay3",
+  "colonyTags" : [ "combat", "generalmunitions" ],
+  "printable" : false,
+  "rarity" : "Common",
+
+  "tooltipKind" : "crptexp-gmobject",
+
+  "description" : "A decorative mount for displaying weapons.",
+  "shortdescription" : "M2 PL-98 Display",
+
+  "race" : "generic",
+  "category" : "decorative",
+  "price" : 60,
+
+  "apexDescription" : "A weapon placed on a display rack. Empty magazines are displayed alongside it.",
+  "avianDescription" : "It appears to be a weapon on display.",
+  "floranDescription" : "Gun dissplay.",
+  "glitchDescription" : "Enthused. A weapon put on display.",
+  "humanDescription" : "Looks like a simple gun rack.",
+  "hylotlDescription" : "This weapon has been put on display.",
+  "novakidDescription" : "A fine lookin' piece.",
+
+  "nexusdroidDescription" : "Inferior competitor armament mounted on a display rack.",
+
+  "inventoryIcon" : "icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "crptexp-gmdisplay3.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

@@ -6,17 +6,19 @@
     "animation" : "/animations/generic/fire/crptexp-burning/crptexp-burning.animation",
 	"fullbright" : true,
     "position" : [0, 0],
-    "finalVelocity" : [0, 3],
+    "finalVelocity" : [0, 6],
     "approach" : [0, 50],
     "destructionAction" : "shrink",
-    "destructionTime" : 0.85,
+    "destructionTime" : 0.25,
+    "light" : [100, 40, 0],
     "fade" : 1,
-    "size" : 0.5,
+    "size" : 1.0,
     "layer" : "middle",
-    "timeToLive" : 0.85,
+    "timeToLive" : 0.25,
     "collidesLiquid" : true,
     "variance" : {
-      "initialVelocity" : [2.0, 2.0]
+      "initialVelocity" : [2.0, 2.0],
+      "size" : 0.2
     }
   }
 }
