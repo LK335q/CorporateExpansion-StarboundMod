@@ -1,30 +1,40 @@
-# Corporate Expansion: General Munitions Co.
+![corporate_expansion](https://user-images.githubusercontent.com/66710266/189026315-d87e7c0c-1336-4f94-8be0-e54034bd5f87.png)
 
-![extra-1](https://user-images.githubusercontent.com/66710266/171963245-c506e61c-6fb8-4d62-9f76-25f54e5962a9.png)
+Corporate Expansion is a growing Starbound mod that aims to build upon the base game with loads of new content, including a new galactic corporation known as...
 
-This mod adds the galactic arms dealing corporation known as GENERAL MUNITIONS CO.
+![general_munitions_co](https://user-images.githubusercontent.com/66710266/189026333-2f99a57f-3660-4f7f-9660-4fa680ed87fd.png)
 
-A former private military company, General Munitions Co. specializes in surplus ammunition and armaments, sold to whoever is buying. Be it Miniknog rebels, insurgents, smaller PMC's, or anyone else looking to acquire ordnance in bulk.
+General Munitions Co. specializes in surplus ammunition and armaments, sold to whoever is buying. Be it Miniknog rebels, insurgents, smaller PMC's, or anyone else looking to acquire ordnance in bulk. Their military-industrial complex spans across a large portion of this arm of the galaxy, and the GMC has no shortage of willing buyers.
 
-Find and speak to a GMC Armorer in one of their many military bases located throughout the galaxy to purchase one of the 50+ weapons included in their arsenal! Or if you aren't much of a gun nut and are more of the builder type, speak to a GMC Supplier to purchase crafting supplies and make military-grade furniture at a Barracks Workbench!
+![getting_started](https://user-images.githubusercontent.com/66710266/189026342-ea227817-6b46-48f4-9677-0251129e8a77.png)
 
-SUPPORTED MODS
-Corporate Expansion has built-in support for these mods, no patch required!
+Find a General Munitions Co. Military Base, a GMC Supply Ship, or acquire a GMC merchant as a tenant in your colony to find Heavy Metal Plates and Wood Varnish, essential crafting components for most GMC products.
 
-- Futara's Dragon Pixel Full Bright Shader - Dyes and more will use fullbright if you have this mod installed. Try using General Munitions dyes on Project Knightfall armor!
+Craft a Stamping Press at an Inventor's Table; Here you will be able to craft most GMC products after learning their blueprints, which may be purchased from GMC Suppliers or looted in their military bases. 
 
-CREDITS
-Thanks to:
+Craft a Barracks Workbench at an Inventor's Table to get your hands on some military-grade furniture as well! 
 
-- Freesound.org for custom sound effects.
+![armor_and_cosmetics](https://user-images.githubusercontent.com/66710266/189026389-5097c527-90be-4943-b409-327b72a21eb8.png)
 
-- Chucklefish for base game assets.
+![furniture_and_blocks](https://user-images.githubusercontent.com/66710266/189026414-a2e5a293-c77a-4f66-bffe-7f997cfed68d.png)
 
-TOOLS/SOFTWARE
-For developing this mod I used:
+![weapons_and_tools](https://user-images.githubusercontent.com/66710266/189026425-a00844fc-07c9-4321-b2d0-9151acbf52fe.png)
 
-- Atom for text editing (I highly recommend the Starbound modding suite!).
+![supported_mods](https://user-images.githubusercontent.com/66710266/189026441-9fb98528-5704-4776-9d08-42c51bec802f.png)
 
-- Aseprite for spritework.
+All the below listed mods are fully supported by Corporate Expansion, no patch required!
 
-- Audacity for sound editing.
+
+Futara's Dragon Pixel Full Bright Shader - Dyes, projectiles, and more will use fullbright.
+
+Spawnable Item Pack - Corporate Expansion has full support for Spawnable Item Pack, and all of its items can be found within the SIP interface.
+
+More Planet Info - General Munitions Co. military bases will appear in the navigation UI.
+
+Arcana - General Munitions Co. military bases spawn on Arcana planets.
+
+Frackin' Universe - General Munitions Co. military bases spawn on Frackin' Universe planets.
+
+Maple32 - General Munitions Co. military bases spawn on Maple32 planets.
+
+K'Rakoths, the Lords of the Cosmos - General Munitions Co. military bases spawn on K'Rakoths planets.
