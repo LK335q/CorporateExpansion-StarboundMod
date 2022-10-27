@@ -1,0 +1,64 @@
+{
+  "projectileName" : "crptexp-gmbulletlargesupersonic",
+  "image" : "crptexp-gmbulletlarge.png",
+  "physics" : "crptexp-bullet",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "standardbullet",
+  "pointLight" : false,
+  "flippable" : true,
+  "supportsProcessing" : true,
+  "piercing" : true,
+  "actionOnReap" : [
+	{
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "periodicActions" : [
+	  {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "textured",
+        "image" : "/particles/generalmunitions/trails/images/crptexp-gmbullettrailsupersoniclong.png",
+        "position" : [-1.9, 0],
+        "layer" : "back",
+        "timeToLive" : 0.0,
+	    	"approach" : [0, 25],
+        "destructionTime" : 0.25,
+        "destructionAction" : "fade",
+		    "fullbright" : false,
+	    	"variance" : {
+          "position" : [0.0, 0.0],
+		      "finalVelocity" : [0.0, 0.25],
+		      "destructionTime" : 0.4
+        }
+      }
+    },
+      {
+        "time" : 0.02,
+        "repeat" : true,
+        "action" : "particle",
+        "rotate" : true,
+        "specification" : {
+          "type" : "animated",
+          "animation" : "/animations/generalmunitions/crptexp-gmsmokering/crptexp-gmsmokering.animation",
+  		    "collidesForeground" : false,
+          "initialVelocity" : [0.0, 0.0],
+          "timeToLive" : 0.5,
+  		    "destructionTime" : 0.1,
+          "destructionAction" : "fade",
+          "layer" : "middle",
+          "position" : [0.0, 0.0]
+        }
+      }
+  ],
+  "statusEffects" : [ ],
+
+  "power" : 5.0,
+  "speed" : 195,
+  "knockback" : 0
+}

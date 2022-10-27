@@ -1,0 +1,16 @@
+{
+  "itemName" : "crptexp-ecflooring",
+  "price" : 0,
+  "category" : "block",
+  "rarity" : "Common",
+  "inventoryIcon" : "crptexp-ecflooring.png",
+
+  "shortdescription" : "Luxury Flooring",
+  "description" : "Thick support beams for bearing a heavy load.",
+
+  "glitchdescription" : "Amazed. This rock is of an alien origin.",
+  "florandescription" : "Floran like sstrange rocks.",
+  "novakiddescription" : "Some kinda alien lookin' rock.",
+
+  "materialId" : 2072
+}

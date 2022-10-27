@@ -1,6 +1,6 @@
 {
   "objectName" : "crptexp-gmcolonydeed",
-  "colonyTags" : [],
+  "colonyTags" : [ "generalmunitions" ],
   "rarity" : "Common",
   "description" : "Place in an enclosed building with at least one door and light source and someone will move in!",
   "shortdescription" : "^yellow;GMC Colony Deed",

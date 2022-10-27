@@ -1,0 +1,75 @@
+{
+  "projectileName" : "crptexp-ecumbralbullet",
+  "image" : "crptexp-ecumbralbullet.png",
+  "physics" : "crptexp-bullet",
+  "animationCycle" : 0.25,
+  "frameNumber" : 1,
+  "damageKind" : "crptexp-umbral",
+  "flippable" : true,
+  "fullbright" : true,
+  "orientationLocked" : true,
+  "lightColor" : [0, 10, 30],
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/echelon/explosions/crptexp-ecumbralbulletexplosion/crptexp-ecumbralbulletexplosion.config"
+    }
+  ],
+  "periodicActions" : [
+    {
+      "time" : 0.01,
+      "repeat" : true,
+      "action" : "particle",
+      "rotate" : true,
+      "specification" : {
+        "type" : "animated",
+        "animation" : "/animations/echelon/trails/crptexp-ecumbralbullettrail/crptexp-ecumbralbullettrail.animation",
+        "fullbright" : true,
+        "position" : [-1.5, 0],
+        "initialVelocity" : [0.0, 0.0],
+        "layer" : "back",
+        "timeToLive" : 0.0,
+	    	"approach" : [0, 0],
+        "destructionTime" : 0.2,
+        "destructionAction" : "fade",
+	    	"variance" : {
+		      "destructionTime" : 0.1
+        }
+      }
+    },
+	  {
+	    "time" : 0.02,
+        "repeat" : true,
+        "action" : "particle",
+        "rotate" : true,
+        "specification" : {
+          "type" : "ember",
+          "size" : 1.0,
+          "color" : [24, 45, 255, 255],
+		      "light" : [0, 10, 30],
+          "initialVelocity" : [3.0, 0.0],
+	    	  "approach" : [2.0, 1.0],
+		      "finalVelocity" : [0.0, 1.0],
+          "timeToLive" : 0.4,
+          "fade" : 1.0,
+		      "destructionTime" : 0.4,
+          "destructionAction" : "fade",
+          "layer" : "middle",
+		      "fullbright" : true,
+          "position" : [0.0, 0.0],
+		      "variance" : {
+		        "initialVelocity" : [1.0, 0.5],
+            "position" : [1.5, 0.1],
+		        "size" : 0.2,
+		        "timeToLive" : 0.1,
+		        "rotation" : 180
+        }
+      }
+	  }
+  ],
+  "statusEffects" : [ ],
+
+  "power" : 5.0,
+  "speed" : 150,
+  "knockback" : 0
+}

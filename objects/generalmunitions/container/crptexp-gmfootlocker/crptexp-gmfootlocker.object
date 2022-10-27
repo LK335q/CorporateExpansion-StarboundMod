@@ -36,6 +36,11 @@
     }
   ],
 
+  // Enhanced Storage & Improved Containers compatibility
+  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
+  "scripts" : ["/scripts/sb_container.lua"],
+  // Full credit to Silver Sokolova, scripts originally from Betabound
+
   "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
   "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
   "slotCount" : 16,

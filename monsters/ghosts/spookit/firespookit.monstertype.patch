@@ -1,0 +1,9 @@
+[
+
+  { "op" : "add",
+    "path" : "/baseParameters/statusSettings/stats/crptexp-umbralResistance",
+	"value" : {
+	  "baseValue" : 0.5
+	  }
+    }
+]

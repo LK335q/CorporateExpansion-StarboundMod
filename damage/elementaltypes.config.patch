@@ -1,0 +1,16 @@
+[
+
+  { "op" : "add",
+    "path" : "/crptexp-umbral",
+	"value" : {
+	  "resistanceStat" : "crptexp-umbralResistance",
+      "damageNumberParticles" : {
+        "hit" : "crptexp-umbraldamagenumber",
+        "stronghit" : "crptexp-umbraldamagenumberstrong",
+        "weakhit" : "crptexp-umbraldamagenumberweak",
+        "shieldhit" : "crptexp-umbraldamagenumber",
+        "kill" : "crptexp-umbraldamagenumber"
+	  }
+    }
+  }
+]

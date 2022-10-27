@@ -1,0 +1,22 @@
+{
+  "itemName" : "crptexp-umbralblockaugment",
+  "price" : 10000,
+  "rarity" : "Rare",
+  "tooltipKind" : "eppaugment",
+  "category" : "eppAugment",
+  "inventoryIcon" : "crptexp-umbralblockaugment.png",
+  "description" : "An EPP module that makes you highly resistant to dark energy.",
+  "shortdescription" : "Umbral Resist Augment",
+
+  "augment" : {
+    "type" : "back",
+    "name" : "crptexp-umbralblock",
+    "displayName" : "Umbral Resist",
+    "displayIcon" : "/items/generic/augments/back/crptexp-umbralblockaugment.png",
+    "effects" : [ "crptexp-umbralblockaugment" ]
+  },
+
+  "radioMessagesOnPickup" : [ "pickupaugment" ],
+
+  "scripts" : [ "/scripts/augments/augment.lua" ]
+}

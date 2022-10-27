@@ -1,0 +1,22 @@
+
+{
+  "id" : "crptexp-eccallingcard",
+  "title" : "Calling Card",
+  "description" : "It has a large red eye insignia. There's something written on the other side.",
+
+  "icon" : "crptexp-eccovercard.png",
+  "contentPages" : [
+"
+
+
+
+
+
+^#ff001e;             You are not prepared."
+
+  ],
+    "itemConfig" : {
+    "rarity" : "common",
+    "price" : 25
+  }
+}

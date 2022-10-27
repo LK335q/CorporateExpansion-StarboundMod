@@ -1,0 +1,104 @@
+{
+  "itemName" : "crptexp-ecumbralassaultrifle",
+  "price" : 960,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+
+  "description" : "",
+  "shortdescription" : "Placeholder Name",
+
+  "tooltipKind" : "gun",
+  "category" : "assaultRifle",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "ranged", "assaultrifle", "echelon" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "cursor" : "/cursors/echelon/crptexp-ecreticle1.cursor",
+
+  "inventoryIcon" : "crptexp-ecumbralassaultrifle.png:default.1",
+
+  "animation" : "crptexp-ecumbralassaultrifle.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-ecumbralassaultrifle.png",
+	  "middleFullbright" : "crptexp-ecumbralassaultriflefullbright.png",
+    "barrel" : "",
+    "muzzleFlash" : "/items/echelon/active/weapons/ranged/muzzleflash/crptexp-ecumbralmuzzleflash.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+	    "fire" : {
+         "pitchMultiplier" : 0.75,
+	       "volume" : 0.85,
+	       "pool" : ["/sfx/gun/echelon/crptexp-ecassaultrifle1.ogg"]
+	    }
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "pointLight" : true,
+        "color" : [0, 10, 30],
+	    	"position" : [3.3, 0.13]
+      }
+    }
+  },
+
+  "baseOffset" : [0.8, 0.1],
+  "muzzleOffset" : [1.9, 0.3],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "umbral",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 0.2,
+    "baseDps" : 10,
+    "energyUsage" : 30,
+    "inaccuracy" : 0.01,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-ecumbralbullet",
+    "projectileParameters" : { },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 2,
+        "weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "animationStates" : {
+          "body" : "reload"
+		    },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+
+      },
+      "cooldown" : {
+        "duration" : 0.15,
+        "armRotation" : 2,
+	    	"weaponRotation" : 2,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

@@ -1,0 +1,184 @@
+{
+  "itemName" : "crptexp-gmantimaterielrifle3",
+  "price" : 790,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+
+  "description" : "",
+  "shortdescription" : "M2 BF.GRND-34",
+
+  "tooltipKind" : "crptexp-gmgun",
+  "category" : "antimaterielRifle",
+  "twoHanded" : true,
+  "itemTags" : [ "weapon", "ranged", "antimaterielrifle", "generalmunitions" ],
+  "level" : 2,
+  "fixedLevel" : false,
+
+  "cursor" : "/cursors/generalmunitions/crptexp-gmsniperreticle.cursor",
+
+  "inventoryIcon" : "crptexp-gmantimaterielrifle3.png:default.1",
+
+  "animation" : "crptexp-gmantimaterielrifle3.animation",
+  "animationParts" : {
+    "butt" : "",
+    "middle" : "crptexp-gmantimaterielrifle3.png",
+	"middleFullbright" : "",
+    "barrel" : "",
+    "muzzleFlash" : "/items/generalmunitions/active/weapons/ranged/muzzleflash/crptexp-gmlargemuzzleflash1.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : {
+      "stateTypes" : {
+        "ammoType" : {
+          "default" : "1",
+          "states" : {
+            "1" : {
+              "frames" : 1
+            },
+            "2" : {
+              "frames" : 1
+            }
+          }
+        }
+      },
+      "parts" : {
+        "middleFullbright" : {
+          "properties" : {
+            "image" : null
+          },
+          "partStates" : {
+            "ammoType" : {
+              "1" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              },
+              "2" : {
+                "properties" : {
+                  "image" : "<partImage>:default.<frame><paletteSwaps>"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "sounds" : {
+      "switchAmmo" : [ "/sfx/gun/generalmunitions/reload/crptexp-gmammomaglarge.ogg" ],
+	    "fire" : ["/sfx/gun/generalmunitions/crptexp-gmantimaterielrifle3.ogg"]
+    },
+    "lights" : {
+      "muzzleFlash" : {
+        "pointLight" : true,
+        "color" : [75, 75, 40],
+		"position" : [3.6, 0.0]
+      }
+    }
+  },
+
+  "baseOffset" : [1.5, 0.6],
+  "muzzleOffset" : [2.9, 0.0],
+
+  "scripts" : ["/items/generic/active/weapons/ranged/crptexp-gun.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbility" : {
+    "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+    "class" : "GunFire",
+
+    "fireTime" : 1.25,
+    "baseDps" : 11.5,
+    "energyUsage" : 31.5,
+    "inaccuracy" : 0.008,
+
+    "projectileCount" : 1,
+    "fireType" : "auto",
+
+    "projectileType" : "crptexp-gmbulletlargepiercing",
+    "projectileParameters" : {
+      "knockback" : 10
+    },
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : true,
+
+		    "animationStates" : {
+          "body" : "reload"
+		     },
+
+        "allowRotate" : false,
+        "allowFlip" : false
+
+      },
+      "cooldown" : {
+        "duration" : 0.65,
+        "armRotation" : 10,
+        "weaponRotation" : 10,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  },
+
+  "altAbility" : {
+    "name" : "Load Sonic Rounds",
+    "scripts" : ["/items/active/weapons/other/adaptablecrossbow/adaptableammo.lua"],
+    "class" : "AdaptableAmmo",
+
+    "adaptedAbilityIndex" : 1,
+
+    "ammoTypes" : [
+      {
+        // Standard
+        "projectileType" : "crptexp-gmbulletlargepiercing",
+        "energyUsage" : 31.5
+      },
+      {
+        // Supersonic Rounds
+        "projectileType" : "crptexp-gmbulletlargesupersonic",
+         "energyUsage" : 36
+      }
+    ],
+
+    "stances" : {
+      "idle" : {
+        "armRotation" : 0,
+        "weaponRotation" : 0,
+        "twoHanded" : true,
+
+        "allowRotate" : true,
+        "allowFlip" : true
+      },
+      "switch" : {
+        "aimAngle" : 0,
+        "armRotation" : -40,
+        "weaponRotation" : 60,
+        "weaponAngularVelocity" : -150,
+        "armAngularVelocity" : 100,
+        "twoHanded" : true,
+        "duration" : 0.4,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      }
+    }
+  },
+
+  "palette" : "/items/generalmunitions/active/weapons/crptexp-gmweaponcolors.weaponcolors",
+  "builder" : "/items/buildscripts/crptexp-buildunrandweapon.lua"
+}

@@ -1,0 +1,585 @@
+[
+
+//	==============================================================================================
+//	                                GENERAL MUNITIONS CO. DYES
+//	==============================================================================================
+
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Infantry Green",
+			"categories" : [ "all", "green", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "878a63",
+				"E0975C" : "585c42",
+				"A85636" : "2f3323",
+				"6F2919" : "21211c",
+
+				"FFCA8Afe" : "878a63fe",
+				"E0975Cfe" : "585c42fe",
+				"A85636fe" : "2f3323fe",
+				"6F2919fe" : "21211cfe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Navy Blue",
+			"categories" : [ "all", "blue", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "637aa3",
+				"E0975C" : "3a4f67",
+				"A85636" : "1c2c3c",
+				"6F2919" : "121a2a",
+
+				"FFCA8Afe" : "637aa3fe",
+				"E0975Cfe" : "3a4f67fe",
+				"A85636fe" : "1c2c3cfe",
+				"6F2919fe" : "121a2afe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Pristine Brass",
+			"categories" : [ "all", "yellow", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "fff099",
+				"E0975C" : "cca63d",
+				"A85636" : "734a11",
+				"6F2919" : "382008",
+
+				"FFCA8Afe" : "fff099fe",
+				"E0975Cfe" : "cca63dfe",
+				"A85636fe" : "734a11fe",
+				"6F2919fe" : "382008fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Gunmetal",
+			"categories" : [ "all", "black", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "808080",
+				"E0975C" : "4d4d4d",
+				"A85636" : "2f2f33",
+				"6F2919" : "1a1a1f",
+
+				"FFCA8Afe" : "808080fe",
+				"E0975Cfe" : "4d4d4dfe",
+				"A85636fe" : "2f2f33fe",
+				"6F2919fe" : "1a1a1ffe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Black Ops Purple",
+			"categories" : [ "all", "purple", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "7d7580",
+				"E0975C" : "4a3f4d",
+				"A85636" : "2a1f2e",
+				"6F2919" : "170e1a",
+
+				"FFCA8Afe" : "7d7580fe",
+				"E0975Cfe" : "4a3f4dfe",
+				"A85636fe" : "2a1f2efe",
+				"6F2919fe" : "170e1afe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Army Red",
+			"categories" : [ "all", "red", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "d96857",
+				"E0975C" : "a72e18",
+				"A85636" : "660f19",
+				"6F2919" : "3d1118",
+
+				"FFCA8Afe" : "d96857fe",
+				"E0975Cfe" : "a72e18fe",
+				"A85636fe" : "660f19fe",
+				"6F2919fe" : "3d1118fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Steel",
+			"categories" : [ "all", "white", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "c7c7c7",
+				"E0975C" : "808080",
+				"A85636" : "4d4d4d",
+				"6F2919" : "2f2f33",
+
+				"FFCA8Afe" : "c7c7c7fe",
+				"E0975Cfe" : "808080fe",
+				"A85636fe" : "4d4d4dfe",
+				"6F2919fe" : "2f2f33fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Walnut Wood",
+			"categories" : [ "all", "brown", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "a6674b",
+				"E0975C" : "8c4f31",
+				"A85636" : "59281b",
+				"6F2919" : "331208",
+
+				"FFCA8Afe" : "a6674bfe",
+				"E0975Cfe" : "8c4f31fe",
+				"A85636fe" : "59281bfe",
+				"6F2919fe" : "331208fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Worn Wood",
+			"categories" : [ "all", "brown", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "947e5c",
+				"E0975C" : "7d6446",
+				"A85636" : "4d3729",
+				"6F2919" : "2b1e17",
+
+				"FFCA8Afe" : "947e5cfe",
+				"E0975Cfe" : "7d6446fe",
+				"A85636fe" : "4d3729fe",
+				"6F2919fe" : "2b1e17fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Aged Gunmetal",
+			"categories" : [ "all", "black", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "6f7375",
+				"E0975C" : "3e4242",
+				"A85636" : "212729",
+				"6F2919" : "14141a",
+
+				"FFCA8Afe" : "6f7375fe",
+				"E0975Cfe" : "3e4242fe",
+				"A85636fe" : "212729fe",
+				"6F2919fe" : "14141afe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Aged Wood",
+			"categories" : [ "all", "brown", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "82654a",
+				"E0975C" : "694934",
+				"A85636" : "40251f",
+				"6F2919" : "241716",
+
+				"FFCA8Afe" : "82654afe",
+				"E0975Cfe" : "694934fe",
+				"A85636fe" : "40251ffe",
+				"6F2919fe" : "241716fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Bleached Wood",
+			"categories" : [ "all", "white", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "bea288",
+				"E0975C" : "987e74",
+				"A85636" : "54434b",
+				"6F2919" : "2e2332",
+
+				"FFCA8Afe" : "bea288fe",
+				"E0975Cfe" : "987e74fe",
+				"A85636fe" : "54434bfe",
+				"6F2919fe" : "2e2332fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Blued Steel",
+			"categories" : [ "all", "blue", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "7c818a",
+				"E0975C" : "4a5057",
+				"A85636" : "252c33",
+				"6F2919" : "181c24",
+
+				"FFCA8Afe" : "7c818afe",
+				"E0975Cfe" : "4a5057fe",
+				"A85636fe" : "252c33fe",
+				"6F2919fe" : "181c24fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Oiled Wood",
+			"categories" : [ "all", "orange", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "ca6927",
+				"E0975C" : "a85415",
+				"A85636" : "6a280a",
+				"6F2919" : "3b1400",
+
+				"FFCA8Afe" : "ca6927fe",
+				"E0975Cfe" : "a85415fe",
+				"A85636fe" : "6a280afe",
+				"6F2919fe" : "3b1400fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Dusty Metal",
+			"categories" : [ "all", "yellow", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "969284",
+				"E0975C" : "605b4e",
+				"A85636" : "36322b",
+				"6F2919" : "211f18",
+
+				"FFCA8Afe" : "969284fe",
+				"E0975Cfe" : "605b4efe",
+				"A85636fe" : "36322bfe",
+				"6F2919fe" : "211f18fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Light Wood",
+			"categories" : [ "all", "yellow", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "e8c572",
+				"E0975C" : "d2a149",
+				"A85636" : "7d542d",
+				"6F2919" : "472d18",
+
+				"FFCA8Afe" : "e8c572fe",
+				"E0975Cfe" : "d2a149fe",
+				"A85636fe" : "7d542dfe",
+				"6F2919fe" : "472d18fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Mahogany Wood",
+			"categories" : [ "all", "orange", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "ad5031",
+				"E0975C" : "94371b",
+				"A85636" : "5c1511",
+				"6F2919" : "330506",
+
+				"FFCA8Afe" : "ad5031fe",
+				"E0975Cfe" : "94371bfe",
+				"A85636fe" : "5c1511fe",
+				"6F2919fe" : "330506fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Maple Wood",
+			"categories" : [ "all", "brown", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "a6784c",
+				"E0975C" : "8a5e37",
+				"A85636" : "4d3221",
+				"6F2919" : "2f2019",
+
+				"FFCA8Afe" : "a6784cfe",
+				"E0975Cfe" : "8a5e37fe",
+				"A85636fe" : "4d3221fe",
+				"6F2919fe" : "2f2019fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Mesquite Wood",
+			"categories" : [ "all", "brown", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "946659",
+				"E0975C" : "7b4f42",
+				"A85636" : "472520",
+				"6F2919" : "2b100c",
+
+				"FFCA8Afe" : "946659fe",
+				"E0975Cfe" : "7b4f42fe",
+				"A85636fe" : "472520fe",
+				"6F2919fe" : "2b100cfe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Pine Wood",
+			"categories" : [ "all", "yellow", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "cfb081",
+				"E0975C" : "af8c62",
+				"A85636" : "6c4d39",
+				"6F2919" : "3c2a20",
+
+				"FFCA8Afe" : "cfb081fe",
+				"E0975Cfe" : "af8c62fe",
+				"A85636fe" : "6c4d39fe",
+				"6F2919fe" : "3c2a20fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Recycled Metal",
+			"categories" : [ "all", "white", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "a09ba8",
+				"E0975C" : "686370",
+				"A85636" : "39333b",
+				"6F2919" : "231e1f",
+
+				"FFCA8Afe" : "a09ba8fe",
+				"E0975Cfe" : "686370fe",
+				"A85636fe" : "39333bfe",
+				"6F2919fe" : "231e1ffe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Rust",
+			"categories" : [ "all", "brown", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "885d45",
+				"E0975C" : "5f4030",
+				"A85636" : "3b241d",
+				"6F2919" : "210f0d",
+
+				"FFCA8Afe" : "885d45fe",
+				"E0975Cfe" : "5f4030fe",
+				"A85636fe" : "3b241dfe",
+				"6F2919fe" : "210f0dfe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Rusty Metal",
+			"categories" : [ "all", "black", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "696764",
+				"E0975C" : "4a4845",
+				"A85636" : "292725",
+				"6F2919" : "171311",
+
+				"FFCA8Afe" : "696764fe",
+				"E0975Cfe" : "4a4845fe",
+				"A85636fe" : "292725fe",
+				"6F2919fe" : "171311fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Sooty Metal",
+			"categories" : [ "all", "black", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "63635b",
+				"E0975C" : "393939",
+				"A85636" : "202022",
+				"6F2919" : "121214",
+
+				"FFCA8Afe" : "63635bfe",
+				"E0975Cfe" : "393939fe",
+				"A85636fe" : "202022fe",
+				"6F2919fe" : "121214fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Stamped Metal",
+			"categories" : [ "all", "white", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "999999",
+				"E0975C" : "5c5c5c",
+				"A85636" : "333232",
+				"6F2919" : "1f1d1d",
+
+				"FFCA8Afe" : "999999fe",
+				"E0975Cfe" : "5c5c5cfe",
+				"A85636fe" : "333232fe",
+				"6F2919fe" : "1f1d1dfe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Ballistic Energy",
+			"categories" : [ "all", "pink", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "ffe6effe",
+				"E0975C" : "ff96aefe",
+				"A85636" : "ff5c4dfe",
+				"6F2919" : "bb2d6dfe",
+
+				"FFCA8Afe" : "ffe6effe",
+				"E0975Cfe" : "ff96aefe",
+				"A85636fe" : "ff5c4dfe",
+				"6F2919fe" : "bb2d6dfe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Incendiary",
+			"categories" : [ "all", "orange", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "fefffffe",
+				"E0975C" : "fdd14dfe",
+				"A85636" : "da5302fe",
+				"6F2919" : "a70202fe",
+
+				"FFCA8Afe" : "fefffffe",
+				"E0975Cfe" : "fdd14dfe",
+				"A85636fe" : "da5302fe",
+				"6F2919fe" : "a70202fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Gold Plating",
+			"categories" : [ "all", "yellow", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "ffefb9",
+				"E0975C" : "efb30a",
+				"A85636" : "8c4300",
+				"6F2919" : "3b1000",
+
+				"FFCA8Afe" : "ffefb9fe",
+				"E0975Cfe" : "efb30afe",
+				"A85636fe" : "8c4300fe",
+				"6F2919fe" : "3b1000fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Green Tracer",
+			"categories" : [ "all", "green", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "fefffffe",
+				"E0975C" : "66ff66fe",
+				"A85636" : "00aa00fe",
+				"6F2919" : "006400fe",
+
+				"FFCA8Afe" : "fefffffe",
+				"E0975Cfe" : "66ff66fe",
+				"A85636fe" : "00aa00fe",
+				"6F2919fe" : "006400fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Muzzle Flash",
+			"categories" : [ "all", "yellow", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "fefffffe",
+				"E0975C" : "ffffb7fe",
+				"A85636" : "ffd085fe",
+				"6F2919" : "da5302fe",
+
+				"FFCA8Afe" : "fefffffe",
+				"E0975Cfe" : "ffffb7fe",
+				"A85636fe" : "ffd085fe",
+				"6F2919fe" : "da5302fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Raygun",
+			"categories" : [ "all", "green", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "fefffffe",
+				"E0975C" : "66ff66fe",
+				"A85636" : "00bf7cfe",
+				"6F2919" : "007b80fe",
+
+				"FFCA8Afe" : "fefffffe",
+				"E0975Cfe" : "66ff66fe",
+				"A85636fe" : "00bf7cfe",
+				"6F2919fe" : "007b80fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Red Tracer",
+			"categories" : [ "all", "red", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "ffe6effe",
+				"E0975C" : "f09c75fe",
+				"A85636" : "e63819fe",
+				"6F2919" : "901310fe",
+
+				"FFCA8Afe" : "ffe6effe",
+				"E0975Cfe" : "f09c75fe",
+				"A85636fe" : "e63819fe",
+				"6F2919fe" : "901310fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Incandescent",
+			"categories" : [ "all", "yellow", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "fefefffe",
+				"E0975C" : "f1f1c1fe",
+				"A85636" : "e6d272fe",
+				"6F2919" : "bf8915fe",
+
+				"FFCA8Afe" : "fefefffe",
+				"E0975Cfe" : "f1f1c1fe",
+				"A85636fe" : "e6d272fe",
+				"6F2919fe" : "bf8915fe"
+			}
+		}
+	},
+	{
+		"op" : "add", "path" : "/palettes/-", "value" : {
+			"name" : "Yellow Tracer",
+			"categories" : [ "all", "yellow", "general munitions co." ],
+			"colours" : {
+				"FFCA8A" : "fefffffe",
+				"E0975C" : "fdd14dfe",
+				"A85636" : "ff9500fe",
+				"6F2919" : "a04900fe",
+
+				"FFCA8Afe" : "fefffffe",
+				"E0975Cfe" : "fdd14dfe",
+				"A85636fe" : "ff9500fe",
+				"6F2919fe" : "a04900fe"
+			}
+		}
+	}
+]

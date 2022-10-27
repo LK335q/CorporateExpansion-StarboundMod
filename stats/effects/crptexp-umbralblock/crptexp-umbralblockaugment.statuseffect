@@ -1,0 +1,9 @@
+{
+  "name" : "crptexp-umbralblockaugment",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "crptexp-umbralblock.lua"
+  ]
+}

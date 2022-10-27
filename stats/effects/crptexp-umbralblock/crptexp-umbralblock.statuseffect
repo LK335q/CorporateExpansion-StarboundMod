@@ -1,0 +1,12 @@
+{
+  "name" : "crptexp-umbralblock",
+  "effectConfig" : {},
+  "defaultDuration" : 60,
+
+  "scripts" : [
+    "crptexp-umbralblock.lua"
+  ],
+
+  "label" : "Umbral Resistance",
+  "icon" : "/interface/statuses/electricblock.png"
+}

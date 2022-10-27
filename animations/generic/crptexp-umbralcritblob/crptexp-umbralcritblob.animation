@@ -1,0 +1,9 @@
+{
+  "frames" : "crptexp-umbralcritblob.png",
+  "variants" : 1,
+  "frameNumber" : 4,
+  "animationCycle" : 0.3,
+  "fullbright" : true,
+  "lightColor" : [34, 0, 92],
+  "offset" : [0, 0]
+}
