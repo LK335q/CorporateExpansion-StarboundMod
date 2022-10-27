@@ -43,6 +43,8 @@ Improved Containers - All Corporate Expansion containers are compatible, no exte
 
 Enhanced Storage - All Corporate Expansion containers are compatible, no external patch required!
 
+Green's Dye Suite - All of Corporate Expansion's dyes can be found within the interface.
+
 
 ![credits](https://i.imgur.com/qnjd8UU.png)
 
