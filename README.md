@@ -38,3 +38,8 @@ Frackin' Universe - General Munitions Co. military bases spawn on Frackin' Unive
 Maple32 - General Munitions Co. military bases spawn on Maple32 planets.
 
 K'Rakoths, the Lords of the Cosmos - General Munitions Co. military bases spawn on K'Rakoths planets.
+
+
+![credits](https://i.imgur.com/qnjd8UU.png)
+
+Silver Sokolova - Allowed me to use scripts from Betabound for Enhanced Storage & Improved Containers compatibility.
