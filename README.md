@@ -39,6 +39,10 @@ Maple32 - General Munitions Co. military bases spawn on Maple32 planets.
 
 K'Rakoths, the Lords of the Cosmos - General Munitions Co. military bases spawn on K'Rakoths planets.
 
+Improved Containers - All Corporate Expansion containers are compatible, no external patch required!
+
+Enhanced Storage - All Corporate Expansion containers are compatible, no external patch required!
+
 
 ![credits](https://i.imgur.com/qnjd8UU.png)
 
