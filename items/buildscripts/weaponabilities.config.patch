@@ -1,11 +1,16 @@
 [
-  
+
   // GENERIC MELEE
-  
-  
+
+
   {
 	"op" : "add",
 	"path" : "/crptexp-shivstab",
 	"value" : "/items/generic/active/weapons/melee/abilities/spear/crptexp-shivstab.weaponability"
-  }
+},
+{
+"op" : "add",
+"path" : "/crptexp-shortswordcombo",
+"value" : "/items/generic/active/weapons/melee/abilities/shortsword/crptexp-shortswordcombo.weaponability"
+}
 ]
