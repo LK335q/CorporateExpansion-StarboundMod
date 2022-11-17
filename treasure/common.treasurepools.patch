@@ -109,6 +109,7 @@
         {"weight" : 0.1, "item" : "crptexp-gmlightmachinegun2"},
         {"weight" : 0.1, "item" : "crptexp-gmlightmachinegun3"},
         {"weight" : 0.1, "item" : "crptexp-gmlightmachinegun4"},
+        {"weight" : 0.1, "item" : "crptexp-gmlightmachinegun5"},
         {"weight" : 0.1, "item" : "crptexp-gmsubmachinegun"},
         {"weight" : 0.1, "item" : "crptexp-gmsubmachinegun2"},
         {"weight" : 0.1, "item" : "crptexp-gmsubmachinegun3"},
@@ -146,6 +147,8 @@
         {"weight" : 0.1, "item" : "crptexp-gmenergyshotgun"},
         {"weight" : 0.1, "item" : "crptexp-gmenergysniper"},
         {"weight" : 0.1, "item" : "crptexp-gmenergysubmachinegun"},
+        {"weight" : 0.1, "item" : "crptexp-gmenergymachinepistol"},
+        {"weight" : 0.1, "item" : "crptexp-gmenergyhandcannon"},
         // MELEE WEAPONS
         {"weight" : 0.1, "item" : "crptexp-gmenergybroadsword"},
         {"weight" : 0.1, "item" : "crptexp-gmenergyshortsword"}

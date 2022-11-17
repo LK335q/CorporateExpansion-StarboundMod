@@ -1,7 +1,7 @@
 {
   "itemName" : "crptexp-gmweaponblueprint1",
   "level" : 1,
-  "price" : 150,
+  "price" : 750,
   "maxStack" : 1,
   "rarity" : "Uncommon",
   "description" : "A blueprint for a basic General Munitions Co. weapon.",
@@ -19,7 +19,7 @@
 
   "swingTime" : 0.15,
 
-  "allowDuplicateChance" : 0.1,
+  "allowDuplicateChance" : 0.0,
   "recipes" : [
     [
       "crptexp-gmassaultrifle",

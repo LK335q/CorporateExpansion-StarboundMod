@@ -1,7 +1,7 @@
 {
   "itemName" : "crptexp-gmweaponblueprint3",
   "level" : 1,
-  "price" : 150,
+  "price" : 850,
   "maxStack" : 1,
   "rarity" : "Legendary",
   "description" : "A blueprint for a high-tech General Munitions Co. weapon.",
@@ -19,7 +19,7 @@
 
   "swingTime" : 0.15,
 
-  "allowDuplicateChance" : 0.1,
+  "allowDuplicateChance" : 0.0,
   "recipes" : [
     [
       "crptexp-gmraypistol",

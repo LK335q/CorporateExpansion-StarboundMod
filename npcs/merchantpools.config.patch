@@ -126,6 +126,8 @@
       { "item" : { "name" : "crptexp-gmenergyshotgun" }, "rarity" : 0.05 },
       { "item" : { "name" : "crptexp-gmenergysniper" }, "rarity" : 0.05 },
       { "item" : { "name" : "crptexp-gmenergysubmachinegun" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmenergymachinepistol" }, "rarity" : 0.05 },
+      { "item" : { "name" : "crptexp-gmenergyhandcannon" }, "rarity" : 0.05 },
       // MELEE WEAPONS
       { "item" : { "name" : "crptexp-gmenergybroadsword" }, "rarity" : 0.05 },
       { "item" : { "name" : "crptexp-gmenergyshortsword" }, "rarity" : 0.05 },
