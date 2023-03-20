@@ -1,5 +1,5 @@
 Silver Sokolova - Allowed me to use scripts from Betabound for Enhanced Storage & Improved Containers compatibility:
 
-/items/buildscripts/buildcontainer.lua
-/scripts/sb_container.lua
-/scripts/sb_assetmissing.lua
+/items/buildscripts/crptexp-buildcontainer.lua
+/scripts/crptexp-sb_container.lua
+/scripts/crptexp-sb_assetmissing.lua

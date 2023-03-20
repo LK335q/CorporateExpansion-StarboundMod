@@ -1,6 +1,6 @@
 -- Silver Sokolova#3576
 -- Enhanced Storage & Improved Containers compatibility
-require "/scripts/sb_assetmissing.lua"
+require "/scripts/crptexp-sb_assetmissing.lua"
 function init()
   local modded = false
   if sb_itemexists("enhancedstoragematerial") then

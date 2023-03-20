@@ -37,8 +37,8 @@
   ],
 
   // Enhanced Storage & Improved Containers compatibility
-  "builder" : "/items/buildscripts/starbound/buildcontainer.lua",
-  "scripts" : ["/scripts/sb_container.lua"],
+  "builder" : "/items/buildscripts/crptexp-buildcontainer.lua",
+  "scripts" : ["/scripts/crptexp-sb_container.lua"],
   // Full credit to Silver Sokolova, scripts originally from Betabound
 
   "openSounds" : [ "/sfx/objects/bunkercabinet_open.ogg" ],
